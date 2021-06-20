@@ -1,9 +1,16 @@
-
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import ClassicalComposers from './components/ClassicalComposers';
 const App = () => {
   return (
-    <div>
+    <Router>
+      <div>
+        <Link to="/classical-composers">Classical Composers</Link>
 
-    </div>
+        <Switch>
+          <Route path="/classical-composers" exact component={ClassicalComposers} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
