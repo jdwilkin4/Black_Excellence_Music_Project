@@ -16,12 +16,12 @@ const contemporaryClassicalComposers = [
     },
     {
         name: 'Bonds, Margaret Allison (1913-1972)',
-        tag: 'African American Composer, Pianist & Musical Director ',
+        tag: 'Composer, Pianist & Musical Director ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Bonds.html'
     },
     {
         name: 'Burleigh, Henry "Harry" T. (1866-1949) ',
-        tag: 'African American Composer, Arranger & Baritone ',
+        tag: 'Composer, Arranger & Baritone ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Burleigh.html'
     },
     {
@@ -31,22 +31,22 @@ const contemporaryClassicalComposers = [
     },
     {
         name: 'Cunningham, Arthur (1928-1997)',
-        tag: 'African American Composer & Pianist ',
+        tag: 'Composer & Pianist ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Cunningham.html'
     },
     {
         name: 'Dawson, William Levi (1899-1990)',
-        tag: 'African American Composer & Professor',
+        tag: 'Composer & Professor',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Dawson.html'
     },
     {
         name: 'Dédé, Edmund (1827-1903)',
-        tag: 'African American Composer, Violinist & Conductor ',
+        tag: 'Composer, Violinist & Conductor ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Dede.html'
     },
     {
         name: 'Dett, R. Nathaniel (1882-1943) ',
-        tag: 'African American Composer, Pianist & Choral Director',
+        tag: 'Composer, Pianist & Choral Director',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Dett.html'
     },
     {
@@ -61,22 +61,22 @@ const contemporaryClassicalComposers = [
     },
     {
         name: 'Hailstork, Adolphus C. (b. 1941) ',
-        tag: 'African American Composer & Professor ',
+        tag: 'Composer & Professor ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Hailstork.html'
     },
     {
         name: 'Holland, Justin  (1819-1887) ',
-        tag: 'African American Composer, Guitarist & Teacher',
+        tag: 'Composer, Guitarist & Teacher',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Holland.html'
     },
     {
         name: 'Kay, Ulysses (1917-1995) ',
-        tag: 'African American Composer, Conductor & Professor ',
+        tag: 'Composer, Conductor & Professor ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Kay.html'
     },
     {
         name: 'Khumalo, J. S. Mzilikazi (b. 1932) ',
-        tag: 'South African Composer, Arranger & Choral Director ',
+        tag: 'South African Composer & Choral Director',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Khumalo.html'
     },
     {
@@ -91,12 +91,12 @@ const contemporaryClassicalComposers = [
     },
     {
         name: 'Moerane, Michael Mosoeu (1904-1980)',
-        tag: 'South African-Basotho Composer, Teacher, Pianist & Conductor',
+        tag: 'Composer, Teacher, Pianist & Conductor',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Moerane.html'
     },
     {
         name: 'Perkinson, Coleridge-Taylor (1932-2004) ',
-        tag: 'African American Composer & Conductor ',
+        tag: 'Composer & Conductor ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Perkinson.html'
     },
     {
@@ -106,7 +106,7 @@ const contemporaryClassicalComposers = [
     },
     {
         name: 'Price, Florence Beatrice (1887-1953) ',
-        tag: 'African American Composer, Arranger & Teacher ',
+        tag: 'Composer, Arranger & Teacher ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Price.html'
     },
     {
@@ -126,7 +126,7 @@ const contemporaryClassicalComposers = [
     },
     {
         name: 'Smith, Hale (1925-2009)',
-        tag: 'African American Composer, Pianist & Professor',
+        tag: 'Composer, Pianist & Professor',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Smith.html'
     },
     {
@@ -141,17 +141,17 @@ const contemporaryClassicalComposers = [
     },
     {
         name: 'Still, William Grant (1895-1978)',
-        tag: 'African American Composer, Arranger, Conductor & Oboist',
+        tag: 'Composer, Arranger, Conductor & Oboist',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Still.html'
     },
     {
         name: 'Walker, George  (1922 - 2018)',
-        tag: 'African American Composer & Pianist ',
+        tag: 'Composer & Pianist ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Walker.html'
     },
     {
         name: 'Williams, Julius Penson (b. 1954)',
-        tag: 'African American Composer, Conductor & Professor ',
+        tag: 'Composer, Conductor & Professor ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Williams.html'
     },
     {

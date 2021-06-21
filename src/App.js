@@ -4,7 +4,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Link to="/contemporary-composers">Contemporary Classical Composers</Link>
+        <Link className="underline text-blue-400" to="/contemporary-composers">Contemporary Classical Composers</Link>
 
         <Switch>
           <Route path="/contemporary-composers" exact component={ContemporaryClassicalComposers} />
