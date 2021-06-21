@@ -12,7 +12,7 @@ const JazzComposers = () => {
                         <div className="my-4 border-r border-l border-b-8 border-t-8 border-purple-600 rounded-lg">
                             <div className="w-96 flex">
                                 <div className="text-center w-full pt-9 pr-4">
-                                    <h3 className="font-bold text-purple-700">{composer.name}</h3>
+                                    <h2 className="font-bold text-purple-700">{composer.name}</h2>
                                     <p className="py-2 text-base">{composer.tag}</p>
                                 </div>
                             </div>

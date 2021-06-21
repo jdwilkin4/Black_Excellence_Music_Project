@@ -4,6 +4,12 @@ const contemporaryClassicalComposers = [
         tag: 'Composer, Pianist & Professor',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Adams.html'
     },
+
+    {
+        name: 'Adderley, Cedric',
+        tag: 'Composer, Conductor, and Educator',
+        bio: 'https://cedricadderley.com/'
+    },
     {
         name: 'Akpabot, Samuel Ekpe (1932-2000)',
         tag: 'Nigerian Composer, Professor and Author',
@@ -13,6 +19,11 @@ const contemporaryClassicalComposers = [
         name: 'Alberga, Eleanor (b. 1949)',
         tag: 'Jamaican Composer & Pianist',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Alberga.html'
+    },
+    {
+        name: 'Asare, Masi ',
+        tag: 'Composer and Professor',
+        bio: 'https://masiasare.com/home'
     },
     {
         name: 'Bonds, Margaret Allison (1913-1972)',
@@ -33,6 +44,11 @@ const contemporaryClassicalComposers = [
         name: 'Cunningham, Arthur (1928-1997)',
         tag: 'Composer & Pianist ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Cunningham.html'
+    },
+    {
+        name: 'Curtis, V. Marvin ',
+        tag: 'Composer and college administrator ',
+        bio: 'https://www.giamusic.com/store/artists/marvin-curtis'
     },
     {
         name: 'Dawson, William Levi (1899-1990)',
@@ -60,14 +76,35 @@ const contemporaryClassicalComposers = [
         bio: 'http://chevalierdesaintgeorges.homestead.com/Euba.html'
     },
     {
+        name: 'Gilliard, Kerry J.(b. 1972)',
+        tag: 'Composer and educator',
+        bio: 'http://7thlettermusic.com/about/'
+    },
+    {
         name: 'Hailstork, Adolphus C. (b. 1941) ',
         tag: 'Composer & Professor ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Hailstork.html'
     },
     {
+        name: 'Herbert, Philip',
+        tag: 'Composer, conductor, and pianist',
+        bio: 'http://www.philipherbert.org/about'
+    },
+    {
         name: 'Holland, Justin  (1819-1887) ',
         tag: 'Composer, Guitarist & Teacher',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Holland.html'
+    },
+
+    {
+        name: 'Hughes, Chad "Sir Wick" ',
+        tag: 'Composer, Conductor, Educator',
+        bio: 'https://www.sirwickmusic.com/home'
+    },
+    {
+        name: 'Jackson, Brandon',
+        tag: 'Composer, Conductor, and Session Musician ',
+        bio: 'https://linktr.ee/BranMuzsick'
     },
     {
         name: 'Kay, Ulysses (1917-1995) ',
@@ -93,6 +130,11 @@ const contemporaryClassicalComposers = [
         name: 'Moerane, Michael Mosoeu (1904-1980)',
         tag: 'Composer, Teacher, Pianist & Conductor',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Moerane.html'
+    },
+    {
+        name: 'Moore, Carman',
+        tag: 'New York City Composer',
+        bio: 'https://www.carmanmoore.com/'
     },
     {
         name: 'Perkinson, Coleridge-Taylor (1932-2004) ',
@@ -150,9 +192,19 @@ const contemporaryClassicalComposers = [
         bio: 'http://chevalierdesaintgeorges.homestead.com/Still.html'
     },
     {
+        name: 'Vindu, André Bangambula',
+        tag: 'Composer and Educator',
+        bio: 'http://www.composers21.com/compdocs/vinduab.htm'
+    },
+    {
         name: 'Walker, George  (1922 - 2018)',
         tag: 'Composer & Pianist ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Walker.html'
+    },
+    {
+        name: 'Wiggins, Tom (1849 – 1908) ',
+        tag: 'Composer and pianist',
+        bio: 'https://en.wikipedia.org/wiki/Blind_Tom_Wiggins'
     },
     {
         name: 'Williams, Julius Penson (b. 1954)',
@@ -160,45 +212,12 @@ const contemporaryClassicalComposers = [
         bio: 'http://chevalierdesaintgeorges.homestead.com/Williams.html'
     },
     {
-        name: ' ',
-        tag: '',
-        bio: ''
+        name: 'Z, Pamela ',
+        tag: 'Composer and Media Artist',
+        bio: 'http://www.pamelaz.com/'
     },
-    {
-        name: ' ',
-        tag: '',
-        bio: ''
-    },
-    {
-        name: ' ',
-        tag: '',
-        bio: ''
-    },
-    {
-        name: ' ',
-        tag: '',
-        bio: ''
-    },
-    {
-        name: ' ',
-        tag: '',
-        bio: ''
-    },
-    {
-        name: ' ',
-        tag: '',
-        bio: ''
-    },
-    {
-        name: ' ',
-        tag: '',
-        bio: ''
-    },
-    {
-        name: ' ',
-        tag: '',
-        bio: ''
-    },
+
+
     {
         name: ' ',
         tag: '',
