@@ -80,7 +80,7 @@ const contemporaryClassicalComposers = [
         bio: 'http://chevalierdesaintgeorges.homestead.com/Khumalo.html'
     },
     {
-        name: 'Lamothe, Ludovic  (1882-1953)  ',
+        name: 'Lamothe, Ludovic  (1882-1953)',
         tag: 'Haitian Composer & Pianist ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Lamothe.html'
     },
@@ -113,6 +113,11 @@ const contemporaryClassicalComposers = [
         name: 'Racine, Julio (1945 - 2020) ',
         tag: 'Haitian Composer, Arranger & Flutist ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Racine.html'
+    },
+    {
+        name: 'Rogers, Eugene',
+        tag: 'Composer and Choral Conductor ',
+        bio: 'https://www.eugenerogers.com/'
     },
     {
         name: 'Saint-Georges, Le Chevalier de (1745-1799)',

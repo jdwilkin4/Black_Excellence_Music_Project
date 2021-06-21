@@ -1,13 +1,13 @@
-import React from "react";
-import contemporaryClassicalComposers from '../artists-files/contemporary-classical-composers';
+import React from 'react';
+import JazzComposersData from '../artists-files/jazz-composers';
 
-const ContemporaryClassicalComposers = () => {
+const JazzComposers = () => {
     return (
         <div>
-            <h1 className="text-5xl text-center my-8 text-purple-700">Contemporary Classical Composers</h1>
+            <h1 className="text-5xl text-center my-8 text-purple-700">Jazz Composers</h1>
 
             <div className="flex flex-row flex-wrap justify-center items-center my-2">
-                {contemporaryClassicalComposers.map((composer, index) => (
+                {JazzComposersData.map((composer, index) => (
                     <div key={index}>
                         <div className="my-4 border-r border-l border-b-8 border-t-8 border-purple-600 rounded-lg">
                             <div className="w-96 flex">
@@ -28,4 +28,4 @@ const ContemporaryClassicalComposers = () => {
         </div>
     )
 }
-export default ContemporaryClassicalComposers
+export default JazzComposers
