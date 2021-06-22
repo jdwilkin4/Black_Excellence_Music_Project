@@ -217,23 +217,5 @@ const contemporaryClassicalComposers = [
         bio: 'http://www.pamelaz.com/'
     },
 
-
-    {
-        name: ' ',
-        tag: '',
-        bio: ''
-    },
-    {
-        name: ' ',
-        tag: '',
-        bio: ''
-    },
-    {
-        name: ' ',
-        tag: '',
-        bio: ''
-    },
-
-
 ]
 export default contemporaryClassicalComposers
