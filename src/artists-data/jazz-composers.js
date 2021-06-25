@@ -266,7 +266,7 @@ const jazzComposersData = [
         name: 'Jenkins, Leroy (1932 – 2007)',
         tag: 'Composer and violinist',
         bio: 'https://en.wikipedia.org/wiki/Leroy_Jenkins_(musician)',
-        image: 'https://lh3.googleusercontent.com/proxy/soR9Mh6jXJ_ClaBUNzLpWl8cNs5jhTtaF8n0ObTHuZ6n0h4gbT2GceZid5Zw8Sbk9hxHjPhrYSePs9xkJsA_kJsz',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN6Q7sHe4_GsvaL4T0lNhe5XpCuQ8K03q1BXkI25x8_e5ItMmpAzC170B3HUSmXnpXYB8&usqp=CAU',
         alt: 'Leroy Jenkins'
     },
     {

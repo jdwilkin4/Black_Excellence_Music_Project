@@ -1,5 +1,5 @@
 import React from "react";
-import contemporaryClassicalComposers from '../artists-files/contemporary-classical-composers';
+import contemporaryClassicalComposers from '../artists-data/contemporary-classical-composers';
 
 const ContemporaryClassicalComposers = () => {
     return (

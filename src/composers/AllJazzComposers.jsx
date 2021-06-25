@@ -1,4 +1,4 @@
-import jazzComposersData from '../artists-files/jazz-composers';
+import jazzComposersData from '../artists-data/jazz-composers';
 
 const AllJazzComposers = () => {
 
