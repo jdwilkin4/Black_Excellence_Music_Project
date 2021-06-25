@@ -10,7 +10,7 @@ const jazzComposersData = [
         name: 'Armstrong, Lillian Hardin (1898 – 1971)',
         tag: 'Jazz pianist, composer, and arranger',
         bio: 'https://en.wikipedia.org/wiki/Lil_Hardin_Armstrong',
-        image: 'https://lh3.googleusercontent.com/proxy/GEFoy_D0ieGTJaUHzjJLmucCvAks0pBoIa4CawStU1bIGnrrek0Ou_t7_YL2vcycWus4Qi3icN4UivQZp0gABogyB-y0waTgg3oJ-UCoH5q0dqIZNX-rjYqQOdrfZYNctTWdZ11OPDEWmIMQ9QmA255TqAXsn2dBhN0ETTyYFul1Nb9m',
+        image: 'https://wpcdn.us-east-1.vip.tn-cloud.net/www.myneworleans.com/content/uploads/data-import/5edbddd9/JazzLife-701x1024.jpg',
         alt: 'Lil Hardin Armstrong'
     },
     {
