@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import ContemporaryClassicalComposers from './composers/ClassicalComposers';
+import ContemporaryClassicalComposers from './composers/ClassicalContemporaryComposers';
 import JazzComposersPage from './composers/JazzComposers';
 import Navbar from './misc-components/Navbar';
 
