@@ -1,12 +1,14 @@
 import jazzComposersData from '../artists-files/jazz-composers';
 
-const AllJazzComposers = () => {
+const MaleJazzComposers = () => {
+
+    const MaleComposerArr = jazzComposersData.filter(composer => !composer.isFemale)
 
     return (
         <div className="flex flex-row flex-wrap justify-center items-center my-2">
-            {jazzComposersData.map((composer, index) => (
+            {MaleComposerArr.map((composer, index) => (
                 <div key={index}>
-                    <div className="my-4 border-r border-l border-b-8 border-t-8 border-purple-600 rounded-lg">
+                    <div className="my-4 border-r border-l border-b-8 border-t-8 border-green-600 rounded-lg">
                         <div className="w-96 flex">
                             <div className="text-center w-full pt-9 pr-4">
                                 <h2 className="font-bold text-black-700">{composer.name}</h2>
@@ -17,7 +19,7 @@ const AllJazzComposers = () => {
                             <img className="w-40 h-40 rounded-full mx-auto" src={composer.image} alt={composer.alt} />
                         </div>
                         <div className="text-center my-8">
-                            <a rel="noreferrer" target="_blank" href={composer.bio} className="w-1/2 px-4 py-3 text-white bg-purple-700  rounded-lg font-bold text-sm">Composer Bio</a>
+                            <a rel="noreferrer" target="_blank" href={composer.bio} className="w-1/2 px-4 py-3 text-white bg-green-700  rounded-lg font-bold text-sm">Composer Bio</a>
                         </div>
                     </div>
                 </div>
@@ -26,4 +28,4 @@ const AllJazzComposers = () => {
 
     )
 }
-export default AllJazzComposers;
+export default MaleJazzComposers;

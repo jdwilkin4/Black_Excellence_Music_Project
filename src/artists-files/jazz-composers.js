@@ -74,7 +74,7 @@ const jazzComposersData = [
         name: 'Branker, Anthony (b.1958)',
         tag: 'American musician and educator',
         bio: 'https://en.wikipedia.org/wiki/Anthony_Branker',
-        image: 'https://lh3.googleusercontent.com/proxy/pNFM4xxuESilc65TCVujMOCT2qeYO5H7hNVRfD-KAjvIilh9WNAJk06Tmuohf368CJHThBOReoazhItf6Wd5K8rOQzcEVqBP1w',
+        image: 'https://cdn.statically.io/img/www.soulandjazz.com/wp-content/uploads/2018/03/13_Anthony_Branker-300x300.jpg?quality=80&f=auto',
         alt: 'Anthony Branker'
     },
     {
@@ -343,7 +343,7 @@ const jazzComposersData = [
     },
     {
         name: 'Matthews, Jr., Onzy Durrett (1930 – 1997)',
-        tag: 'Pianist, singer, arrange and composer',
+        tag: 'Pianist, singer, arranger and composer',
         bio: 'https://en.wikipedia.org/wiki/Onzy_Matthews',
         image: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Onzy_Matthews_photo_1976.jpg/220px-Onzy_Matthews_photo_1976.jpg',
         alt: 'Onzy Durett Matthews'
