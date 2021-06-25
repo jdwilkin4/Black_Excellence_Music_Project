@@ -11,7 +11,8 @@ const jazzComposersData = [
         tag: 'Jazz pianist, composer, and arranger',
         bio: 'https://en.wikipedia.org/wiki/Lil_Hardin_Armstrong',
         image: 'https://wpcdn.us-east-1.vip.tn-cloud.net/www.myneworleans.com/content/uploads/data-import/5edbddd9/JazzLife-701x1024.jpg',
-        alt: 'Lil Hardin Armstrong'
+        alt: 'Lil Hardin Armstrong',
+        isFemale: true
     },
     {
         name: 'Armstrong, Louis Daniel (1901 – 1971)',
@@ -95,14 +96,16 @@ const jazzComposersData = [
         tag: 'Jazz singer, composer, and bandleader',
         bio: 'https://en.wikipedia.org/wiki/Blanche_Calloway',
         image: 'https://a3-images.myspacecdn.com/images03/2/59113dd2e09f4ef6b6c02bf248448afb/300x300.jpg',
-        alt: 'Blanche Calloway'
+        alt: 'Blanche Calloway',
+        isFemale: true
     },
     {
         name: 'Carter, Betty (1929 – 1998)',
         tag: 'Singer and songwriter',
         bio: 'https://en.wikipedia.org/wiki/Betty_Carter',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Betty_Carter_in_Pori_July_1978.jpg/220px-Betty_Carter_in_Pori_July_1978.jpg',
-        alt: 'Betty Carter'
+        alt: 'Betty Carter',
+        isFemale: true
     },
     {
         name: 'Charles, Ray (1930 – 2004)',
@@ -123,7 +126,8 @@ const jazzComposersData = [
         tag: 'Composer and American jazz pianist',
         bio: 'https://www.alicecoltrane.com/',
         image: 'https://images.squarespace-cdn.com/content/v1/588fd258bebafbb40f74388a/1486742646642-1RD7J4IJU23CKB6UB9KG/ke17ZwdGBToddI8pDm48kJJ3_Oi1ktIwPjntqKjE4XcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcPzcDQIUHxSxdT4lqYp6LiDpFxWpkbHkkLse8nMQ6M4Dc0yBFznLfQMokSSUT38T7/new1.jpg?format=2500w',
-        alt: 'Alice Coltrane'
+        alt: 'Alice Coltrane',
+        isFemale: true
     },
     {
         name: 'Coltrane, John (1926 – 1967)',
@@ -294,18 +298,20 @@ const jazzComposersData = [
         alt: 'Joe Jordan'
     },
     {
-        name: 'Kemp Emme',
+        name: 'Kemp, Emme',
         tag: 'Pianist, vocalist and composer',
         bio: 'https://emmekempallmusic.com/',
         image: 'https://nebula.wsimg.com/f9013753721936cacd643c370fe748ea?AccessKeyId=77418CBF9AA370C6958F&disposition=0&alloworigin=1',
-        alt: 'Emme Kemp'
+        alt: 'Emme Kemp',
+        isFemale: true
     },
     {
         name: 'Kitchings, Irene (c. 1908-1975)',
         tag: 'Pianist, bandleader, songwriter',
         bio: 'https://en.wikipedia.org/wiki/Irene_Kitchings',
         image: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sfbdc343bcdca3e9f/image/if7afaf9d794881c7/version/1586528071/irene-kitchings-mujeres-en-el-jazz-standards-de-jazz.jpg',
-        alt: 'Irene Kitchings'
+        alt: 'Irene Kitchings',
+        isFemale: true
     },
     {
         name: 'Lee III, William James Edwards (b.1928)',
@@ -368,7 +374,8 @@ const jazzComposersData = [
         tag: 'Cellist and composer',
         bio: 'https://en.wikipedia.org/wiki/Diedre_Murray',
         image: 'https://i1.sndcdn.com/artworks-vOgU7kgPb8ZCFwVI-cdmIog-t500x500.jpg',
-        alt: 'Diedre Murray'
+        alt: 'Diedre Murray',
+        isFemale: true
     },
     {
         name: 'Nelson, John Lewis (1916 – 2001)',
@@ -438,7 +445,8 @@ const jazzComposersData = [
         tag: 'Visual artist, composer and saxophonist',
         bio: 'https://en.wikipedia.org/wiki/Matana_Roberts',
         image: 'https://www.thewire.co.uk/img/scale/940/736/2016/06/23/ROBERTS_Mantana_5-Mark_Peckmezian.jpg',
-        alt: 'Matana Roberts'
+        alt: 'Matana Roberts',
+        isFemale: true
     },
     {
         name: 'Rollins, Sunny (b.1930)',
@@ -466,7 +474,8 @@ const jazzComposersData = [
         tag: 'Singer, songwriter, musician, arranger',
         bio: 'https://en.wikipedia.org/wiki/Nina_Simone',
         image: 'https://static01.nyt.com/images/2015/06/21/arts/21SIMONE/21SIMONE-superJumbo.jpg',
-        alt: 'Nina Simone'
+        alt: 'Nina Simone',
+        isFemale: true
     },
     {
         name: 'Sissle, Noble Lee (1889 – 1975)',
@@ -501,7 +510,8 @@ const jazzComposersData = [
         tag: 'Bassist, singer and composer',
         bio: 'https://en.wikipedia.org/wiki/Esperanza_Spalding',
         image: 'https://jazz.fm/app/uploads/avatar.jpg',
-        alt: 'Esperanza Spalding'
+        alt: 'Esperanza Spalding',
+        isFemale: true
     },
     {
         name: 'Sweatman, Wilbur Coleman (1882 – 1961)',

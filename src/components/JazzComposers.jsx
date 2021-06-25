@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import AllJazzComposers from './AllJazzComposers';
+import FemaleJazzComposers from './FemaleJazzComposers';
 
 const ChangeCategory = (props) => {
     if (props.category === 'all') {
         return <AllJazzComposers />
     } else if (props.category === 'female') {
-        return <h2>Female</h2>
+        return <FemaleJazzComposers />
     }
 }
 const JazzComposersPage = () => {
