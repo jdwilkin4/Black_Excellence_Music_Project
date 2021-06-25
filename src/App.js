@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ContemporaryClassicalComposers from './components/ClassicalComposers';
-import JazzComposers from './components/JazzComposers';
+import JazzComposersPage from './components/JazzComposers';
 import Navbar from './components/Navbar';
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
 
         <Switch>
           <Route path="/contemporary-composers" exact component={ContemporaryClassicalComposers} />
-          <Route path="/jazz-composers" exact component={JazzComposers} />
+          <Route path="/jazz-composers" exact component={JazzComposersPage} />
         </Switch>
       </div>
     </Router>

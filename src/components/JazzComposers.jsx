@@ -1,34 +1,34 @@
-import React from 'react';
-import jazzComposersData from '../artists-files/jazz-composers';
-import SearchBar from './SearchBar';
+import React, { useState } from 'react';
+import AllJazzComposers from './AllJazzComposers';
 
-const JazzComposers = () => {
+
+const JazzComposersPage = () => {
+    const [option, setOption] = useState('all');
+    const handleChange = (e) => setOption(e.target.value)
+    const changeOption = () => console.log(`You have picked: ${option}`)
     return (
         <div>
             <h1 className="text-5xl text-center my-8 text-purple-700">Jazz Composers</h1>
-            <SearchBar />
-            <div className="flex flex-row flex-wrap justify-center items-center my-2">
-                {jazzComposersData.map((composer, index) => (
-                    <div key={index}>
-                        <div className="my-4 border-r border-l border-b-8 border-t-8 border-purple-600 rounded-lg">
-                            <div className="w-96 flex">
-                                <div className="text-center w-full pt-9 pr-4">
-                                    <h2 className="font-bold text-purple-700">{composer.name}</h2>
-                                    <p className="py-2 text-base">{composer.tag}</p>
-                                </div>
-                            </div>
-                            <div className="photo-wrapper p-2">
-                                <img className="w-40 h-40 rounded-full mx-auto" src={composer.image} alt={composer.alt} />
-                            </div>
-                            <div className="text-center my-8">
-                                <a rel="noreferrer" target="_blank" href={composer.bio} className="w-1/2 px-4 py-3 text-white bg-purple-700  rounded-lg font-bold text-sm">Composer Bio</a>
-                            </div>
-                        </div>
-                    </div>
-                ))}
-            </div>
+            <div className="container mx-auto flex justify-center items-center p-2 md:p-0">
+                <div className="border border-purple-900 p-6 grid grid-cols-1 gap-6 bg-white shadow-lg rounded-lg">
 
+                    <select onChange={handleChange} value={option} className="border border-purple-300 p-2 rounded">
+                        <option value="all">All Artists</option>
+                        <option value="Female">Female Artists</option>
+                        <option value="woodwinds">Woodwind Players</option>
+                        <option value="brass">Brass Players</option>
+                        <option value="percussion">Percussion Players</option>
+                        <option value="voice">Vocalists</option>
+                        <option value="piano">Pianists</option>
+                    </select>
+
+                    <div className="flex justify-center">
+                        <button onClick={changeOption} className="p-2 border rounded-md bg-purple-700 text-white">Filter results</button>
+                    </div>
+                </div>
+            </div>
+            <AllJazzComposers />
         </div>
     )
 }
-export default JazzComposers
+export default JazzComposersPage
