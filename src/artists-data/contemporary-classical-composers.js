@@ -1,5 +1,19 @@
 const contemporaryClassicalComposers = [
     {
+        name: 'Abels, Michael(b. 1962)',
+        tag: 'Composer',
+        bio: 'https://michaelabels.com/about/',
+        image: 'https://www.subitomusic.com/smc_wp_site/wp-content/uploads/2012/02/abels_new.jpg',
+        alt: 'Michael Abels'
+    },
+    {
+        name: 'Abraham, Dr.Immanuel Tzemach(b.1990)',
+        tag: 'Composer, clinician, teacher, and violinist',
+        bio: 'https://www.theviolindoctor.org/',
+        image: 'https://scontent-lax3-2.xx.fbcdn.net/v/t1.6435-9/60667686_2792561657427839_1296498172503261184_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=sFlKRekJExsAX8SFDPR&_nc_ht=scontent-lax3-2.xx&oh=48bb2498ce687b2fdf3125d02ada84fc&oe=60DB9D5A',
+        alt: 'Dr.Immanuel Tzemach Abraham'
+    },
+    {
         name: 'Adams, Harrison Leslie (b. 1932)',
         tag: 'Composer, Pianist & Professor',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Adams.html',
@@ -14,11 +28,33 @@ const contemporaryClassicalComposers = [
         alt: 'Cedric Adderley'
     },
     {
+        name: 'Adu, Leila',
+        tag: 'Singer-songwriter',
+        bio: 'http://www.leilaadu.com/about/',
+        image: 'https://www.ojaifestival.org/wp-content/uploads/2015/12/Leila-Adu-by-Leon-Dale.jpg',
+        alt: 'Leila Adu',
+        isFemale: true
+    },
+    {
+        name: 'Akinola, Segun',
+        tag: 'Composer',
+        bio: 'https://www.segunakinola.com/index.php/about-us',
+        image: 'https://i1.sndcdn.com/avatars-000341632699-agfim4-t500x500.jpg',
+        alt: 'Segun Akinola'
+    },
+    {
         name: 'Akpabot, Samuel Ekpe (1932-2000)',
         tag: 'Nigerian Composer, Professor and Author',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Akpabot.html',
         image: 'http://1.bp.blogspot.com/-nCjgxJf5aqs/VC8RFOhXnTI/AAAAAAAArSE/w-tnXGzjSMs/s1600/SamuelEkpeAkpabot.gif',
         alt: 'Samuel Akpabot'
+    },
+    {
+        name: 'Alabaca, Ahmed',
+        tag: 'Composer, conductor, pianist',
+        bio: 'https://www.ahmedalabaca.com/bio',
+        image: 'https://scontent-lax3-2.xx.fbcdn.net/v/t1.6435-9/65988840_1238744542963144_5281905932572295168_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=973b4a&_nc_ohc=StHbrIYSqMMAX8uUG7K&_nc_ht=scontent-lax3-2.xx&oh=a9fbf3528b96ca5ba7efa77828a34e1b&oe=60DC7CF0',
+        alt: 'Ahmed Alabaca'
     },
     {
         name: 'Alberga, Eleanor (b. 1949)',
