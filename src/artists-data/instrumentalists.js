@@ -32,6 +32,14 @@ const instrumentalists = [
         category: 'piano'
     },
     {
+        name: 'Ali-Landing, Ifetayo',
+        tag: 'Cellist',
+        bio: 'https://www.sphinxmusic.org/bio-ifetayo-ali/',
+        image: 'https://fromthetop.org/wp-content/uploads/ifetayoali-landing_349_cello.jpg',
+        alt: 'Ifetayo Ali-Landing',
+        category: 'strings'
+    },
+    {
         name: 'Allen-Batieste, DeMarus',
         tag: 'Clarinetist',
         bio: 'https://www.linkedin.com/in/demarus-allen-batieste-125bb424',
@@ -40,11 +48,44 @@ const instrumentalists = [
         category: 'woodwinds'
     },
     {
+        name: 'Bailey, Sandra ',
+        tag: 'Bassoonist',
+        bio: 'https://www.arkansassymphony.org/sandra-bailey',
+        image: 'https://mediad.publicbroadcasting.net/p/wxxifm/files/styles/x_large/public/202001/bailey__sandra_0.jpg',
+        alt: 'Sandra Bailey',
+        category: 'woodwinds'
+    },
+    {
+        name: 'Booker, Cremaine ',
+        tag: 'Cellist',
+        bio: 'https://www.thatcelloguy.com/bio',
+        image: 'https://images.foxtv.com/static.fox5dc.com/www.fox5dc.com/content/uploads/2019/10/320/250/cremaine_1468073040930_1577956_ver1.0_1280_720.jpg?ve=1&tl=1',
+        alt: 'Cremaine Booker',
+        category: 'strings'
+    },
+    {
         name: 'Coleman, Valerie',
         tag: 'Flutist and Composer',
         bio: 'https://www.vcolemanmusic.com/about.html',
         image: 'https://www.flutenewmusicconsortium.com/uploads/1/4/9/7/14977178/published/coleman_1.jpg?1530059842',
         alt: 'Valerie Coleman',
+        category: 'woodwinds'
+    },
+    {
+        name: 'Cooper, Eric ',
+        tag: 'Cellist',
+        bio: 'https://www.classical915.org/post/eric-cooper-cello',
+        image: 'https://images.squarespace-cdn.com/content/v1/57b348b403596e58a6b3bead/1563577090363-IW6Q05E4XMI9LBF3ZVG9/ke17ZwdGBToddI8pDm48kEc6DKFOx3cpvkyhZQwPkJYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc53GO0vWykWK-lIOAtsaJ7vbB1JiXq7byw-6Ogo-kuNnXzR_WIuWSVqqqoqhN8EA5/20180619Strings-08.jpg?format=1500w',
+        alt: 'Eric Cooper',
+        category: 'strings'
+    },
+
+    {
+        name: 'Curtis, Lamar Carey',
+        tag: 'Bassoonist',
+        bio: 'https://www.classical915.org/post/lamar-carey-curtis-bassoon',
+        image: 'https://mediad.publicbroadcasting.net/p/wxxifm/files/styles/large/public/202001/curtis__lamar_good_version.jpg',
+        alt: 'Lamar Carey Curtis',
         category: 'woodwinds'
     },
 
@@ -81,6 +122,38 @@ const instrumentalists = [
         category: 'woodwinds'
     },
     {
+        name: 'Gordon Grubbs ',
+        tag: 'Cellist',
+        bio: 'https://www.classical915.org/post/gordon-grubbs-cello',
+        image: 'https://www.classical915.org/sites/wxxifm/files/201810/grubbs__gordon.jpg',
+        alt: 'Gordon Grubbs',
+        category: 'strings'
+    },
+    {
+        name: 'Hood, Joshua',
+        tag: 'Bassoonist',
+        bio: 'https://coaa.uncc.edu/people/joshua-hood',
+        image: 'https://coaa.uncc.edu/sites/coaa.uncc.edu/files/styles/directory-list/public/fields/directory/field_directory_image/Josh_Hood.jpg?itok=EC1pQ7eh',
+        alt: 'Joshua Hood',
+        category: 'woodwinds'
+    },
+    {
+        name: 'Hopson, Sidney ',
+        tag: 'Percussionist',
+        bio: 'https://www.linkedin.com/in/sidney-j-hopson-9990027',
+        image: 'https://i1.sndcdn.com/avatars-000406717110-uwpmw0-t500x500.jpg',
+        alt: 'Sidney Hopson',
+        category: 'percussion'
+    },
+    {
+        name: 'Jones, Shawn',
+        tag: 'Bassoonist',
+        bio: 'https://www.sanfranciscoballetorchestra.org/shawn-jones/',
+        image: 'https://www.sanfranciscoballetorchestra.org/wp-content/uploads/2014/11/Shawn-Jones.jpg',
+        alt: 'Shawn Jones',
+        category: 'woodwinds'
+    },
+    {
         name: 'McGill, Anthony',
         tag: 'Clarinet',
         bio: 'https://www.anthonymcgill.com/about/biography/',
@@ -113,223 +186,13 @@ const instrumentalists = [
         category: 'strings'
     },
 
-
     {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
-    },
-    {
-        name: '',
-        tag: '',
-        bio: '',
-        image: '',
-        alt: ''
+        name: 'Rocke, Kai',
+        tag: 'Bassoonist',
+        bio: 'https://minnesotaorchestra.org/about/who-we-are/orchestra-musicians/330-bassoon/2157-kai-rocke',
+        image: 'https://minnesotaorchestra.org/images/roster/Kai-Rocke_roster.jpg',
+        alt: 'Kai Rocke',
+        category: 'woodwinds'
     },
     {
         name: 'Scott, Jeff',
