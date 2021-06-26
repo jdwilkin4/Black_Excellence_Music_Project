@@ -1,11 +1,18 @@
 import React, { useState } from 'react';
 import AllPerformers from './AllPerformers';
+import Woodwinds from './Woodwinds';
 
 const InstrumentalistPage = () => {
     const [option, setOption] = useState('all');
     const handleChange = (e) => setOption(e.target.value);
 
-
+    const ChangeCategory = (props) => {
+        if (props.category === 'all') {
+            return <AllPerformers />
+        } else if (props.category === 'woodwinds') {
+            return <Woodwinds />
+        }
+    }
     return (
         <div>
             <h1 className="text-5xl text-center my-8 ">Instrumentalists</h1>
@@ -17,12 +24,13 @@ const InstrumentalistPage = () => {
                         <option value="woodwinds">Woodwinds</option>
                         <option value="brass">Brass</option>
                         <option value="strings">Strings</option>
-                        <option value="brass">Percussion</option>
-                        <option value="brass">Piano</option>
+                        <option value="percussion">Percussion</option>
+                        <option value="piano">Piano</option>
                     </select>
                 </div>
             </div>
-            <AllPerformers />
+
+            <ChangeCategory category={option} />
         </div>
 
     )
