@@ -9,6 +9,9 @@ const Navbar = () => {
             <Link className="underline text-blue-400" to="/contemporary-composers">Contemporary/Classical Composers</Link>
             <br />
             <Link className="underline text-blue-400" to="/jazz-composers">Jazz Composers</Link>
+            <br />
+            <Link className="underline text-blue-400" to="/instrumentalists">Instrumentalists</Link>
+
         </div>
     )
 }
