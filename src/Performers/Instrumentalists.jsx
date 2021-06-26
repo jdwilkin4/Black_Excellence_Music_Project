@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AllPerformers from './AllPerformers';
 
 const InstrumentalistPage = () => {
     const [option, setOption] = useState('all');
@@ -21,7 +22,9 @@ const InstrumentalistPage = () => {
                     </select>
                 </div>
             </div>
+            <AllPerformers />
         </div>
+
     )
 }
 export default InstrumentalistPage
