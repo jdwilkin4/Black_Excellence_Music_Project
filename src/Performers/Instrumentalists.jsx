@@ -4,8 +4,7 @@ import AllWoodwinds from './Woodwinds';
 import AllBrass from './Brass';
 import AllStrings from './Strings';
 import AllPercussionists from './Percussion';
-
-
+import AllPianists from './Pianists';
 
 const InstrumentalistPage = () => {
     const [option, setOption] = useState('all');
@@ -22,6 +21,8 @@ const InstrumentalistPage = () => {
             return <AllStrings />
         } else if (props.category === 'percussion') {
             return <AllPercussionists />
+        } else if (props.category === 'piano') {
+            return <AllPianists />
         }
     }
     return (

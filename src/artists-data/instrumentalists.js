@@ -16,6 +16,14 @@ const instrumentalists = [
         category: 'woodwinds'
     },
     {
+        name: 'Adams, Armenta ',
+        tag: 'Pianist',
+        bio: 'https://en.wikipedia.org/wiki/Armenta_Adams',
+        image: 'https://media.wnyc.org/i/800/0/c/85/1/armentaadamspub.jpg',
+        alt: 'Armenta Adams',
+        category: 'piano'
+    },
+    {
         name: 'Adedamola, Sydney',
         tag: 'Violinist',
         bio: 'https://www.laphil.com/musicdb/artists/7764/sydney-adedamola',
