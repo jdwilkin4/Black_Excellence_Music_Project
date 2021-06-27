@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import AllPerformers from './AllPerformers';
 import Woodwinds from './Woodwinds';
+import AllBrass from './Brass';
+
 
 const InstrumentalistPage = () => {
     const [option, setOption] = useState('all');
@@ -11,6 +13,8 @@ const InstrumentalistPage = () => {
             return <AllPerformers />
         } else if (props.category === 'woodwinds') {
             return <Woodwinds />
+        } else if (props.category === 'brass') {
+            return <AllBrass />
         }
     }
     return (
