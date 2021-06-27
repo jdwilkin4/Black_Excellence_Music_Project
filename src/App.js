@@ -4,6 +4,7 @@ import ContemporaryClassicalComposers from './composers/ClassicalContemporaryCom
 import JazzComposersPage from './composers/JazzComposers';
 import InstrumentalistPage from './Performers/Instrumentalists';
 import Navbar from './misc-components/Navbar';
+import VocalistsPage from './Performers/VocalistsPage';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/contemporary-composers" exact component={ContemporaryClassicalComposers} />
           <Route path="/jazz-composers" exact component={JazzComposersPage} />
           <Route path="/instrumentalists" exact component={InstrumentalistPage} />
+          <Route path="/vocalists" exact component={VocalistsPage} />
         </Switch>
       </div>
     </Router>

@@ -11,6 +11,8 @@ const Navbar = () => {
             <Link className="underline text-blue-400" to="/jazz-composers">Jazz Composers</Link>
             <br />
             <Link className="underline text-blue-400" to="/instrumentalists">Instrumentalists</Link>
+            <br />
+            <Link className="underline text-blue-400" to="/vocalists">Vocalists</Link>
 
         </div>
     )
