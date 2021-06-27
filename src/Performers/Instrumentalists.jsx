@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import AllPerformers from './AllPerformers';
 import Woodwinds from './Woodwinds';
 import AllBrass from './Brass';
+import AllStrings from './Strings';
 
 
 const InstrumentalistPage = () => {
@@ -15,6 +16,8 @@ const InstrumentalistPage = () => {
             return <Woodwinds />
         } else if (props.category === 'brass') {
             return <AllBrass />
+        } else if (props.category === 'strings') {
+            return <AllStrings />
         }
     }
     return (
