@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import AllPerformers from './AllPerformers';
-import Woodwinds from './Woodwinds';
+import AllWoodwinds from './Woodwinds';
 import AllBrass from './Brass';
 import AllStrings from './Strings';
+import AllPercussionists from './Percussion';
+
 
 
 const InstrumentalistPage = () => {
@@ -13,11 +15,13 @@ const InstrumentalistPage = () => {
         if (props.category === 'all') {
             return <AllPerformers />
         } else if (props.category === 'woodwinds') {
-            return <Woodwinds />
+            return <AllWoodwinds />
         } else if (props.category === 'brass') {
             return <AllBrass />
         } else if (props.category === 'strings') {
             return <AllStrings />
+        } else if (props.category === 'percussion') {
+            return <AllPercussionists />
         }
     }
     return (
