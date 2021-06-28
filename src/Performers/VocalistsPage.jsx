@@ -1,9 +1,21 @@
 import React, { useState } from 'react';
 import AllVocalists from './AllVocalists';
+import JazzVocalists from './JazzVocalists';
+import ClassicalVocalists from './ClassicalVocalists';
 
 const VocalistsPage = () => {
     const [option, setOption] = useState('all');
     const handleChange = (e) => setOption(e.target.value);
+
+    const ChangeCategory = (props) => {
+        if (props.category === 'all') {
+            return <AllVocalists />
+        } else if (props.category === 'jazz') {
+            return <JazzVocalists />
+        } else if (props.category === 'classical') {
+            return <ClassicalVocalists />
+        }
+    }
 
     return (
         <div>
@@ -18,7 +30,7 @@ const VocalistsPage = () => {
                     </select>
                 </div>
             </div>
-            <AllVocalists />
+            <ChangeCategory category={option} />
 
         </div>
 
