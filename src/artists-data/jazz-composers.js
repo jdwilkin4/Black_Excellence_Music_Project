@@ -99,14 +99,7 @@ const jazzComposersData = [
         alt: 'Blanche Calloway',
         isFemale: true
     },
-    {
-        name: 'Carter, Betty (1929 – 1998)',
-        tag: 'Singer and songwriter',
-        bio: 'https://en.wikipedia.org/wiki/Betty_Carter',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Betty_Carter_in_Pori_July_1978.jpg/220px-Betty_Carter_in_Pori_July_1978.jpg',
-        alt: 'Betty Carter',
-        isFemale: true
-    },
+
     {
         name: 'Charles, Ray (1930 – 2004)',
         tag: 'American singer, songwriter, pianist, composer',

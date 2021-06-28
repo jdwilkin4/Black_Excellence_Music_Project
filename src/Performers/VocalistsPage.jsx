@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AllVocalists from './AllVocalists';
 
 const VocalistsPage = () => {
     const [option, setOption] = useState('all');
@@ -17,7 +18,7 @@ const VocalistsPage = () => {
                     </select>
                 </div>
             </div>
-
+            <AllVocalists />
 
         </div>
 
