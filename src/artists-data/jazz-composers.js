@@ -215,7 +215,7 @@ const jazzComposersData = [
     },
     {
         name: 'Henderson, Fletcher (1897 – 1952)',
-        tag: 'Pianists, bandleader, composer, arranger',
+        tag: 'Pianist, bandleader, composer, arranger',
         bio: 'https://en.wikipedia.org/wiki/Fletcher_Henderson',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fletcher_Henderson_%281943_publicity_photo%29.jpg/220px-Fletcher_Henderson_%281943_publicity_photo%29.jpg',
         alt: 'Fletcher Henderson'
@@ -314,19 +314,20 @@ const jazzComposersData = [
         alt: 'Bill Lee'
     },
     {
-        name: 'Lewis, John Aaron (1920 –2001)',
-        tag: 'Pianist, composer, and arranger',
-        bio: 'https://en.wikipedia.org/wiki/John_Lewis_(pianist)',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/John_Lewis_1977.jpg/220px-John_Lewis_1977.jpg',
-        alt: 'John Lewis'
-    },
-    {
         name: 'Lewis, Anderson Meade (1905 – 1964)',
         tag: 'Pianist and composer',
         bio: 'https://en.wikipedia.org/wiki/Meade_Lux_Lewis',
         image: 'https://cdn.britannica.com/94/2094-004-10D1CFBD/Meade-Lewis.jpg',
         alt: 'Meade Lewis'
     },
+    {
+        name: 'Lewis, John Aaron (1920 –2001)',
+        tag: 'Pianist, composer, and arranger',
+        bio: 'https://en.wikipedia.org/wiki/John_Lewis_(pianist)',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/John_Lewis_1977.jpg/220px-John_Lewis_1977.jpg',
+        alt: 'John Lewis'
+    },
+
     {
         name: 'Marsalis, Wynton Learson (b.1961)',
         tag: 'Trumpeter, composer, educator',

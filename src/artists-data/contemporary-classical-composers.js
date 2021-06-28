@@ -17,7 +17,7 @@ const contemporaryClassicalComposers = [
         name: 'Adams, Harrison Leslie (b. 1932)',
         tag: 'Composer, Pianist & Professor',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Adams.html',
-        image: 'http://chevalierdesaintgeorges.homestead.com/images/H.LeslieAdamsGreenFernsSmall.jpg',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/1/16/H_leslie_adams.jpg',
         alt: 'Harrison Adams'
     },
     {
