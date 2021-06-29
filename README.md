@@ -5,7 +5,7 @@ Version 2 has a new design, more artists, more games and more educational resour
 
 ## Updated artist profiles
 
-### Version 1: A table of 20 artists
+### Version 1: A table of artists
 ![Screen Shot 2021-06-28 at 11 40 32 PM](https://user-images.githubusercontent.com/67210629/123749396-3c9d3200-d86a-11eb-95df-784c2ee52fa3.png)
 
 ### Version 2: Hundreds of artists cards
