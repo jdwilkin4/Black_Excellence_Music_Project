@@ -5,10 +5,10 @@ Version 2 has a new design, more artists, more games and more educational resour
 
 ## Updated artist profiles
 
-### Version 1: A table of artists
+### Version 1: A table of artist links
 ![Screen Shot 2021-06-28 at 11 40 32 PM](https://user-images.githubusercontent.com/67210629/123749396-3c9d3200-d86a-11eb-95df-784c2ee52fa3.png)
 
-### Version 2: Hundreds of artists cards
+### Version 2: Hundreds of artist cards with images
 ![img 1 jazz composers](https://user-images.githubusercontent.com/67210629/123750393-61de7000-d86b-11eb-82bf-cfb978db2efb.png)
 
 ### New Feature: Filter through artists by instrument and gender.
