@@ -11,7 +11,7 @@ const instrumentalists = [
         name: 'Abraham, Dr.Immanuel Tzemach(b.1990)',
         tag: 'Composer, clinician, teacher, and violinist',
         bio: 'https://www.theviolindoctor.org/',
-        image: 'https://scontent-lax3-2.xx.fbcdn.net/v/t1.6435-9/60667686_2792561657427839_1296498172503261184_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=sFlKRekJExsAX8SFDPR&_nc_ht=scontent-lax3-2.xx&oh=48bb2498ce687b2fdf3125d02ada84fc&oe=60DB9D5A',
+        image: 'https://museonline.org/wp-content/uploads/2020/11/Headshot-1-400x400.jpg',
         alt: 'Dr.Immanuel Tzemach Abraham',
         category: 'strings'
     },

@@ -298,7 +298,7 @@ const contemporaryClassicalComposers = [
         name: 'Sowande, Fela (1905-1987)',
         tag: 'Nigerian Composer, Organist & Professor ',
         bio: 'http://chevalierdesaintgeorges.homestead.com/Sowande.html',
-        image: 'https://sonichits.com/artist_image/RmVsYSBTb3dhbmRl/YWQzZTk2OTI5OTFlYzYxNDFmZjlhZjE2NGZhNTlkY2U=/extralarge',
+        image: 'https://aaregistry.org/wp-content/uploads/2020/08/fela-sowande.jpg',
         alt: 'Fela Sowande'
     },
     {
@@ -308,13 +308,7 @@ const contemporaryClassicalComposers = [
         image: 'http://chevalierdesaintgeorges.homestead.com/images/wgspic1_Y.jpg',
         alt: 'William Grant Still'
     },
-    {
-        name: 'Vindu, André Bangambula',
-        tag: 'Composer and Educator',
-        bio: 'http://www.composers21.com/compdocs/vinduab.htm',
-        image: 'https://scontent-lax3-1.xx.fbcdn.net/v/t31.18172-8/17880639_739874309509440_843105692754119543_o.jpg?_nc_cat=109&ccb=1-3&_nc_sid=9267fe&_nc_ohc=13zt5G8e9hMAX-vO0Cq&_nc_ht=scontent-lax3-1.xx&oh=ebb65923597fe813d7410be576b43c01&oe=60DAB1DC',
-        alt: 'Andre Vindu'
-    },
+
     {
         name: 'Walker, George  (1922 - 2018)',
         tag: 'Composer & Pianist ',
