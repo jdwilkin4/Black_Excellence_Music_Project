@@ -3,7 +3,7 @@
 This is version 2 of my Black Excellence Music Project website.
 Version 2 has a new design, more artists, more games and more educational resources. 
 
-## Updated artist profiles
+## Newly Designed artist profiles
 
 ### Version 1: A table of artist links
 ![Screen Shot 2021-06-28 at 11 40 32 PM](https://user-images.githubusercontent.com/67210629/123749396-3c9d3200-d86a-11eb-95df-784c2ee52fa3.png)
@@ -14,7 +14,7 @@ Version 2 has a new design, more artists, more games and more educational resour
 ### New Feature: Filter through artists by instrument and gender.
 https://user-images.githubusercontent.com/67210629/123750854-e92be380-d86b-11eb-821f-d5e3116c31d4.mov
 
-
+## Newly Designed quizzes
 
 ## Getting Started with Create React App
 
