@@ -5,6 +5,7 @@ import JazzComposersPage from './composers/JazzComposers';
 import InstrumentalistPage from './Performers/Instrumentalists';
 import Navbar from './misc-components/Navbar';
 import VocalistsPage from './Performers/VocalistsPage';
+import QuizzesPage from './quizzes/QuizzesPage';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/jazz-composers" exact component={JazzComposersPage} />
           <Route path="/instrumentalists" exact component={InstrumentalistPage} />
           <Route path="/vocalists" exact component={VocalistsPage} />
+          <Route path="/quizzes" exact component={QuizzesPage} />
         </Switch>
       </div>
     </Router>

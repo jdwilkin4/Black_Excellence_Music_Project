@@ -13,6 +13,8 @@ const Navbar = () => {
             <Link className="underline text-blue-400" to="/instrumentalists">Instrumentalists</Link>
             <br />
             <Link className="underline text-blue-400" to="/vocalists">Vocalists</Link>
+            <br />
+            <Link className="underline text-blue-400" to="/quizzes">Quizzes</Link>
 
         </div>
     )
