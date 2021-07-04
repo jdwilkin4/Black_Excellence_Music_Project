@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import quizCards from './quiz-cards';
 const QuizzesPage = () => {
     return (
@@ -17,7 +18,7 @@ const QuizzesPage = () => {
                                 <a rel="noreferrer" target="_blank" href={artist.bio} className="w-1/2 px-4 py-3 text-white bg-purple-700  rounded-lg font-bold text-sm">{artist.name} Bio</a>
                             </div>
                             <div className="text-center">
-                                <a href={artist.quiz} className="w-1/2 px-4 py-3 text-white bg-green-700  rounded-lg font-bold text-sm">Take quiz</a>
+                                <Link to={artist.quiz} className="w-1/2 px-4 py-3 text-white bg-green-700  rounded-lg font-bold text-sm">Take quiz</Link>
                             </div>
                         </div>
                     </div>

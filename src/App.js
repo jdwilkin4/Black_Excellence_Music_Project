@@ -6,6 +6,7 @@ import InstrumentalistPage from './Performers/Instrumentalists';
 import Navbar from './misc-components/Navbar';
 import VocalistsPage from './Performers/VocalistsPage';
 import QuizzesPage from './quizzes/QuizzesPage';
+import ArmstrongQuiz from './quizzes/ArmstrongQuiz';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/instrumentalists" exact component={InstrumentalistPage} />
           <Route path="/vocalists" exact component={VocalistsPage} />
           <Route path="/quizzes" exact component={QuizzesPage} />
+          <Route path="/armstrongquiz" exact component={ArmstrongQuiz} />
         </Switch>
       </div>
     </Router>
