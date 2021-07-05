@@ -1,13 +1,8 @@
-const armstrongQuizQuestions = [
+const quiz = [
   {
-    id: 1,
+    id: '1)',
     question: 'When was Louis Armstrong born?',
-    answers: {
-      a: 'July 15, 1907',
-      b: 'August 4, 1901',
-      c: 'May 22, 1900',
-      d: 'September 1, 1902',
-    },
+    answers: ['July 15, 1907', 'August 4, 1901', 'May 22, 1900', 'September 1, 1902'],
     correctAnswer: 'August 4, 1901'
   },
   {
@@ -55,4 +50,4 @@ const armstrongQuizQuestions = [
     correctAnswer: 'July 6, 1971'
   },
 ]
-export default armstrongQuizQuestions;
+export default quiz;

@@ -1,24 +1,38 @@
 import { useState } from 'react';
-import armstrongQuizQuestions from './armstrong-quiz-questions';
+import quiz from './armstrong-quiz-questions';
+
+
 
 const ArmstrongQuiz = () => {
-    const [buttonClick, setButtonClick] = useState(false);
+    //const [currentNum, setCurrentNum] = useState(0);
+    const currQuestion = quiz[0];
+    //const [userAnswer, setUserAnswer] = useState('');
 
-    const showFirstQuestion = () => setButtonClick(true);
+
+    const getValue = (e) => console.log(e.target.value);
 
     return (
         <div>
             <h1>How well do you know Louis Armstrong?</h1>
-            {buttonClick ? <QuestionOne /> : <button onClick={showFirstQuestion}>Start Quiz</button>}
+            <div>
+                <h2>{currQuestion.id} {currQuestion.question}</h2>
+                {currQuestion.answers.map((answer, index) => (
+                    <div key={index}>
+                        <input
+                            className='w-1/2 px-4 py-3 my-4 text-white bg-green-700  rounded-lg font-bold text-sm'
+                            type='button'
+                            value={answer}
+                            onChange={getValue}
+                            onClick={getValue}
+                        />
+                    </div>
+                ))}
+            </div>
+
         </div>
 
     )
 }
 
-const QuestionOne = () => {
-    return (
-        <h1>question 1</h1>
-    )
-}
 
 export default ArmstrongQuiz;
