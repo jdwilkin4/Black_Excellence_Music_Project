@@ -5,16 +5,31 @@ Version 2 has a new design, more artists, more games and more educational resour
 
 ## Newly Designed artist profiles
 
-### Version 1: A table of artist links
+### Version 1 Artist Table
 ![Screen Shot 2021-06-28 at 11 40 32 PM](https://user-images.githubusercontent.com/67210629/123749396-3c9d3200-d86a-11eb-95df-784c2ee52fa3.png)
 
-### Version 2: Hundreds of artist cards with images
+### Version 2 Artist Table
 ![img 1 jazz composers](https://user-images.githubusercontent.com/67210629/123750393-61de7000-d86b-11eb-82bf-cfb978db2efb.png)
 
 ### New Feature: Filter through artists by instrument and gender.
 https://user-images.githubusercontent.com/67210629/123750854-e92be380-d86b-11eb-821f-d5e3116c31d4.mov
 
 ## Newly Designed quizzes
+
+### Version 1 Quiz pages
+![Screen Shot 2021-07-10 at 6 58 10 PM](https://user-images.githubusercontent.com/67210629/125180610-cb864480-e1b0-11eb-8cdb-2452980d9b08.png)
+
+
+### Version 2 Quiz pages
+![Screen Shot 2021-07-10 at 6 59 34 PM](https://user-images.githubusercontent.com/67210629/125180625-f96b8900-e1b0-11eb-9867-1195ae881f6f.png)
+
+### Version 1 Artist Quiz
+![Screen Shot 2021-07-10 at 6 47 26 PM](https://user-images.githubusercontent.com/67210629/125180470-46e6f680-e1af-11eb-8b60-1112d023f920.png)
+
+### Version 2 Artist Quiz
+![Screen Shot 2021-07-10 at 7 04 05 PM](https://user-images.githubusercontent.com/67210629/125180681-a5ad6f80-e1b1-11eb-9492-7e3cf8be671e.png)
+
+
 
 ## Getting Started with Create React App
 
