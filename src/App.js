@@ -1,11 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import ContemporaryClassicalComposers from './composers/ClassicalContemporaryComposers';
-import JazzComposersPage from './composers/JazzComposers';
-import InstrumentalistPage from './Performers/Instrumentalists';
+import { BrowserRouter as Router, Switch } from "react-router-dom";
 import Navbar from './misc-components/Navbar';
-import VocalistsPage from './Performers/VocalistsPage';
 import QuizRoutes from './quizzes/QuizRoutes';
+import PerformersComposersRoutes from './artists-data/PerformersComposersRoutes';
 
 const App = () => {
   return (
@@ -13,11 +10,10 @@ const App = () => {
       <div>
         <Navbar />
         <Switch>
-          <Route path="/contemporary-composers" exact component={ContemporaryClassicalComposers} />
-          <Route path="/jazz-composers" exact component={JazzComposersPage} />
-          <Route path="/instrumentalists" exact component={InstrumentalistPage} />
-          <Route path="/vocalists" exact component={VocalistsPage} />
           <QuizRoutes />
+        </Switch>
+        <Switch>
+          <PerformersComposersRoutes />
         </Switch>
       </div>
     </Router>
