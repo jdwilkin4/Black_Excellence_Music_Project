@@ -12,6 +12,7 @@ import ColerdigeTaylorQuiz from './quizzes/ColeridgeTaylorQuiz';
 import SimoneQuiz from './quizzes/SimoneQuiz';
 import RayCharlesQuiz from './quizzes/RayCharlesQuiz';
 import MarianAndersonQuiz from './quizzes/MarianAndersonQuiz';
+import DizzyGillespieQuiz from './quizzes/DizzyGillespieQuiz';
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           <Route path='/simonequiz' exact component={SimoneQuiz} />
           <Route path='/charlesquiz' exact component={RayCharlesQuiz} />
           <Route path="/andersonquiz" exact component={MarianAndersonQuiz} />
+          <Route path="/gillespiequiz" exact component={DizzyGillespieQuiz} />
         </Switch>
       </div>
     </Router>
