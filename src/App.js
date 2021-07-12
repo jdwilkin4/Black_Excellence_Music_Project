@@ -11,6 +11,7 @@ import FitzgeraldQuiz from './quizzes/FitzgeraldQuiz';
 import ColerdigeTaylorQuiz from './quizzes/ColeridgeTaylorQuiz';
 import SimoneQuiz from './quizzes/SimoneQuiz';
 import RayCharlesQuiz from './quizzes/RayCharlesQuiz';
+import MarianAndersonQuiz from './quizzes/MarianAndersonQuiz';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Route path="/coleridgequiz" exact component={ColerdigeTaylorQuiz} />
           <Route path='/simonequiz' exact component={SimoneQuiz} />
           <Route path='/charlesquiz' exact component={RayCharlesQuiz} />
+          <Route path="/andersonquiz" exact component={MarianAndersonQuiz} />
         </Switch>
       </div>
     </Router>
