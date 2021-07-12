@@ -31,7 +31,7 @@ const quiz = [
     },
     {
         id: '4)',
-        question: 'What was the name Samuel\'s most well known work?',
+        question: 'What was the name of Samuel\'s most well known work?',
         answers: [
             { options: 'Piano Sonata No.4', isCorrect: false },
             { options: 'Symphony No.3', isCorrect: false },
@@ -41,7 +41,7 @@ const quiz = [
     },
     {
         id: '5)',
-        question: 'How did Samuel Coleridge-Taylor die?',
+        question: 'When did Samuel Coleridge-Taylor die?',
         answers: [
             { options: 'September 1, 1912', isCorrect: true },
             { options: 'October 26, 1910', isCorrect: false },
