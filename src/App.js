@@ -7,7 +7,7 @@ import PerformersComposersRoutes from './artists-data/PerformersComposersRoutes'
 const App = () => {
   return (
     <Router>
-      <div>
+      <>
         <Navbar />
         <Switch>
           <QuizRoutes />
@@ -15,7 +15,7 @@ const App = () => {
         <Switch>
           <PerformersComposersRoutes />
         </Switch>
-      </div>
+      </>
     </Router>
   );
 }
