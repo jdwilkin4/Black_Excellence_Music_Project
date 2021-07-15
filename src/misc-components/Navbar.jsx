@@ -1,14 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-
 const Navbar = () => {
   const navLinkStyles = 'px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
   const [navbarOpen, setNavbarOpen] = useState(false);
-  //const [dropdown, setDropdown] = useState(false);
-
-  // const showOptions = () => setDropdown(!dropdown)
-
 
   return (
     < >
@@ -50,37 +45,5 @@ const Navbar = () => {
 
 
 
-export default Navbar
+export default Navbar;
 
-/*
-
-    <Link className={navLinkStyles} to="/contemporary-composers">
-                Contemporary/Classical Composers
-              </Link>
-
-            <Link className="underline text-blue-400" to="/contemporary-composers">Contemporary/Classical Composers</Link>
-            <br />
-            <Link className="underline text-blue-400" to="/jazz-composers">Jazz Composers</Link>
-            <br />
-            <Link className="underline text-blue-400" to="/instrumentalists">Instrumentalists</Link>
-            <br />
-            <Link className="underline text-blue-400" to="/vocalists">Vocalists</Link>
-            <br />
-            <Link className="underline text-blue-400" to="/quizzes">Quizzes</Link>
-
-            const [navbarOpen, setNavbarOpen] = useState(false);
-                  <button
-                            className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-                            type="button"
-                            onClick={() => setNavbarOpen(!navbarOpen)}
-                        >
-                            <i className="fas fa-bars"></i>
-                        </button>
-               <div
-                        className={
-                            "lg:flex flex-grow items-center" +
-                            (navbarOpen ? " flex" : " hidden")
-                        }
-                        id="example-navbar-danger"
-                    >
-            */
