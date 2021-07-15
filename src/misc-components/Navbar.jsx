@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const navLinkStyles = 'px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
   const [navbarOpen, setNavbarOpen] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
+  //const [dropdown, setDropdown] = useState(false);
 
-  const showOptions = () => setDropdown(!dropdown)
+  // const showOptions = () => setDropdown(!dropdown)
 
 
   return (

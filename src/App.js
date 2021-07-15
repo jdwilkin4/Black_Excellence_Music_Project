@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from './misc-components/Home';
 import Navbar from './misc-components/Navbar';
 import QuizRoutes from './quizzes/QuizRoutes';
 import PerformersComposersRoutes from './artists-data/PerformersComposersRoutes';
@@ -7,15 +8,12 @@ import PerformersComposersRoutes from './artists-data/PerformersComposersRoutes'
 const App = () => {
   return (
     <Router>
-      <>
-        <Navbar />
-        <Switch>
-          <QuizRoutes />
-        </Switch>
-        <Switch>
-          <PerformersComposersRoutes />
-        </Switch>
-      </>
+
+      <Navbar />
+      <Route path="/" exact component={Home} />
+      <QuizRoutes />
+      <PerformersComposersRoutes />
+
     </Router>
   );
 }
