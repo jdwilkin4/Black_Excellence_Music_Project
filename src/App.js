@@ -4,6 +4,7 @@ import Home from './misc-components/Home';
 import Navbar from './misc-components/Navbar';
 import QuizRoutes from './quizzes/QuizRoutes';
 import PerformersComposersRoutes from './artists-data/PerformersComposersRoutes';
+import DayInTheLifeGame from './Day-in-life-game/DayInTheLifeGame';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
 
       <Navbar />
       <Route path="/" exact component={Home} />
+      <Route path="/dayinlife" exact component={DayInTheLifeGame} />
       <QuizRoutes />
       <PerformersComposersRoutes />
 

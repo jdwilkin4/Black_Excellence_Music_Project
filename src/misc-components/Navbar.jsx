@@ -35,6 +35,7 @@ const Navbar = () => {
               <Link className={navLinkStyles} to="/instrumentalists">Instrumentalists </Link>
               <Link className={navLinkStyles} to="/vocalists"> Vocalists </Link>
               <Link className={navLinkStyles} to="/quizzes">Quizzes</Link>
+              <Link className={navLinkStyles} to="/dayinlife">Day in the Life Game</Link>
             </div>
           </div>
         </div>
