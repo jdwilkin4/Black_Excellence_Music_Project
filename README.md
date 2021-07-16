@@ -29,6 +29,13 @@ https://user-images.githubusercontent.com/67210629/123750854-e92be380-d86b-11eb-
 ### Version 2 Artist Quiz
 ![Screen Shot 2021-07-10 at 7 04 05 PM](https://user-images.githubusercontent.com/67210629/125180681-a5ad6f80-e1b1-11eb-9492-7e3cf8be671e.png)
 
+## Newly Designed Day in the Life Game
+
+### Version 1 
+<img width="510" alt="Screen Shot 2021-07-16 at 3 16 26 AM" src="https://user-images.githubusercontent.com/67210629/125932776-edcc9a83-e3f3-4f21-a8a7-f8fb4ebf237d.png">
+
+### Version 2
+<img width="1007" alt="Screen Shot 2021-07-16 at 3 17 52 AM" src="https://user-images.githubusercontent.com/67210629/125932908-0ac5ce7a-3d60-4ece-9a0c-4d881b58e0b7.png">
 
 
 ## Available Scripts
