@@ -1,14 +1,30 @@
 
 const WelcomePage = (props) => {
-    return (
-        <>
-            <h1>A day in the Life Game</h1>
-            <p>Welcome to 1930's New York City</p>
-            <p>You are a young black jazz pianist looking to take your career to the next level</p>
-            <p>Experience what is it like to perform and teach in the booming 30's.</p>
-            <p>But be careful, the road to the top is not all fun and games</p>
-            <button onClick={props.startBtn}>Start game</button>
-        </>
-    )
+  return (
+
+    <div className="container mx-auto">
+      <div className="flex justify-center px-6 my-6">
+        <div className="w-full xl:w-3/4 lg:w-11/12 flex">
+          <img className="h-auto w-full hidden lg:block lg:w-1/2  rounded-l-lg" src="https://i.imgur.com/epWr8mg.jpg" alt="New York City" />
+
+          <div className="w-full lg:w-1/2 p-5 rounded-lg lg:rounded-l-none">
+            <h2 className="my-2 pt-4 text-2xl text-center">Welcome to 1930's New York City</h2>
+            <p className="my-6 pt-4 text-xl  text-center"> Experience what is was like to be a young black jazz pianist in 1930's America. </p>
+            <p className="my-6 pt-4 text-xl  text-center">But be careful, the road to the top is not all fun and games.</p>
+            <button
+              onClick={props.startBtn}
+              className="w-full px-4 py-2 font-bold text-white bg-purple-700 rounded-full focus:outline-none focus:shadow-outline"
+              type="button"
+            >
+              Start Game
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  )
 }
 export default WelcomePage;

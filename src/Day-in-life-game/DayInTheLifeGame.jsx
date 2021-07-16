@@ -8,6 +8,8 @@ const DayInTheLifeGame = () => {
     const startGame = () => setWelcomeScreen(false);
     return (
         <div>
+            <h1 className="text-5xl text-center my-8 ">Day in the Life Game</h1>
+
             {welcomeScreen ? <WelcomePage startBtn={startGame} /> : <GameHomePage />}
 
         </div>
