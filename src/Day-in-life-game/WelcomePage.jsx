@@ -7,7 +7,7 @@ const WelcomePage = (props) => {
       <div className="container mx-auto">
         <div className="flex justify-center px-6 my-6">
           <div className="w-full xl:w-3/4 lg:w-11/12 flex">
-            <img className="h-auto w-full hidden lg:block lg:w-1/2  rounded-l-lg" src="https://i.imgur.com/epWr8mg.jpg" alt="New York City" />
+            <img className="h-80 w-full hidden lg:block lg:w-1/2  rounded-l-lg" src="https://i.imgur.com/epWr8mg.jpg" alt="New York City" />
 
             <div className="w-full lg:w-1/2 p-5 rounded-lg lg:rounded-l-none">
 
