@@ -33,7 +33,7 @@ const Home = () => {
                 Contemporary Composers
               </h3>
               <p class="text-gray-600 text-3xl mt-12">
-                Learn about Michael Abels, Eleanor Alberga, William Levi Dawson, Tania JustinaLeón, and more!
+                Learn about Michael Abels, Eleanor Alberga, William Levi Dawson, Tania Justina León, and more!
                 <div className=" mt-12">
                   <Link className="w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg  font-bold text-2xl" to="/contemporary-composers">Contemporary Composers Page</Link>
                 </div>

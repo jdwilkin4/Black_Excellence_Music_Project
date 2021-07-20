@@ -5,11 +5,12 @@ import Navbar from './misc-components/Navbar';
 import QuizRoutes from './quizzes/QuizRoutes';
 import PerformersComposersRoutes from './artists-data/PerformersComposersRoutes';
 import DayInTheLifeGame from './Day-in-life-game/DayInTheLifeGame';
+import ScrollToTop from './misc-components/ScrollToTop';
 
 const App = () => {
   return (
     <Router>
-
+      <ScrollToTop />
       <Navbar />
       <Route path="/" exact component={Home} />
       <Route path="/dayinlife" exact component={DayInTheLifeGame} />
