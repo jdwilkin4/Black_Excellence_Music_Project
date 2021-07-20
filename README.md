@@ -1,7 +1,7 @@
-# Black Excellence Music Project
+<img width="1262" alt="Screen Shot 2021-07-19 at 9 10 02 PM" src="https://user-images.githubusercontent.com/67210629/126260582-312aa6d6-0055-4879-a2e5-50f1cf38ab86.png">
 
-This is version 2 of my Black Excellence Music Project website.
-Version 2 has a new design, more artists, more games and more educational resources. 
+
+## Version 2 has a new design, more artists, more games and more educational resources. 
 
 ## Newly Designed artist profiles
 
