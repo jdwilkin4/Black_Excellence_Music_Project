@@ -16,7 +16,6 @@ const App = () => {
       <Route path="/dayinlife" exact component={DayInTheLifeGame} />
       <QuizRoutes />
       <PerformersComposersRoutes />
-
     </Router>
   );
 }
