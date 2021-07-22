@@ -20,12 +20,12 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full text-center">
-        <h2 className="my-14 text-5xl font-bold leading-tight">Lack of representation</h2>
-        <h3 className="w-full my-2 text-3xl font-bold leading-tight text-center text-gray-800">Black Musicians in American Orchestras only make up 1.8%</h3>
-        <h3 className="w-full my-2 text-2xl font-bold leading-tight text-center text-gray-800">Change can only happen through education and action</h3>
+        <h2 className="mt-14 text-5xl font-bold ">Lack of representation</h2>
+        <h3 className="w-full my-2 text-3xl font-bold  text-center text-gray-800">Black Musicians in American Orchestras only make up 1.8%</h3>
+        <h3 className="w-full my-2 text-2xl font-bold  text-center text-gray-800">Change can only happen through education and action</h3>
 
         <cite>Data provided by League of American Orchestras</cite>
-        <div className="flex  justify-center">
+        <div className="flex -my-6  justify-center">
           <D3PieChart innerRadius={0} outerRadius={200} />
         </div>
       </div>
