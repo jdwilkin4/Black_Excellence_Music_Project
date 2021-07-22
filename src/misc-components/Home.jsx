@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import D3PieChart from "./D3PieChart";
 const Home = () => {
   return (
     <>
@@ -18,10 +19,20 @@ const Home = () => {
           <img class="inline-block h-60 w-60 rounded-full object-cover ring-2 ring-white" src="https://lcweb2.loc.gov/diglib/ihas/html/images/nathaniel-dett.jpg" alt="Robert Nathaniel Dett" />
         </div>
       </div>
+      <div className="w-full text-center">
+        <h2 className="my-14 text-5xl font-bold leading-tight">Lack of representation</h2>
+        <h3 className="w-full my-2 text-3xl font-bold leading-tight text-center text-gray-800">Black Musicians in American Orchestras only make up 1.8%</h3>
+        <h3 className="w-full my-2 text-2xl font-bold leading-tight text-center text-gray-800">Change can only happen through education and action</h3>
+
+        <cite>Data provided by League of American Orchestras</cite>
+        <div className="flex  justify-center">
+          <D3PieChart innerRadius={0} outerRadius={200} />
+        </div>
+      </div>
 
       <section class="border-b py-8">
         <div class="container max-w-5xl mx-auto m-8">
-          <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+          <h2 class="w-full text-5xl font-bold leading-tight text-center text-gray-800">
             Explore black artists from past and present
           </h2>
           <div class="w-full mb-4">
@@ -35,7 +46,7 @@ const Home = () => {
               <p class="text-gray-600 text-3xl mt-12">
                 Learn about Michael Abels, Eleanor Alberga, William Levi Dawson, Tania Justina León, and more!
                 <div className="mt-12">
-                  <Link className="w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg  font-bold text-2xl" to="/contemporary-composers">Contemporary Composers Page</Link>
+                  <Link className="w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg  font-bold text-xl" to="/contemporary-composers">Contemporary Composers</Link>
                 </div>
               </p>
             </div>
