@@ -1,3 +1,4 @@
+
 <div align="center">
   
 # Version 2
@@ -5,7 +6,7 @@
 
 <img width="1262" alt="Screen Shot 2021-07-19 at 9 10 02 PM" src="https://user-images.githubusercontent.com/67210629/126260582-312aa6d6-0055-4879-a2e5-50f1cf38ab86.png">
 
-
+<img width="910" alt="Screen Shot 2021-07-22 at 4 17 03 AM" src="https://user-images.githubusercontent.com/67210629/126630987-87c03dff-d69c-43cc-b43a-f8bc5835184a.png">
 
 <div align="center">
 
