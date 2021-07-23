@@ -6,6 +6,7 @@ import QuizRoutes from './quizzes/QuizRoutes';
 import PerformersComposersRoutes from './artists-data/PerformersComposersRoutes';
 import DayInTheLifeGame from './Day-in-life-game/DayInTheLifeGame';
 import ScrollToTop from './misc-components/ScrollToTop';
+import Footer from './misc-components/Footer';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Route path="/dayinlife" exact component={DayInTheLifeGame} />
       <QuizRoutes />
       <PerformersComposersRoutes />
+      <Footer />
     </Router>
   );
 }
