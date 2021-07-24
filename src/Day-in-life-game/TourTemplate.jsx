@@ -1,4 +1,4 @@
-const GameOptionsTemplate = (props) => {
+const TourTemplate = (props) => {
     return (
         <div className="container mx-auto">
             <div className="flex justify-center px-6 my-6">
@@ -19,4 +19,4 @@ const GameOptionsTemplate = (props) => {
         </div>
     )
 }
-export default GameOptionsTemplate;
+export default TourTemplate;

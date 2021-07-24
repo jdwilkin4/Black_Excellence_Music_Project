@@ -2,6 +2,8 @@ import { useState } from "react";
 import TourPage from "./TourPage";
 import LocalPage from "./LocalPage";
 import TeachingPage from "./TeachingPage";
+import GameOptions from "./GameOptions";
+import TourTemplate from "./TourTemplate";
 
 
 const GameHomePage = () => {
@@ -13,7 +15,62 @@ const GameHomePage = () => {
   const [showTeachingPage, setShowTeachingPage] = useState(false);
   const [hideHomeBtn, setHideHomeBtn] = useState(true);
 
+  //Tour options 
+  const [showTourHomePage, setShowTourHomePage] = useState(true);
+  const [showWestCoastPage, setShowWestCoastPage] = useState(false);
+  const [showMidWestPage, setShowMidWestPage] = useState(false);
+  const [showSouthPage, setShowSouthPage] = useState(false);
+  const [showEastCoastPage, setShowEastCoastPage] = useState(false);
 
+  const tourImages = [
+    { img: 'https://i.imgur.com/FcbtMke.jpg', alt: 'Georgia Lake' },
+    { img: 'https://i.imgur.com/PrW9mC8.jpg', alt: 'Los Angeles Ariel View' },
+    { img: 'https://i.imgur.com/jjr3dlz.jpg', alt: 'Maine Lighthouse' },
+    { img: 'https://i.imgur.com/hAjbrI3.jpg', alt: 'Chicago' }
+  ];
+
+  const downbeat = () => {
+
+  }
+
+  const westCoastArr = [
+    { location: 'Downbeat', locationFunction: downbeat },
+    { location: 'Purcell\'s' },
+    { location: 'Flamingo' },
+    { location: 'Dunbar' }
+  ];
+
+  const goToWestCoast = () => {
+    setShowWestCoastPage(true);
+    setShowTourHomePage(false);
+  }
+  const goToMidWest = () => {
+    setShowMidWestPage(true);
+    setShowTourHomePage(false);
+  }
+  const gotToSouth = () => {
+    setShowSouthPage(true);
+    setShowTourHomePage(false);
+  }
+  const goToEastCoast = () => {
+    setShowEastCoastPage(true);
+    setShowTourHomePage(false);
+  }
+  const locationsArr = [
+    { location: 'West Coast', locationFunction: goToWestCoast },
+    { location: 'MidWest', locationFunction: goToMidWest },
+    { location: 'South', locationFunction: gotToSouth },
+    { location: 'East Coast', locationFunction: goToEastCoast }
+
+  ];
+
+  const TourComponents = () => {
+    if (showTourHomePage) {
+      return <TourTemplate arr={locationsArr} img="https://i.imgur.com/1wOv2p8.jpg" alt="Los Angeles Palm Trees" />
+    } else if (showWestCoastPage) {
+      return <TourTemplate arr={westCoastArr} img='https://i.imgur.com/PrW9mC8.jpg' alt='Los Angeles Ariel View' />
+    }
+  }
 
   const handleTourClick = () => {
     setGreeting('Where would you like to go?');
@@ -58,7 +115,7 @@ const GameHomePage = () => {
     if (showHomePage) {
       return <GameOptions greeting={greeting} earnings={earnings} gameInfo={gameOptionCards} />
     } else if (showTourPage) {
-      return <TourPage greeting={greeting} earnings={earnings} />
+      return <TourPage tourComponents={TourComponents()} greeting={greeting} earnings={earnings} />
     } else if (showLocalPage) {
       return <LocalPage />
     } else if (showTeachingPage) {
@@ -76,40 +133,9 @@ const GameHomePage = () => {
           <button className="px-3	 py-3 text-white bg-green-700  rounded-lg font-bold " onClick={handleHomeClick}>Return Home</button>
         </div>
 
-
       }
 
     </>
-  )
-}
-
-//child components
-
-const GameOptions = (props) => {
-  return (
-    <>
-      <h2 className="my-6 text-4xl text-center">{props.greeting} </h2>
-      <p className="my-2 text-xl text-center">Earnings: ${props.earnings}</p>
-      <div className="flex  items-center flex-wrap justify-center">
-        {props.gameInfo.map((options, index) => (
-
-          <div key={index} className="p-4 relative">
-            <div className=" border-2 border-purple-700	rounded-lg shadow px-8 py-2 pt-4">
-
-              <h2 className="text-2xl text-center mb-4 font-bold"> {options.title} </h2>
-              <img alt={options.alt} src={options.src} className="mx-auto object-cover rounded-lg h-40 w-40 " />
-
-              <p className="text-md text-center  w-60  mx-auto py-4">{options.description} </p>
-              <div className="flex justify-center	 items-center	">
-                <button onClick={options.handleClick} className="w-9/12  py-3 text-white bg-green-700  rounded-lg font-bold ">{options.btn}</button>
-              </div>
-            </div>
-          </div>
-
-        ))}
-      </div>
-    </>
-
   )
 }
 
