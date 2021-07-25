@@ -4,7 +4,7 @@ import LocalPage from "./LocalPage";
 import TeachingPage from "./TeachingPage";
 import GameOptions from "./GameOptions";
 import TourTemplate from "./TourTemplate";
-
+import gigResponses from "./gigResponsesArray";
 
 const GameHomePage = () => {
   const [earnings, setEarnings] = useState(0);
@@ -22,6 +22,24 @@ const GameHomePage = () => {
   const [showSouthPage, setShowSouthPage] = useState(false);
   const [showEastCoastPage, setShowEastCoastPage] = useState(false);
 
+  //shuffle performance array responses
+  const shuffle = (array) => {
+    let remainingElements = array.length;
+    let temp;
+    let i;
+
+    while (remainingElements) {
+      i = Math.floor(Math.random() * remainingElements--);
+
+      temp = array[remainingElements];
+      array[remainingElements] = array[i];
+      array[i] = temp;
+    }
+    const randomNum = Math.floor(Math.random() * array.length);
+
+    return setGreeting(array[randomNum]);
+  }
+
   const tourImages = [
     { img: 'https://i.imgur.com/FcbtMke.jpg', alt: 'Georgia Lake' },
     { img: 'https://i.imgur.com/PrW9mC8.jpg', alt: 'Los Angeles Ariel View' },
@@ -29,20 +47,23 @@ const GameHomePage = () => {
     { img: 'https://i.imgur.com/hAjbrI3.jpg', alt: 'Chicago' }
   ];
 
-  const downbeat = () => {
-
+  const westCoastVenues = () => {
+    shuffle(gigResponses)
+    setEarnings(earnings + 5)
   }
 
+
   const westCoastArr = [
-    { location: 'Downbeat', locationFunction: downbeat },
-    { location: 'Purcell\'s' },
-    { location: 'Flamingo' },
-    { location: 'Dunbar' }
+    { location: 'Downbeat', locationFunction: westCoastVenues },
+    { location: 'Purcell\'s', locationFunction: westCoastVenues },
+    { location: 'Flamingo', locationFunction: westCoastVenues },
+    { location: 'Dunbar', locationFunction: westCoastVenues }
   ];
 
   const goToWestCoast = () => {
     setShowWestCoastPage(true);
     setShowTourHomePage(false);
+
   }
   const goToMidWest = () => {
     setShowMidWestPage(true);
@@ -68,7 +89,7 @@ const GameHomePage = () => {
     if (showTourHomePage) {
       return <TourTemplate arr={locationsArr} img="https://i.imgur.com/1wOv2p8.jpg" alt="Los Angeles Palm Trees" />
     } else if (showWestCoastPage) {
-      return <TourTemplate arr={westCoastArr} img='https://i.imgur.com/PrW9mC8.jpg' alt='Los Angeles Ariel View' />
+      return <TourTemplate arr={westCoastArr} img={tourImages[1].img} alt={tourImages[1].alt} />
     }
   }
 
@@ -99,9 +120,8 @@ const GameHomePage = () => {
     setShowTeachingPage(false);
     setShowTourPage(false);
     setHideHomeBtn(true);
+    setShowWestCoastPage(false);
     setGreeting('What would you like to do today?');
-
-    return <GameOptions gameInfo={gameOptionCards} />
   }
 
   const gameOptionCards = [
@@ -113,9 +133,9 @@ const GameHomePage = () => {
 
   const changeGameComponents = () => {
     if (showHomePage) {
-      return <GameOptions greeting={greeting} earnings={earnings} gameInfo={gameOptionCards} />
+      return <GameOptions gameInfo={gameOptionCards} />
     } else if (showTourPage) {
-      return <TourPage tourComponents={TourComponents()} greeting={greeting} earnings={earnings} />
+      return <TourPage tourComponents={TourComponents()} />
     } else if (showLocalPage) {
       return <LocalPage />
     } else if (showTeachingPage) {
@@ -126,6 +146,8 @@ const GameHomePage = () => {
 
   return (
     <>
+      <h2 className="my-6 text-4xl text-center">{greeting} </h2>
+      <p className="my-2 text-xl text-center">Earnings: ${earnings}</p>
       {changeGameComponents()}
       {hideHomeBtn ? null :
 
