@@ -1,5 +1,4 @@
 import { useState } from "react";
-import TeachingPage from "./TeachingPage";
 import GameOptions from "./GameOptions";
 import TourTemplate from "./TourTemplate";
 import gigResponses from "./gigResponsesArray";
@@ -10,7 +9,6 @@ const GameHomePage = () => {
   const [showHomePage, setShowHomePage] = useState(true);
   const [showTourPage, setShowTourPage] = useState(false);
   const [showLocalPage, setShowLocalPage] = useState(false);
-  const [showTeachingPage, setShowTeachingPage] = useState(false);
   const [hideHomeBtn, setHideHomeBtn] = useState(true);
 
   //Tour options 
@@ -118,17 +116,9 @@ const GameHomePage = () => {
     setShowLocalPage(true);
   }
 
-  const handleTeachingClick = () => {
-    setGreeting('Where would you like to teach today?');
-    setHideHomeBtn(false);
-    setShowTeachingPage(true);
-    setShowHomePage(false);
-  }
-
   const handleHomeClick = () => {
     setShowHomePage(true);
     setShowLocalPage(false);
-    setShowTeachingPage(false);
     setShowTourPage(false);
     setHideHomeBtn(true);
     setShowWestCoastPage(false);
@@ -141,7 +131,6 @@ const GameHomePage = () => {
   const gameOptionCards = [
     { title: 'Tour the U.S.', description: 'Take the act on the road', btn: 'Start Tour', src: "https://i.imgur.com/1wOv2p8.jpg", alt: 'palm trees', handleClick: handleTourClick },
     { title: 'Gig around town', description: 'Hit up the hot jazz spots in N.Y.C.', btn: 'Local gigs', src: "https://i.imgur.com/gD4G553.jpg", alt: 'lady liberty', handleClick: handleLocalClick },
-    { title: 'Teaching', description: 'Teach the next jazz generation', btn: 'Go Teach', src: "https://i.imgur.com/hgLRhq0.jpg", alt: 'piano and sheet music', handleClick: handleTeachingClick },
   ];
 
 
@@ -160,8 +149,6 @@ const GameHomePage = () => {
       return <TourTemplate arr={eastCoastArr} img='https://i.imgur.com/jjr3dlz.jpg' alt='Maine Lighthouse' />
     } else if (showLocalPage) {
       return <TourTemplate arr={localGigArr} img={`${process.env.PUBLIC_URL}/images/NYC-bridge.jpg`} alt='New York City bridge' />
-    } else if (showTeachingPage) {
-      return <TeachingPage />
     }
   }
 
@@ -172,13 +159,10 @@ const GameHomePage = () => {
       <p className="my-2 text-xl text-center">Earnings: ${earnings}</p>
       {changeGameComponents()}
       {hideHomeBtn ? null :
-
         <div className="flex items-center	justify-center">
           <button className="px-3	 py-3 text-white bg-green-700  rounded-lg font-bold " onClick={handleHomeClick}>Return Home</button>
         </div>
-
       }
-
     </>
   )
 }
