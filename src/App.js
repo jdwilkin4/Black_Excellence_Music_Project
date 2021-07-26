@@ -5,6 +5,7 @@ import Navbar from './misc-components/Navbar';
 import QuizRoutes from './quizzes/QuizRoutes';
 import PerformersComposersRoutes from './artists-data/PerformersComposersRoutes';
 import DayInTheLifeGame from './Day-in-life-game/DayInTheLifeGame';
+import Games from './misc-components/Games';
 import ScrollToTop from './misc-components/ScrollToTop';
 import Footer from './misc-components/Footer';
 
@@ -15,6 +16,7 @@ const App = () => {
       <Navbar />
       <Route path="/" exact component={Home} />
       <Route path="/dayinlife" exact component={DayInTheLifeGame} />
+      <Route exact path="/games" component={Games} />
       <QuizRoutes />
       <PerformersComposersRoutes />
       <Footer />
