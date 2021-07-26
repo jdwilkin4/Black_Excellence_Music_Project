@@ -1,5 +1,4 @@
 import { useState } from "react";
-import TourPage from "./TourPage";
 import LocalPage from "./LocalPage";
 import TeachingPage from "./TeachingPage";
 import GameOptions from "./GameOptions";
@@ -46,35 +45,61 @@ const GameHomePage = () => {
     { img: 'https://i.imgur.com/hAjbrI3.jpg', alt: 'Chicago' }
   ];
 
-  const westCoastVenues = () => {
+  const venues = () => {
     shuffle(gigResponses)
     setEarnings(earnings + 5)
   }
 
   const westCoastArr = [
-    { location: 'Downbeat', locationFunction: westCoastVenues },
-    { location: 'Purcell\'s', locationFunction: westCoastVenues },
-    { location: 'Flamingo', locationFunction: westCoastVenues },
-    { location: 'Dunbar', locationFunction: westCoastVenues }
+    { location: 'Downbeat', locationFunction: venues },
+    { location: 'Purcell\'s', locationFunction: venues },
+    { location: 'Flamingo', locationFunction: venues },
+    { location: 'Dunbar', locationFunction: venues }
+  ];
+
+  const eastCoastArr = [
+    { location: 'Pearl', locationFunction: venues },
+    { location: 'Alhambra', locationFunction: venues },
+    { location: 'Southland', locationFunction: venues },
+    { location: 'Bohemian', locationFunction: venues }
+  ];
+  const southArr = [
+    { location: 'Saenger', locationFunction: venues },
+    { location: 'Tabernacle', locationFunction: venues },
+    { location: 'Douglass', locationFunction: venues },
+    { location: 'Carver', locationFunction: venues }
+  ];
+  const midwestArr = [
+    { location: 'Baker\'s Lounge', locationFunction: venues },
+    { location: 'Club DeLisa', locationFunction: venues },
+    { location: 'Kelly\'s Stables', locationFunction: venues },
+    { location: 'Friar\'s Inn', locationFunction: venues }
   ];
 
   const goToWestCoast = () => {
+    setGreeting('Welcome to the West Coast. Pick a venue');
     setShowWestCoastPage(true);
     setShowTourPage(false);
 
   }
   const goToMidWest = () => {
+    setGreeting('Welcome to the Midwest. Pick a venue');
+    setShowTourPage(false);
     setShowMidWestPage(true);
   }
   const gotToSouth = () => {
     setShowSouthPage(true);
+    setGreeting('Welcome to the South. Pick a venue');
+    setShowTourPage(false);
   }
   const goToEastCoast = () => {
+    setGreeting('Welcome to the East Coast. Pick a venue');
+    setShowTourPage(false);
     setShowEastCoastPage(true);
   }
   const locationsArr = [
     { location: 'West Coast', locationFunction: goToWestCoast },
-    { location: 'MidWest', locationFunction: goToMidWest },
+    { location: 'Midwest', locationFunction: goToMidWest },
     { location: 'South', locationFunction: gotToSouth },
     { location: 'East Coast', locationFunction: goToEastCoast }
 
@@ -110,6 +135,9 @@ const GameHomePage = () => {
     setShowTourPage(false);
     setHideHomeBtn(true);
     setShowWestCoastPage(false);
+    setShowMidWestPage(false);
+    setShowEastCoastPage(false);
+    setShowSouthPage(false);
     setGreeting('What would you like to do today?');
   }
 
@@ -127,6 +155,12 @@ const GameHomePage = () => {
       return <TourTemplate arr={locationsArr} img="https://i.imgur.com/1wOv2p8.jpg" alt="Los Angeles Palm Trees" />
     } else if (showWestCoastPage) {
       return <TourTemplate arr={westCoastArr} img='https://i.imgur.com/PrW9mC8.jpg' alt='Los Angeles Ariel View' />
+    } else if (showMidWestPage) {
+      return <TourTemplate arr={midwestArr} img='https://i.imgur.com/hAjbrI3.jpg' alt='Chicago' />
+    } else if (showSouthPage) {
+      return <TourTemplate arr={southArr} img='https://i.imgur.com/FcbtMke.jpg' alt='Georgia Lake' />
+    } else if (showEastCoastPage) {
+      return <TourTemplate arr={eastCoastArr} img='https://i.imgur.com/jjr3dlz.jpg' alt='Maine Lighthouse' />
     } else if (showLocalPage) {
       return <LocalPage />
     } else if (showTeachingPage) {
