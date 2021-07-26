@@ -16,7 +16,6 @@ const GameHomePage = () => {
   const [hideHomeBtn, setHideHomeBtn] = useState(true);
 
   //Tour options 
-  const [showTourHomePage, setShowTourHomePage] = useState(true);
   const [showWestCoastPage, setShowWestCoastPage] = useState(false);
   const [showMidWestPage, setShowMidWestPage] = useState(false);
   const [showSouthPage, setShowSouthPage] = useState(false);
@@ -52,7 +51,6 @@ const GameHomePage = () => {
     setEarnings(earnings + 5)
   }
 
-
   const westCoastArr = [
     { location: 'Downbeat', locationFunction: westCoastVenues },
     { location: 'Purcell\'s', locationFunction: westCoastVenues },
@@ -62,20 +60,17 @@ const GameHomePage = () => {
 
   const goToWestCoast = () => {
     setShowWestCoastPage(true);
-    setShowTourHomePage(false);
+    setShowTourPage(false);
 
   }
   const goToMidWest = () => {
     setShowMidWestPage(true);
-    setShowTourHomePage(false);
   }
   const gotToSouth = () => {
     setShowSouthPage(true);
-    setShowTourHomePage(false);
   }
   const goToEastCoast = () => {
     setShowEastCoastPage(true);
-    setShowTourHomePage(false);
   }
   const locationsArr = [
     { location: 'West Coast', locationFunction: goToWestCoast },
@@ -85,13 +80,7 @@ const GameHomePage = () => {
 
   ];
 
-  const TourComponents = () => {
-    if (showTourHomePage) {
-      return <TourTemplate arr={locationsArr} img="https://i.imgur.com/1wOv2p8.jpg" alt="Los Angeles Palm Trees" />
-    } else if (showWestCoastPage) {
-      return <TourTemplate arr={westCoastArr} img={tourImages[1].img} alt={tourImages[1].alt} />
-    }
-  }
+
 
   const handleTourClick = () => {
     setGreeting('Where would you like to go?');
@@ -135,7 +124,9 @@ const GameHomePage = () => {
     if (showHomePage) {
       return <GameOptions gameInfo={gameOptionCards} />
     } else if (showTourPage) {
-      return <TourPage tourComponents={TourComponents()} />
+      return <TourTemplate arr={locationsArr} img="https://i.imgur.com/1wOv2p8.jpg" alt="Los Angeles Palm Trees" />
+    } else if (showWestCoastPage) {
+      return <TourTemplate arr={westCoastArr} img='https://i.imgur.com/PrW9mC8.jpg' alt='Los Angeles Ariel View' />
     } else if (showLocalPage) {
       return <LocalPage />
     } else if (showTeachingPage) {
