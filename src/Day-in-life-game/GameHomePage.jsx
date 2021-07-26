@@ -1,5 +1,4 @@
 import { useState } from "react";
-import LocalPage from "./LocalPage";
 import TeachingPage from "./TeachingPage";
 import GameOptions from "./GameOptions";
 import TourTemplate from "./TourTemplate";
@@ -38,13 +37,6 @@ const GameHomePage = () => {
     return setGreeting(array[randomNum]);
   }
 
-  const tourImages = [
-    { img: 'https://i.imgur.com/FcbtMke.jpg', alt: 'Georgia Lake' },
-    { img: 'https://i.imgur.com/PrW9mC8.jpg', alt: 'Los Angeles Ariel View' },
-    { img: 'https://i.imgur.com/jjr3dlz.jpg', alt: 'Maine Lighthouse' },
-    { img: 'https://i.imgur.com/hAjbrI3.jpg', alt: 'Chicago' }
-  ];
-
   const venues = () => {
     shuffle(gigResponses)
     setEarnings(earnings + 5)
@@ -76,6 +68,13 @@ const GameHomePage = () => {
     { location: 'Friar\'s Inn', locationFunction: venues }
   ];
 
+  const localGigArr = [
+    { location: 'Jimmy Ryan\'s', locationFunction: venues },
+    { location: 'Onyx Club', locationFunction: venues },
+    { location: 'Famous Door', locationFunction: venues },
+    { location: 'Village Vanguard', locationFunction: venues },
+  ]
+
   const goToWestCoast = () => {
     setGreeting('Welcome to the West Coast. Pick a venue');
     setShowWestCoastPage(true);
@@ -104,8 +103,6 @@ const GameHomePage = () => {
     { location: 'East Coast', locationFunction: goToEastCoast }
 
   ];
-
-
 
   const handleTourClick = () => {
     setGreeting('Where would you like to go?');
@@ -162,7 +159,7 @@ const GameHomePage = () => {
     } else if (showEastCoastPage) {
       return <TourTemplate arr={eastCoastArr} img='https://i.imgur.com/jjr3dlz.jpg' alt='Maine Lighthouse' />
     } else if (showLocalPage) {
-      return <LocalPage />
+      return <TourTemplate arr={localGigArr} img={`${process.env.PUBLIC_URL}/images/NYC-bridge.jpg`} alt='New York City bridge' />
     } else if (showTeachingPage) {
       return <TeachingPage />
     }
