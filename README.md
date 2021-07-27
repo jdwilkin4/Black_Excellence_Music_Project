@@ -49,6 +49,8 @@ Version 1 Artist Quiz     |  Version 2 Artist Quiz
 <img width="510" alt="Screen Shot 2021-07-16 at 3 16 26 AM" src="https://user-images.githubusercontent.com/67210629/125932776-edcc9a83-e3f3-4f21-a8a7-f8fb4ebf237d.png"> |  <img width="1007" alt="Screen Shot 2021-07-16 at 3 17 52 AM" src="https://user-images.githubusercontent.com/67210629/125932908-0ac5ce7a-3d60-4ece-9a0c-4d881b58e0b7.png">
 
 
+## Testing
+This project was tested with Jest.
 
 
 ## Available Scripts
