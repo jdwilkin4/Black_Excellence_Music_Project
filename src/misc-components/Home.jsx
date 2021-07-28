@@ -3,7 +3,9 @@ import D3PieChart from "./D3PieChart";
 import quizCards from "../quizzes/quiz-cards";
 
 const Home = () => {
-  const quizCardArr = quizCards.slice(4, 8);
+  const quizCardArr = quizCards.slice(4, 7);
+  const roundedImage = "inline-block h-60 w-60 rounded-full object-cover ring-2 ring-white";
+  const d3H3Text = "w-full my-2 text-3xl font-bold  text-center"
   return (
     <>
       <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
@@ -16,16 +18,16 @@ const Home = () => {
           </p>
         </div>
         <div className="flex-wrap w-full justify-center py-6 text-center flex -space-x-2">
-          <img className="inline-block h-60 w-60 rounded-full object-cover ring-2 ring-white" src="https://www.wrti.org/sites/wrti/files/styles/x_large/public/201703/EllaFitzgerald923px.jpg" alt="Ella Fitzgerald" />
-          <img className="inline-block h-60 w-60 rounded-full object-cover ring-2 ring-white" src="https://bloximages.newyork1.vip.townnews.com/theadvocate.com/content/tncms/assets/v3/editorial/7/b3/7b38444d-ce60-5ca9-b3b3-1235ec5498a7/57518c10ab93c.image.jpg?crop=743%2C743%2C0%2C123&resize=1200%2C1200&order=crop%2Cresize" alt="Terrance Blanchard" />
-          <img className="inline-block h-60 w-60 rounded-full object-cover ring-2 ring-white" src="https://cdn.michiganopera.org/20210303111250/Margaret-Bonds-722.jpg" alt="Margaret Bonds" />
-          <img className="inline-block h-60 w-60 rounded-full object-cover ring-2 ring-white" src="https://lcweb2.loc.gov/diglib/ihas/html/images/nathaniel-dett.jpg" alt="Robert Nathaniel Dett" />
+          <img className={roundedImage} src={process.env.PUBLIC_URL + "/images/EllaFitzgerald923px.jpg"} alt="Ella Fitzgerald" />
+          <img className={roundedImage} src={process.env.PUBLIC_URL + '/images/Terrance-Blanchard.jpg'} alt="Terrance Blanchard" />
+          <img className={roundedImage} src={process.env.PUBLIC_URL + "/images/Margaret-Bonds-722.jpg"} alt="Margaret Bonds" />
+          <img className={roundedImage} src={process.env.PUBLIC_URL + "/images/nathaniel-dett.jpg"} alt="Robert Nathaniel Dett" />
         </div>
       </div>
       <div className="w-full text-center">
         <h2 className="mt-14 text-5xl font-bold ">Lack of representation</h2>
-        <h3 className="w-full my-2 text-3xl font-bold  text-center text-gray-800">Black Musicians in American Orchestras only make up 1.8%</h3>
-        <h3 className="w-full my-2 text-2xl font-bold  text-center text-gray-800">Change can only happen through education and action</h3>
+        <h3 className={d3H3Text}>Black Musicians in American Orchestras only make up 1.8%</h3>
+        <h3 className={d3H3Text}>Change can only happen through education and action</h3>
 
         <cite>Data provided by League of American Orchestras</cite>
         <div className="flex -my-6  justify-center">
@@ -53,13 +55,13 @@ const Home = () => {
                 </div>
               </p>
             </div>
-            <div className=" rounded-lg sm:w-1/2 p-6">
-              <img className=" w-full h-5/6 rounded-lg" src="https://www.musicunitesjamaica.com/uploads/1/2/2/5/12251498/published/alberga-eleanor-c-keith-saunders-arenapal.jpg?1484700784" alt="Eleanor Alberga" />
+            <div className="rounded-lg sm:w-1/2 p-6">
+              <img className=" w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/Eleanor-Alberga.jpg"} alt="Eleanor Alberga" />
             </div>
           </div>
           <div className="flex flex-wrap">
             <div className="rounded-lg sm:w-1/2 p-6">
-              <img className=" w-full h-5/6 rounded-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Duke_Ellington_-_publicity.JPG/220px-Duke_Ellington_-_publicity.JPG" alt="Duke Ellington" />
+              <img className="w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/Duke-Ellington.jpg"} alt="Duke Ellington" />
             </div>
             <div className="w-5/6 sm:w-1/2 p-6">
               <h3 className="text-4xl text-gray-800 font-bold leading-none my-6">
@@ -86,12 +88,12 @@ const Home = () => {
               </p>
             </div>
             <div className="rounded-lg sm:w-1/2 p-6">
-              <img className="w-full h-5/6 rounded-lg" src="https://images.pulsewebcontent.com/photos/2018/06_Jun/800/RayCharles_6_15.jpg" alt="Ray Charles" />
+              <img className="w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/RayCharles.jpg"} alt="Ray Charles" />
             </div>
           </div>
           <div className="flex flex-wrap">
             <div className="rounded-lg sm:w-1/2 p-6">
-              <img className=" w-full h-5/6 rounded-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Dinah_Washington_1962.jpg/220px-Dinah_Washington_1962.jpg" alt="Dinah Washington" />
+              <img className=" w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/Dinah_Washington.jpg"} alt="Dinah Washington" />
             </div>
             <div className="w-5/6 sm:w-1/2 p-6">
               <h3 className="text-4xl text-gray-800 font-bold leading-none my-6">
@@ -107,7 +109,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <div className="min-w-screen min-h-screen -mt-20 bg-gray-100 px-5 py-5">
+      <div className="min-w-screen min-h-screen -mt-20 px-5 py-5">
         <div className="w-full mx-auto bg-white px-5 py-10 text-black-600 mb-10">
           <div className="text-center max-w-xl mx-auto">
             <h2 className=" text-5xl font-bold">Take Quizzes</h2>
@@ -148,7 +150,7 @@ const Home = () => {
         </div>
 
         <div className="flex items-center justify-center w-full h-96 md:w-1/2">
-          <img className="object-cover w-full h-full max-w-2xl rounded-md" src="https://i.imgur.com/epWr8mg.jpg" alt="New York City" />
+          <img className="object-cover w-full h-full max-w-2xl rounded-md" src={process.env.PUBLIC_URL + "/images/New York City.jpg"} alt="New York City" />
         </div>
       </div>
     </ >
