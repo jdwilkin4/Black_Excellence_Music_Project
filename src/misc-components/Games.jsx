@@ -9,7 +9,7 @@ const Games = () => {
                 text={'Experience what is was like to be a young black jazz pianist in 1930\'s America.'}
                 path='/dayinlife'
                 linkName='Day in the Life'
-                img='https://i.imgur.com/epWr8mg.jpg'
+                img={process.env.PUBLIC_URL + "/images/New york city.jpg"}
                 alt='New York City'
                 gameCategory='Day in the Life Game'
             />
@@ -37,7 +37,7 @@ const GamesTemplate = (props) => {
                 <div className="md:flex-shrink-0">
                     <img src={props.img} alt={props.alt} className="w-full h-64 rounded-lg rounded-b-none" />
                 </div>
-                <div className="px-4 py-2 mt-2">
+                <div className="px-4 py-2">
                     <h2 className="font-bold text-center text-2xl text-black-800 tracking-normal">{props.gameCategory}</h2>
                 </div>
 
