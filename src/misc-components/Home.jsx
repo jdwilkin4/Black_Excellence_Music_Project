@@ -56,12 +56,12 @@ const Home = () => {
               </p>
             </div>
             <div className="rounded-lg sm:w-1/2 p-6">
-              <img className=" w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/Eleanor-Alberga.jpg"} alt="Eleanor Alberga" />
+              <img className=" w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/piano1.jpg"} alt="Piano" />
             </div>
           </div>
           <div className="flex flex-wrap">
             <div className="rounded-lg sm:w-1/2 p-6">
-              <img className="w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/Duke-Ellington.jpg"} alt="Duke Ellington" />
+              <img className="w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/jazzsax1.jpg"} alt="Unknown jazz saxophonist" />
             </div>
             <div className="w-5/6 sm:w-1/2 p-6">
               <h3 className="text-4xl text-gray-800 font-bold leading-none my-6">
@@ -88,12 +88,12 @@ const Home = () => {
               </p>
             </div>
             <div className="rounded-lg sm:w-1/2 p-6">
-              <img className="w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/RayCharles.jpg"} alt="Ray Charles" />
+              <img className="w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/drummer1.jpg"} alt="Unknown Drummer" />
             </div>
           </div>
           <div className="flex flex-wrap">
             <div className="rounded-lg sm:w-1/2 p-6">
-              <img className=" w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/Dinah_Washington.jpg"} alt="Dinah Washington" />
+              <img className=" w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/vocalist1.jpg"} alt="Vocal silhouette" />
             </div>
             <div className="w-5/6 sm:w-1/2 p-6">
               <h3 className="text-4xl text-gray-800 font-bold leading-none my-6">
@@ -150,7 +150,7 @@ const Home = () => {
         </div>
 
         <div className="flex items-center justify-center w-full h-96 md:w-1/2">
-          <img className="object-cover w-full h-full max-w-2xl rounded-md" src={process.env.PUBLIC_URL + "/images/New York City.jpg"} alt="New York City" />
+          <img className="object-cover w-full h-full max-w-2xl rounded-md" src={process.env.PUBLIC_URL + "/images/New york city.jpg"} alt="New York City" />
         </div>
       </div>
     </ >
