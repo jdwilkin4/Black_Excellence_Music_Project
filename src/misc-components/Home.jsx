@@ -5,7 +5,11 @@ import quizCards from "../quizzes/quiz-cards";
 const Home = () => {
   const quizCardArr = quizCards.slice(4, 7);
   const roundedImage = "inline-block h-60 w-60 rounded-full object-cover ring-2 ring-white";
-  const d3H3Text = "w-full my-2 text-3xl font-bold  text-center"
+  const d3H3Text = "w-full my-2 text-3xl text-center"
+  const h3Text = "text-4xl leading-none my-6"
+  const paraText = "text-xl mt-12"
+  const linkStyles = "w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg ";
+  const sectionImgs = "hidden md:block lg:block w-full h-5/6 rounded-lg";
   return (
     <>
       <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
@@ -25,9 +29,8 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full text-center">
-        <h2 className="mt-14 text-5xl font-bold ">Lack of representation</h2>
-        <h3 className={d3H3Text}>Black Musicians in American Orchestras only make up 1.8%</h3>
-        <h3 className={d3H3Text}>Change can only happen through education and action</h3>
+        <h2 className="mt-14 mb-12 text-5xl font-bold ">Lack of Diversity</h2>
+        <h3 className={d3H3Text}>Black Musicians in American Orchestras only make up <span className="font-bold">1.8%</span></h3>
 
         <cite>Data provided by League of American Orchestras</cite>
         <div className="flex -my-6  justify-center">
@@ -37,72 +40,72 @@ const Home = () => {
 
       <section className="border-b">
         <div className="container max-w-5xl mx-auto m-2">
-          <h2 className="mt-14 text-5xl font-bold ">
-            Explore black artists from past and present
+          <h2 className="mt-14 text-5xl font-bold text-center ">
+            Explore black artists
           </h2>
           <div className="w-full mb-4">
             <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
           </div>
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center">
             <div className="w-5/6 sm:w-1/2 p-6">
-              <h3 className="text-4xl text-gray-800 font-bold leading-none my-6">
+              <h3 className={h3Text}>
                 Contemporary Composers
               </h3>
-              <p className="text-gray-600 text-3xl mt-12">
+              <p className={paraText}>
                 Learn about Michael Abels, Eleanor Alberga, William Levi Dawson, Tania Justina León, and more!
                 <div className="mt-12">
-                  <Link className="w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg  font-bold text-xl" to="/contemporary-composers">Contemporary Composers</Link>
+                  <Link className={linkStyles} to="/contemporary-composers">Contemporary Composers</Link>
                 </div>
               </p>
             </div>
             <div className="rounded-lg sm:w-1/2 p-6">
-              <img className=" w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/piano1.jpg"} alt="Piano" />
+              <img className={sectionImgs} src={process.env.PUBLIC_URL + "/images/piano1.jpg"} alt="Piano" />
             </div>
           </div>
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center">
             <div className="rounded-lg sm:w-1/2 p-6">
-              <img className="w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/jazzsax1.jpg"} alt="Unknown jazz saxophonist" />
+              <img className={sectionImgs} src={process.env.PUBLIC_URL + "/images/jazzsax1.jpg"} alt="Unknown jazz saxophonist" />
             </div>
             <div className="w-5/6 sm:w-1/2 p-6">
-              <h3 className="text-4xl text-gray-800 font-bold leading-none my-6">
+              <h3 className={h3Text}>
                 Jazz Composers
               </h3>
-              <p className="text-gray-600 text-3xl mt-12">
+              <p className={paraText}>
                 Learn about Lillian Hardin Armstrong, Terence Oliver Blanchard,  Irene Kitchings, "Duke" Ellington, and more!
                 <div className="mt-12">
-                  <Link className="w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg  font-bold text-2xl" to="/jazz-composers">Jazz Composers Page</Link>
+                  <Link className={linkStyles} to="/jazz-composers">Jazz Composers Page</Link>
                 </div>
               </p>
             </div>
           </div>
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center">
             <div className="w-5/6 sm:w-1/2 p-6">
-              <h3 className="text-4xl text-gray-800 font-bold leading-none my-6">
+              <h3 className={h3Text}>
                 Instrumentalists
               </h3>
-              <p className="text-gray-600 text-3xl mt-12">
+              <p className={paraText}>
                 Learn about Ray Charles, Valerie Coleman, Lamar Carey Curtis, Diedre Murray and more!
                 <div className="mt-12">
-                  <Link className="w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg  font-bold text-2xl" to="/instrumentalists">Instrumentalists Page</Link>
+                  <Link className={linkStyles} to="/instrumentalists">Instrumentalists Page</Link>
                 </div>
               </p>
             </div>
             <div className="rounded-lg sm:w-1/2 p-6">
-              <img className="w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/drummer1.jpg"} alt="Unknown Drummer" />
+              <img className={sectionImgs} src={process.env.PUBLIC_URL + "/images/drummer1.jpg"} alt="Unknown Drummer" />
             </div>
           </div>
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center">
             <div className="rounded-lg sm:w-1/2 p-6">
-              <img className=" w-full h-5/6 rounded-lg" src={process.env.PUBLIC_URL + "/images/vocalist1.jpg"} alt="Vocal silhouette" />
+              <img className={sectionImgs} src={process.env.PUBLIC_URL + "/images/vocalist1.jpg"} alt="Vocal silhouette" />
             </div>
             <div className="w-5/6 sm:w-1/2 p-6">
-              <h3 className="text-4xl text-gray-800 font-bold leading-none my-6">
+              <h3 className={h3Text}>
                 Vocalists
               </h3>
-              <p className="text-gray-600 text-3xl mt-12">
+              <p className={paraText}>
                 Learn about Adele Addison, Nat King Cole,  Dinah Washington,  Gregory Porter, and more!
                 <div className="mt-12">
-                  <Link className="w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg  font-bold text-2xl" to="/vocalists">Vocalists Page</Link>
+                  <Link className={linkStyles} to="/vocalists">Vocalists Page</Link>
                 </div>
               </p>
             </div>
@@ -142,9 +145,10 @@ const Home = () => {
 
           <div className="max-w-lg md:mx-12 md:order-2">
             <h2 className="text-center text-5xl font-bold">Day in the Life Game</h2>
-            <p className="mt-4 text-gray-600 dark:text-gray-300">Explore what it is like to be a 1930's jazz pianist.</p>
+            <p className="text-xl mt-12">Explore what it is like to be a 1930's jazz pianist.</p>
+            <p className="text-xl mb-12">Tour the U.S. and perform in all the top jazz clubs.</p>
             <div className="mt-6">
-              <Link className="w-1/2 py-2 px-2 text-white bg-green-700 rounded-lg text-center text-2xl font-bold" to="/dayinlife">Day in The Life Page</Link>
+              <Link className={linkStyles} to="/dayinlife">Day in The Life Page</Link>
             </div>
           </div>
         </div>
