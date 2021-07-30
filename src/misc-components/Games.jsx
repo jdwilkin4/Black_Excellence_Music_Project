@@ -9,7 +9,7 @@ const Games = () => {
                 text={'Experience what is was like to be a young black jazz pianist in 1930\'s America.'}
                 path='/dayinlife'
                 linkName='Day in the Life'
-                img={process.env.PUBLIC_URL + "/images/New york city.jpg"}
+                img={process.env.PUBLIC_URL + "/images/NYC (1).jpg"}
                 alt='New York City'
                 gameCategory='Day in the Life Game'
             />
@@ -17,8 +17,8 @@ const Games = () => {
                 text='How well do you know these artists?'
                 path='/quizzes'
                 linkName='Take a quiz'
-                img='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Louis_Armstrong_restored.jpg/220px-Louis_Armstrong_restored.jpg'
-                alt='Louis Armstrong'
+                img={process.env.PUBLIC_URL + '/images/jazz-painting.jpg'}
+                alt='Jazz Painting'
                 gameCategory='Quizzes'
             />
 
