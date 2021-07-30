@@ -10,6 +10,7 @@ const Home = () => {
   const paraText = "text-xl mt-12"
   const linkStyles = "w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg ";
   const sectionImgs = "hidden md:block lg:block w-full h-5/6 rounded-lg";
+
   return (
     <>
       <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
@@ -34,7 +35,7 @@ const Home = () => {
 
         <cite>Data provided by League of American Orchestras</cite>
         <div className="flex -my-6  justify-center">
-          <D3PieChart innerRadius={0} outerRadius={200} />
+          <D3PieChart innerRadius={0} outerRadius={150} />
         </div>
       </div>
 
@@ -51,12 +52,12 @@ const Home = () => {
               <h3 className={h3Text}>
                 Contemporary Composers
               </h3>
-              <p className={paraText}>
+              <div className={paraText}>
                 Learn about Michael Abels, Eleanor Alberga, William Levi Dawson, Tania Justina León, and more!
                 <div className="mt-12">
                   <Link className={linkStyles} to="/contemporary-composers">Contemporary Composers</Link>
                 </div>
-              </p>
+              </div>
             </div>
             <div className="rounded-lg sm:w-1/2 p-6">
               <img className={sectionImgs} src={process.env.PUBLIC_URL + "/images/piano1.jpg"} alt="Piano" />
@@ -70,12 +71,12 @@ const Home = () => {
               <h3 className={h3Text}>
                 Jazz Composers
               </h3>
-              <p className={paraText}>
+              <div className={paraText}>
                 Learn about Lillian Hardin Armstrong, Terence Oliver Blanchard,  Irene Kitchings, "Duke" Ellington, and more!
                 <div className="mt-12">
                   <Link className={linkStyles} to="/jazz-composers">Jazz Composers Page</Link>
                 </div>
-              </p>
+              </div>
             </div>
           </div>
           <div className="flex flex-wrap justify-center">
@@ -83,12 +84,12 @@ const Home = () => {
               <h3 className={h3Text}>
                 Instrumentalists
               </h3>
-              <p className={paraText}>
+              <div className={paraText}>
                 Learn about Ray Charles, Valerie Coleman, Lamar Carey Curtis, Diedre Murray and more!
                 <div className="mt-12">
                   <Link className={linkStyles} to="/instrumentalists">Instrumentalists Page</Link>
                 </div>
-              </p>
+              </div>
             </div>
             <div className="rounded-lg sm:w-1/2 p-6">
               <img className={sectionImgs} src={process.env.PUBLIC_URL + "/images/drummer1.jpg"} alt="Unknown Drummer" />
@@ -102,12 +103,12 @@ const Home = () => {
               <h3 className={h3Text}>
                 Vocalists
               </h3>
-              <p className={paraText}>
+              <div className={paraText}>
                 Learn about Adele Addison, Nat King Cole,  Dinah Washington,  Gregory Porter, and more!
                 <div className="mt-12">
                   <Link className={linkStyles} to="/vocalists">Vocalists Page</Link>
                 </div>
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -125,7 +126,7 @@ const Home = () => {
               <div className="w-56 text-center mb-2">
                 <h2 className="text-black font-bold text-lg mb-2">{artist.name}</h2>
                 <div className="photo-wrapper p-2">
-                  <img className="w-40 h-40 rounded-full mx-auto" src={artist.image} alt={artist.alt} />
+                  <img className="w-40 h-40 rounded-full mx-auto" src={process.env.PUBLIC_URL + artist.image} alt={artist.alt} />
                 </div>
               </div>
               <div className="text-center mt-4 mb-8">

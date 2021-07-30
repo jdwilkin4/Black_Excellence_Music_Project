@@ -29,21 +29,21 @@ const quizCards = [
     },
     {
         name: 'Ray Charles',
-        image: 'https://images.pulsewebcontent.com/photos/2018/06_Jun/800/RayCharles_6_15.jpg',
+        image: '/images/RayCharles.jpg',
         alt: 'Ray Charles',
         bio: 'https://kids.kiddle.co/Ray_Charles',
         quiz: 'charlesquiz'
     },
     {
         name: 'Marian Anderson',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Marian_Anderson.jpg/220px-Marian_Anderson.jpg',
+        image: '/images/Marian_Anderson.jpg',
         alt: 'Marian Anderson',
         bio: 'https://kids.britannica.com/students/article/Marian-Anderson/272858',
         quiz: 'andersonquiz'
     },
     {
         name: 'Dizzy Gillespie',
-        image: 'https://willismusic.com/wp-content/uploads/2018/02/dizzy_gillespie.jpg',
+        image: '/images/dizzy_gillespie.jpg',
         alt: 'Dizzy Gillespie',
         bio: 'https://kids.britannica.com/students/article/Dizzy-Gillespie/324613',
         quiz: 'gillespiequiz'
