@@ -53,7 +53,7 @@ const contemporaryClassicalComposers = [
         name: 'Alabaca, Ahmed',
         tag: 'Composer, conductor, pianist',
         bio: 'https://www.ahmedalabaca.com/bio',
-        image: 'https://scontent-lax3-2.xx.fbcdn.net/v/t1.6435-9/65988840_1238744542963144_5281905932572295168_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=973b4a&_nc_ohc=StHbrIYSqMMAX8uUG7K&_nc_ht=scontent-lax3-2.xx&oh=a9fbf3528b96ca5ba7efa77828a34e1b&oe=60DC7CF0',
+        image: '/images/Ahmed-Alabaca.jpg',
         alt: 'Ahmed Alabaca'
     },
     {

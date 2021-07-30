@@ -1,28 +1,28 @@
 const quizCards = [
     {
         name: 'Louis Armstrong',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Louis_Armstrong_restored.jpg/220px-Louis_Armstrong_restored.jpg',
+        image: '/images/Louis_Armstrong.jpg',
         alt: 'Louis Armstrong',
         bio: 'https://kids.britannica.com/kids/article/Louis-Armstrong/352783',
         quiz: '/armstrongquiz'
     },
     {
         name: 'Ella Fitzgerald',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ella_Fitzgerald_%28Gottlieb_02871%29.jpg/220px-Ella_Fitzgerald_%28Gottlieb_02871%29.jpg',
+        image: '/images/Ella_Fitzgerald.jpg',
         alt: 'Ella Fitzgerald',
         bio: 'https://kids.britannica.com/kids/article/Ella-Fitzgerald/353131',
         quiz: 'fitzgeraldquiz'
     },
     {
         name: 'Samuel Coleridge-Taylor',
-        image: 'https://www.blackpast.org/wp-content/uploads/prodimages/files/blackpast_images/Coleridge-Taylor_Samuel.jpg',
+        image: '/images/Coleridge-Taylor_Samuel.jpg',
         alt: 'Samuel Coleridge-Taylor',
         bio: 'https://wiki.kidzsearch.com/wiki/Samuel_Coleridge-Taylor',
         quiz: 'coleridgequiz'
     },
     {
         name: 'Nina Simone',
-        image: 'https://static01.nyt.com/images/2015/06/21/arts/21SIMONE/21SIMONE-superJumbo.jpg',
+        image: '/images/NinaSimone.jpg',
         alt: 'Nina Simone',
         bio: 'https://wiki.kidzsearch.com/wiki/Nina_Simone',
         quiz: 'simonequiz'
@@ -50,7 +50,7 @@ const quizCards = [
     },
     {
         name: 'Billie Holiday',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Billie_Holiday_1947_%28cropped%29.jpg/220px-Billie_Holiday_1947_%28cropped%29.jpg',
+        image: '/images/Billie_Holiday_1947.jpg',
         alt: 'Billie Holiday',
         bio: 'https://kids.kiddle.co/Billie_Holiday',
         quiz: 'holidayquiz'

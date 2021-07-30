@@ -12,7 +12,7 @@ const ArtistTemplate = (props) => {
               </div>
             </div>
             <div className="photo-wrapper p-2">
-              <img className="w-40 h-40 rounded-full mx-auto" src={composer.image} alt={composer.alt} />
+              <img className="w-40 h-40 rounded-full mx-auto" src={process.env.PUBLIC_URL + composer.image} alt={composer.alt} />
             </div>
             <div className="text-center my-8">
               <a rel="noreferrer" target="_blank" href={composer.bio} className={`w-1/2 px-4 py-3 text-white ${props.bgColor}  rounded-lg font-bold text-sm`}>Composer Bio</a>

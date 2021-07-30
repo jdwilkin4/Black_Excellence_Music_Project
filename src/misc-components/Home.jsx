@@ -155,7 +155,7 @@ const Home = () => {
         </div>
 
         <div className="flex items-center justify-center w-full h-96 md:w-1/2">
-          <img className="object-cover w-full h-full max-w-2xl rounded-md" src={process.env.PUBLIC_URL + "/images/New york city.jpg"} alt="New York City" />
+          <img className="object-cover w-full h-full max-w-2xl rounded-md" src={process.env.PUBLIC_URL + "/images/NYC-overview (1).jpg"} alt="New York City" />
         </div>
       </div>
     </ >
