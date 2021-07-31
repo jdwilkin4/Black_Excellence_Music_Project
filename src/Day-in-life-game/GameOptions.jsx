@@ -9,7 +9,7 @@ const GameOptions = (props) => {
                         <div className=" border-2 border-purple-700	rounded-lg shadow px-8 py-2 pt-4">
 
                             <h2 className="text-2xl text-center mb-4 font-bold"> {options.title} </h2>
-                            <img alt={options.alt} src={options.src} className="mx-auto object-cover rounded-lg h-40 w-40 " />
+                            <img alt={options.alt} src={process.env.PUBLIC_URL + options.src} className="mx-auto object-cover rounded-lg h-40 w-40 " />
 
                             <p className="text-md text-center  w-60  mx-auto py-4">{options.description} </p>
                             <div className="flex justify-center	 items-center	">

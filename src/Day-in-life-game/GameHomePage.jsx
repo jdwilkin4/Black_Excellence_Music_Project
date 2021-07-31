@@ -128,9 +128,10 @@ const GameHomePage = () => {
     setGreeting('What would you like to do today?');
   }
 
+
   const gameOptionCards = [
-    { title: 'Tour the U.S.', description: 'Take the act on the road', btn: 'Start Tour', src: "https://i.imgur.com/1wOv2p8.jpg", alt: 'palm trees', handleClick: handleTourClick },
-    { title: 'Gig around town', description: 'Hit up the hot jazz spots in N.Y.C.', btn: 'Local gigs', src: "https://i.imgur.com/gD4G553.jpg", alt: 'lady liberty', handleClick: handleLocalClick },
+    { title: 'Tour the U.S.', description: 'Take the act on the road', btn: 'Start Tour', src: "/images/LApalmtrees.jpg", alt: 'palm trees', handleClick: handleTourClick },
+    { title: 'Gig around town', description: 'Hit up the hot jazz spots in N.Y.C.', btn: 'Local gigs', src: "/images/Statue-liberty.jpg", alt: 'lady liberty', handleClick: handleLocalClick },
   ];
 
 
