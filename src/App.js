@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './misc-components/Home';
 import Navbar from './misc-components/Navbar';
 import QuizRoutes from './quizzes/QuizRoutes';
@@ -14,11 +14,11 @@ const App = () => {
     <Router>
       <ScrollToTop />
       <Navbar />
-      <Route path="/" exact component={Home} />
-      <Route path="/dayinlife" exact component={DayInTheLifeGame} />
-      <Route exact path="/games" component={Games} />
-      <QuizRoutes />
-      <PerformersComposersRoutes />
+      <Switch><Route path="/" exact component={Home} /></Switch>
+      <Switch> <Route path="/dayinlife" exact component={DayInTheLifeGame} /></Switch>
+      <Switch><Route exact path="/games" component={Games} /></Switch>
+      <Switch> <QuizRoutes /></Switch>
+      <Switch> <PerformersComposersRoutes /></Switch>
       <Footer />
     </Router>
   );
