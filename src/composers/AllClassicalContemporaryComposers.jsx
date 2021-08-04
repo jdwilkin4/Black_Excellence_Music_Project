@@ -1,13 +1,21 @@
+import React, { lazy, Suspense } from 'react';
 import contemporaryClassicalComposers from '../artists-data/contemporary-classical-composers';
-import ArtistTemplate from '../misc-components/ArtistTemplate';
+const ArtistTemplate = lazy(() => import('../misc-components/ArtistTemplate'))
+const renderLoader = () => <p>Loading...</p>;
 
 const AllClassicalContemporaryComposers = () => {
   return (
-    <ArtistTemplate
-      arr={contemporaryClassicalComposers}
-      borderColor="border-purple-700"
-      bgColor="bg-purple-700"
-    />
+    <>
+      <Suspense fallback={renderLoader()}>
+        <ArtistTemplate
+          arr={contemporaryClassicalComposers}
+          borderColor="border-purple-700"
+          bgColor="bg-purple-700"
+        />
+      </Suspense>
+
+    </>
+
   )
 }
 export default AllClassicalContemporaryComposers;

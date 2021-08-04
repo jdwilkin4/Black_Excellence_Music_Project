@@ -15,7 +15,7 @@ const ContemporaryClassicalComposers = () => {
     const handleChange = (e) => setOption(e.target.value);
 
     return (
-        <div>
+        <>
             <h1 className="text-5xl text-center my-8">Contemporary &amp; Classical Composers</h1>
 
             <div className="container mx-auto flex justify-center items-center p-2 md:p-0">
@@ -30,7 +30,7 @@ const ContemporaryClassicalComposers = () => {
 
             <ChangeCategory category={option} />
 
-        </div>
+        </>
     )
 }
 export default ContemporaryClassicalComposers

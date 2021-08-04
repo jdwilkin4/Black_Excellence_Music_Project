@@ -1,16 +1,19 @@
+import React, { lazy, Suspense } from 'react';
 import jazzComposersData from '../artists-data/jazz-composers';
-import ArtistTemplate from '../misc-components/ArtistTemplate';
+const ArtistTemplate = lazy(() => import('../misc-components/ArtistTemplate'));
+const renderLoader = () => <p>Loading...</p>;
 
 const AllJazzComposers = () => {
-
   return (
-    <ArtistTemplate
-      arr={jazzComposersData}
-      borderColor="border-purple-700"
-      bgColor="bg-purple-700"
-
-    />
-
+    <>
+      <Suspense fallback={renderLoader()}>
+        <ArtistTemplate
+          arr={jazzComposersData}
+          borderColor="border-purple-700"
+          bgColor="bg-purple-700"
+        />
+      </Suspense>
+    </>
   )
 }
 export default AllJazzComposers;
