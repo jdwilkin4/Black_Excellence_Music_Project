@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import D3PieChart from "./D3PieChart";
 import quizCards from "../quizzes/quiz-cards";
 
@@ -55,7 +55,7 @@ const Home = () => {
               <div className={paraText}>
                 Learn about Michael Abels, Eleanor Alberga, William Levi Dawson, Tania Justina León, and more!
                 <div className="mt-12">
-                  <Link className={linkStyles} to="/contemporary-composers">Contemporary Composers</Link>
+                  <a className={linkStyles} href="/contemporary-composers">Contemporary Composers</a>
                 </div>
               </div>
             </div>
@@ -74,7 +74,7 @@ const Home = () => {
               <div className={paraText}>
                 Learn about Lillian Hardin Armstrong, Terence Oliver Blanchard,  Irene Kitchings, "Duke" Ellington, and more!
                 <div className="mt-12">
-                  <Link className={linkStyles} to="/jazz-composers">Jazz Composers Page</Link>
+                  <a className={linkStyles} href="/jazz-composers">Jazz Composers Page</a>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ const Home = () => {
               <div className={paraText}>
                 Learn about Ray Charles, Valerie Coleman, Lamar Carey Curtis, Diedre Murray and more!
                 <div className="mt-12">
-                  <Link className={linkStyles} to="/instrumentalists">Instrumentalists Page</Link>
+                  <a className={linkStyles} href="/instrumentalists">Instrumentalists Page</a>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@ const Home = () => {
               <div className={paraText}>
                 Learn about Adele Addison, Nat King Cole,  Dinah Washington,  Gregory Porter, and more!
                 <div className="mt-12">
-                  <Link className={linkStyles} to="/vocalists">Vocalists Page</Link>
+                  <a className={linkStyles} href="/vocalists">Vocalists Page</a>
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ const Home = () => {
                 <a rel="noreferrer" target="_blank" href={artist.bio} className="w-1/2 px-4 py-3 text-white bg-purple-700  rounded-lg font-bold text-sm">{artist.name} Bio</a>
               </div>
               <div className="text-center">
-                <Link to={artist.quiz} className="w-1/2 px-4 py-3 text-white bg-green-700  rounded-lg font-bold text-sm">Take quiz</Link>
+                <a href={artist.quiz} className="w-1/2 px-4 py-3 text-white bg-green-700  rounded-lg font-bold text-sm">Take quiz</a>
               </div>
             </div>
 
@@ -149,7 +149,7 @@ const Home = () => {
             <p className="text-xl mt-12">Explore what it is like to be a 1930's jazz pianist.</p>
             <p className="text-xl mb-12">Tour the U.S. and perform in all the top jazz clubs.</p>
             <div className="mt-6">
-              <Link className={linkStyles} to="/dayinlife">Day in The Life Page</Link>
+              <a className={linkStyles} href="/dayinlife">Day in The Life Page</a>
             </div>
           </div>
         </div>
