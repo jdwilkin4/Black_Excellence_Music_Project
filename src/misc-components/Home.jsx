@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import D3PieChart from "./D3PieChart";
+// import D3PieChart from "./D3PieChart";
 import quizCards from "../quizzes/quiz-cards";
 
 const Home = () => {
   const quizCardArr = quizCards.slice(4, 7);
   const roundedImage = "inline-block h-60 w-60 rounded-full object-cover ring-2 ring-white";
-  const d3H3Text = "w-full my-2 text-3xl text-center"
+  // const d3H3Text = "w-full my-2 text-3xl text-center"
   const h3Text = "text-4xl leading-none my-6"
   const paraText = "text-xl mt-12"
   const linkStyles = "w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg ";
@@ -29,7 +29,7 @@ const Home = () => {
           <img className={roundedImage} src={process.env.PUBLIC_URL + "/images/nathaniel-dett.jpg"} alt="Robert Nathaniel Dett" />
         </div>
       </div>
-      <div className="w-full text-center">
+      {/*   <div className="w-full text-center">
         <h2 className="mt-14 mb-12 text-5xl font-bold ">Lack of Diversity</h2>
         <h3 className={d3H3Text}>Black Musicians in American Orchestras only make up <span className="font-bold">1.8%</span></h3>
 
@@ -37,7 +37,7 @@ const Home = () => {
         <div className="flex -my-6  justify-center">
           <D3PieChart innerRadius={0} outerRadius={150} />
         </div>
-      </div>
+      </div> */}
 
       <section className="border-b">
         <div className="container max-w-5xl mx-auto m-2">
