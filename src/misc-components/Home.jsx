@@ -1,5 +1,7 @@
-import D3PieChart from "./D3PieChart";
 import quizCards from "../quizzes/quiz-cards";
+import { lazy, Suspense } from "react";
+const renderLoader = () => <p>Loading...</p>;
+const D3PieChart = lazy(() => import("./D3PieChart"))
 
 const Home = () => {
   const quizCardArr = quizCards.slice(4, 7);
@@ -31,7 +33,9 @@ const Home = () => {
 
         <cite>Data provided by League of American Orchestras</cite>
         <div className="flex -my-6  justify-center">
-          <D3PieChart innerRadius={0} outerRadius={150} />
+          <Suspense fallback={renderLoader()}>
+            <D3PieChart innerRadius={0} outerRadius={150} />
+          </Suspense>
         </div>
       </div>
 
