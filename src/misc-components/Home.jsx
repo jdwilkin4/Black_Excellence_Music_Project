@@ -1,16 +1,16 @@
-// import { Link } from "react-router-dom";
-// import D3PieChart from "./D3PieChart";
+import D3PieChart from "./D3PieChart";
 import quizCards from "../quizzes/quiz-cards";
+
+
 
 const Home = () => {
   const quizCardArr = quizCards.slice(4, 7);
   const roundedImage = "inline-block h-60 w-60 rounded-full object-cover ring-2 ring-white";
-  // const d3H3Text = "w-full my-2 text-3xl text-center"
-  const h3Text = "text-4xl leading-none my-6"
-  const paraText = "text-xl mt-12"
+  const d3H3Text = "w-full my-2 text-3xl text-center"
+  const h3Text = "text-4xl leading-none my-6 text-center"
+  const paraText = "text-xl mt-12 text-center"
   const linkStyles = "w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg ";
   const sectionImgs = "hidden md:block lg:block w-full h-5/6 rounded-lg";
-
   return (
     <>
       <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
@@ -29,7 +29,7 @@ const Home = () => {
           <img className={roundedImage} src={process.env.PUBLIC_URL + "/images/nathaniel-dett.jpg"} alt="Robert Nathaniel Dett" />
         </div>
       </div>
-      {/*   <div className="w-full text-center">
+      <div className="w-full text-center">
         <h2 className="mt-14 mb-12 text-5xl font-bold ">Lack of Diversity</h2>
         <h3 className={d3H3Text}>Black Musicians in American Orchestras only make up <span className="font-bold">1.8%</span></h3>
 
@@ -37,83 +37,63 @@ const Home = () => {
         <div className="flex -my-6  justify-center">
           <D3PieChart innerRadius={0} outerRadius={150} />
         </div>
-      </div> */}
+      </div>
 
-      <section className="border-b">
-        <div className="container max-w-5xl mx-auto m-2">
-          <h2 className="mt-14 text-5xl font-bold text-center ">
-            Explore black artists
-          </h2>
-          <div className="w-full mb-4">
-            <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
-          </div>
-          <div className="flex flex-wrap justify-center">
-            <div className="w-5/6 sm:w-1/2 p-6">
-              <h3 className={h3Text}>
-                Contemporary Composers
-              </h3>
-              <div className={paraText}>
+      <h2 className="mt-14 text-5xl font-bold text-center ">
+        Explore black artists
+      </h2>
+      <div class="max-w-screen-xl p-4 bg-white dark:bg-gray-800 mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
+        <div class="relative">
+          <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+            <div class="lg:col-start-2 lg:max-w-2xl ml-auto">
+              <p class="mt-4 text-2xl leading-6 text-center ">
                 Learn about Michael Abels, Eleanor Alberga, William Levi Dawson, Tania Justina León, and more!
-                <div className="mt-12">
-                  <a className={linkStyles} href="/contemporary-composers">Contemporary Composers</a>
+              </p>
+              <ul class="mt-8 md:grid md:grid-cols-2 gap-6">
+                <li class="mt-6 lg:mt-0">
+                  <div className="text-center flex justify-center mt-12">
+                    <a className={linkStyles} href="/contemporary-composers">Contemporary Composers</a>
+                  </div>
+                </li>
+                <li class="mt-6 lg:mt-0">
+                  <div className="text-center flex justify-center mt-12">
+                    <a className={linkStyles} href="/jazz-composers">Jazz Composers</a>
+                  </div>
+                </li>
+                <li class="mt-6 lg:mt-0">
+                  <div className="text-center flex justify-center mt-12">
+                    <a className={linkStyles} href="/instrumentalists">Instrumentalists</a>
+                  </div>
+                </li>
+                <li class="mt-6 lg:mt-0">
+
+                  <div className="text-center flex justify-center mt-12">
+                    <a className={linkStyles} href="/vocalists">Vocalists</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
+              <div class="relative space-y-4">
+                <div class="flex items-end justify-center lg:justify-start space-x-4">
+                  <img className="rounded-lg shadow-lg w-32 md:w-56" width="200" src={process.env.PUBLIC_URL + "/images/piano1.jpg"} alt="Piano" />
+                  <img className="rounded-lg shadow-lg w-40 md:w-64" width="260" src={process.env.PUBLIC_URL + "/images/jazzsax1.jpg"} alt="Unknown jazz saxophonist" />
+
                 </div>
-              </div>
-            </div>
-            <div className="rounded-lg sm:w-1/2 p-6">
-              <img className={sectionImgs} src={process.env.PUBLIC_URL + "/images/piano1.jpg"} alt="Piano" />
-            </div>
-          </div>
-          <div className="flex flex-wrap justify-center">
-            <div className="rounded-lg sm:w-1/2 p-6">
-              <img className={sectionImgs} src={process.env.PUBLIC_URL + "/images/jazzsax1.jpg"} alt="Unknown jazz saxophonist" />
-            </div>
-            <div className="w-5/6 sm:w-1/2 p-6">
-              <h3 className={h3Text}>
-                Jazz Composers
-              </h3>
-              <div className={paraText}>
-                Learn about Lillian Hardin Armstrong, Terence Oliver Blanchard,  Irene Kitchings, "Duke" Ellington, and more!
-                <div className="mt-12">
-                  <a className={linkStyles} href="/jazz-composers">Jazz Composers Page</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-wrap justify-center">
-            <div className="w-5/6 sm:w-1/2 p-6">
-              <h3 className={h3Text}>
-                Instrumentalists
-              </h3>
-              <div className={paraText}>
-                Learn about Ray Charles, Valerie Coleman, Lamar Carey Curtis, Diedre Murray and more!
-                <div className="mt-12">
-                  <a className={linkStyles} href="/instrumentalists">Instrumentalists Page</a>
-                </div>
-              </div>
-            </div>
-            <div className="rounded-lg sm:w-1/2 p-6">
-              <img className={sectionImgs} src={process.env.PUBLIC_URL + "/images/drummer1.jpg"} alt="Unknown Drummer" />
-            </div>
-          </div>
-          <div className="flex flex-wrap justify-center">
-            <div className="rounded-lg sm:w-1/2 p-6">
-              <img className={sectionImgs} src={process.env.PUBLIC_URL + "/images/vocalist1.jpg"} alt="Vocal silhouette" />
-            </div>
-            <div className="w-5/6 sm:w-1/2 p-6">
-              <h3 className={h3Text}>
-                Vocalists
-              </h3>
-              <div className={paraText}>
-                Learn about Adele Addison, Nat King Cole,  Dinah Washington,  Gregory Porter, and more!
-                <div className="mt-12">
-                  <a className={linkStyles} href="/vocalists">Vocalists Page</a>
+                <div class="flex items-start justify-center lg:justify-start space-x-4 ml-12">
+                  <img className="rounded-lg shadow-lg w-24 md:w-40" width="170" src={process.env.PUBLIC_URL + "/images/drummer1.jpg"} alt="Unknown Drummer" />
+                  <img className="rounded-lg shadow-lg w-32 md:w-56" width="200" src={process.env.PUBLIC_URL + "/images/vocalist1.jpg"} alt="Vocal silhouette" />
+
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <div className="min-w-screen min-h-screen -mt-20 px-5 py-5">
+      </div>
+
+
+
+      <div className="min-w-screen min-h-screen mt-10 px-5 py-5">
         <div className="w-full mx-auto bg-white px-5 py-10 text-black-600 mb-10">
           <div className="text-center max-w-xl mx-auto">
             <h2 className=" text-5xl font-bold">Take Quizzes</h2>
@@ -163,6 +143,8 @@ const Home = () => {
 }
 
 export default Home;
+
+
 
 
 
