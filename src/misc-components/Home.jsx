@@ -7,10 +7,7 @@ const Home = () => {
   const quizCardArr = quizCards.slice(4, 7);
   const roundedImage = "inline-block h-60 w-60 rounded-full object-cover ring-2 ring-white";
   const d3H3Text = "w-full my-2 text-3xl text-center"
-  const h3Text = "text-4xl leading-none my-6 text-center"
-  const paraText = "text-xl mt-12 text-center"
   const linkStyles = "w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg ";
-  const sectionImgs = "hidden md:block lg:block w-full h-5/6 rounded-lg";
   return (
     <>
       <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
