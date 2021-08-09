@@ -1,10 +1,10 @@
 
 const ArtistTemplate = (props) => {
   return (
-    <div className="flex flex-wrap justify-center items-center my-2">
+    <div className="flex  flex-wrap justify-center items-center my-2">
       {props.arr.map((composer, index) => (
         <div key={index}>
-          <div className={`my-4 border-r border-l border-b-8 border-t-8 ${props.borderColor} rounded-lg`} >
+          <div className={`my-4 border-r-2 border-l-2 border-b-8 border-t-8 ${props.borderColor} rounded-lg`} >
             <div className="w-96 flex">
               <div className="text-center w-full pt-9 pr-4">
                 <h2 className="font-bold text-black-700">{composer.name}</h2>
