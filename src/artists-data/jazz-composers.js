@@ -3,14 +3,14 @@ const jazzComposersData = [
         name: 'Abrams, Muhal Richard (1930 – 2017)',
         tag: 'Educator, composer, arranger and pianist',
         bio: 'https://en.wikipedia.org/wiki/Muhal_Richard_Abrams',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Muhal_Richard_Abrams.jpg/220px-Muhal_Richard_Abrams.jpg',
+        image: '/images/Muhal_Richard_Abrams.jpg',
         alt: 'Muhal Richard Abrams'
     },
     {
         name: 'Armstrong, Lillian Hardin (1898 – 1971)',
         tag: 'Jazz pianist, composer, and arranger',
         bio: 'https://en.wikipedia.org/wiki/Lil_Hardin_Armstrong',
-        image: 'https://wpcdn.us-east-1.vip.tn-cloud.net/www.myneworleans.com/content/uploads/data-import/5edbddd9/JazzLife-701x1024.jpg',
+        image: '/images/Lilian-Armstrong.jpg',
         alt: 'Lil Hardin Armstrong',
         isFemale: true
     },
@@ -18,84 +18,84 @@ const jazzComposersData = [
         name: 'Armstrong, Louis Daniel (1901 – 1971)',
         tag: 'Trumpeter, singer and composer',
         bio: 'https://en.wikipedia.org/wiki/Louis_Armstrong',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Louis_Armstrong_restored.jpg/220px-Louis_Armstrong_restored.jpg',
+        image: '/images/Louis_Armstrong.jpg',
         alt: 'Louis Armstrong'
     },
     {
         name: 'Baker Jr., David Nathaniel (1931 – 2016)',
         tag: 'Composer, conductor and musician',
         bio: 'https://en.wikipedia.org/wiki/David_Baker_(composer)',
-        image: 'https://www.jazzinamerica.org/images/overview/authors/2.jpg',
+        image: '/images/david-baker.jpg',
         alt: 'David Baker'
     },
     {
         name: 'Barefield, Edward Emanuel (1909 – 1991)',
         tag: 'Saxophonist, composer and arranger',
         bio: 'https://en.wikipedia.org/wiki/Eddie_Barefield',
-        image: 'https://img.discogs.com/VJ-nC1VchkrkqJHoXtKSoYACIys=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-258710-1350034282-9761.jpeg.jpg',
+        image: '/images/Edward-barefield.jpg',
         alt: 'Edward Barefield'
     },
     {
         name: 'Batiste, Jonathan Michael (b. 1986)',
         tag: 'Musician, bandleader and composer',
         bio: 'https://en.wikipedia.org/wiki/Jon_Batiste',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Jon_Batiste_2018_%28cropped%29.jpg/220px-Jon_Batiste_2018_%28cropped%29.jpg',
+        image: '/images/Jon_Batiste_2018.jpg',
         alt: 'Jonathan Batiste'
     },
     {
         name: 'Blackwell, Alfonzo (b. 1971)',
         tag: 'Jazz saxophonist, composer, and producer',
         bio: 'https://en.wikipedia.org/wiki/Alfonzo_Blackwell',
-        image: 'https://i1.wp.com/www.smooth-jazz.de/images/3/Blackwell.jpg',
+        image: '/images/alfonzo-blackwell.jpg',
         alt: 'Alfonzo Blackwell'
     },
     {
         name: 'Blake, James Hubert "Eubie" (1887 – 1983)',
         tag: 'American pianist, lyricist, and composer',
         bio: 'https://en.wikipedia.org/wiki/Eubie_Blake',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/e/eb/EubieBlake.jpg',
+        image: '/images/EubieBlake.jpg',
         alt: 'James "Eubie" Blake'
     },
     {
         name: 'Blanchard, Terence Oliver (b. 1962)',
         tag: 'American trumpeter and composer',
         bio: 'https://en.wikipedia.org/wiki/Terence_Blanchard',
-        image: 'https://bloximages.newyork1.vip.townnews.com/theadvocate.com/content/tncms/assets/v3/editorial/7/b3/7b38444d-ce60-5ca9-b3b3-1235ec5498a7/57518c10ab93c.image.jpg?crop=743%2C743%2C0%2C123&resize=1200%2C1200&order=crop%2Cresize',
+        image: '/images/Terrance-Blanchard.jpg',
         alt: 'Terence Blanchard'
     },
     {
         name: 'Bowers, Kristopher (b. 1989)',
         tag: 'Musician, composer, producer',
         bio: 'https://en.wikipedia.org/wiki/Kris_Bowers',
-        image: 'https://d3n8a8pro7vhmx.cloudfront.net/seedsoftime/pages/435/attachments/original/1540488171/People_kris.jpg?1540488171',
+        image: '/images/kris-bowers.jpg',
         alt: 'Kristopher Bowers'
     },
     {
         name: 'Branker, Anthony (b.1958)',
         tag: 'American musician and educator',
         bio: 'https://en.wikipedia.org/wiki/Anthony_Branker',
-        image: 'https://cdn.statically.io/img/www.soulandjazz.com/wp-content/uploads/2018/03/13_Anthony_Branker-300x300.jpg?quality=80&f=auto',
+        image: '/images/Anthony_Branker.jpg',
         alt: 'Anthony Branker'
     },
     {
         name: 'Braxton, Anthony (b. 1945)',
         tag: 'Experimental composer, improviser, saxophonist ',
         bio: 'https://en.wikipedia.org/wiki/Anthony_Braxton',
-        image: 'https://www.whrb.org/application/files/thumbnails/whrb_large/8415/8912/2886/Screenshot_2020-05-10_at_15.58.53.jpg',
+        image: '/images/anthony-braxton.jpg',
         alt: 'Anthony Braxton'
     },
     {
         name: 'Brooks, Dudley (1913 – 1989)',
         tag: 'Jazz pianist, arranger, and composer',
         bio: 'https://en.wikipedia.org/wiki/Dudley_Brooks',
-        image: 'https://calisphere.org/clip/500x500/f24945be352acb24393535f530c6a71d',
+        image: '/images/Dudley-brooks.jpg',
         alt: 'Dudley Brooks'
     },
     {
         name: 'Calloway, Blanche  (1902 – 1978)',
         tag: 'Jazz singer, composer, and bandleader',
         bio: 'https://en.wikipedia.org/wiki/Blanche_Calloway',
-        image: 'https://a3-images.myspacecdn.com/images03/2/59113dd2e09f4ef6b6c02bf248448afb/300x300.jpg',
+        image: '/images/blanche-calloway.jpg',
         alt: 'Blanche Calloway',
         isFemale: true
     },
@@ -104,21 +104,21 @@ const jazzComposersData = [
         name: 'Charles, Ray (1930 – 2004)',
         tag: 'American singer, songwriter, pianist, composer',
         bio: 'https://en.wikipedia.org/wiki/Ray_Charles',
-        image: 'https://images.pulsewebcontent.com/photos/2018/06_Jun/800/RayCharles_6_15.jpg',
+        image: '/images/RayCharles.jpg',
         alt: 'Ray Charles'
     },
     {
         name: 'Coleman, Steve (b. 1956)',
         tag: 'Saxophonist, composer, and bandleader',
         bio: 'https://en.wikipedia.org/wiki/Steve_Coleman',
-        image: 'https://www.jazzspeaks.org/wp-content/uploads/2012/02/stevecoleman_920x613.jpg',
+        image: '/images/stevecoleman.jpg',
         alt: 'Steve Coleman'
     },
     {
         name: 'Coltrane, Alice (1937 – 2007)',
         tag: 'Composer and American jazz pianist',
         bio: 'https://www.alicecoltrane.com/',
-        image: 'https://images.squarespace-cdn.com/content/v1/588fd258bebafbb40f74388a/1486742646642-1RD7J4IJU23CKB6UB9KG/ke17ZwdGBToddI8pDm48kJJ3_Oi1ktIwPjntqKjE4XcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcPzcDQIUHxSxdT4lqYp6LiDpFxWpkbHkkLse8nMQ6M4Dc0yBFznLfQMokSSUT38T7/new1.jpg?format=2500w',
+        image: '/images/alice-coltrane.jpg',
         alt: 'Alice Coltrane',
         isFemale: true
     },
@@ -126,42 +126,42 @@ const jazzComposersData = [
         name: 'Coltrane, John (1926 – 1967)',
         tag: 'Composer and saxophonist',
         bio: 'https://en.wikipedia.org/wiki/John_Coltrane',
-        image: 'http://www.jazzmessengers.com/blog/wp-content/uploads/2019/12/Coltrane.jpg',
+        image: '/images/john-coltrane.jpg',
         alt: 'John Coltrane'
     },
     {
         name: 'Dabney, Ford Thompson (1883 – 1958)',
         tag: 'Pianist, composer, songwriter',
         bio: 'https://en.wikipedia.org/wiki/Ford_Dabney',
-        image: 'https://img.discogs.com/9juBskwIY-V91AxC9eRT-gLiG-s=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-794475-1346870354-5601.gif.jpg',
+        image: '/images/ford-dabney.jpg',
         alt: 'Ford Dabney'
     },
     {
         name: 'Davis, Miles Dewey (1926 – 1991)',
         tag: 'Trumpeter, bandleader, composer',
         bio: 'https://en.wikipedia.org/wiki/Miles_Davis',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Miles_Davis_by_Palumbo_cropped.jpg/220px-Miles_Davis_by_Palumbo_cropped.jpg',
+        image: '/images/Miles_Davis.jpg',
         alt: 'Miles Davis'
     },
     {
         name: 'Doggett, William Ballard (1916 – 1996)',
         tag: 'Pianist, organist and composer',
         bio: 'https://en.wikipedia.org/wiki/Bill_Doggett',
-        image: 'https://www.waybackattack.com/images/photo-doggettbill.jpg',
+        image: '/images/doggettbill.jpg',
         alt: 'Bill Doggett'
     },
     {
         name: 'Ellington, "Duke" (1899 – 1974)',
         tag: 'Composer, pianist, bandleader',
         bio: 'https://en.wikipedia.org/wiki/Duke_Ellington',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Duke_Ellington_-_publicity.JPG/220px-Duke_Ellington_-_publicity.JPG',
+        image: '/images/Duke_Ellington.jpg',
         alt: 'Duke Ellington'
     },
     {
         name: 'Ellington, Mercer Kennedy (1919 – 1996)',
         tag: 'Musician, composer, arranger',
         bio: 'https://en.wikipedia.org/wiki/Mercer_Ellington',
-        image: 'https://wbssmedia.com/artist_images/full_thumb/1450925184MERCERELLINGTONB1.jpg',
+        image: '/images/mercer-ellington.jpg',
         alt: 'Mercer Ellington'
     },
     {
