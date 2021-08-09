@@ -2,7 +2,7 @@
 const Footer = () => {
     return (
         <footer className="bg-purple-800">
-            <div className="container mx-auto px-8">
+            <div className="md:container md:mx-auto mx-auto px-8">
                 <div className="w-full flex flex-col md:flex-row py-6">
                     <div className="flex-1 mb-6 text-white">
                         <h2 className="my-4 text-2xl font-bold leading-tight">

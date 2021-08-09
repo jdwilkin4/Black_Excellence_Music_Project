@@ -28,7 +28,6 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full text-center">
-        <h2 className="mt-14 mb-12 text-5xl font-bold ">Lack of Diversity</h2>
         <h3 className={d3H3Text}>Black Musicians in American Orchestras only make up <span className="font-bold">1.8%</span></h3>
 
         <cite>Data provided by League of American Orchestras</cite>
@@ -59,13 +58,12 @@ const Home = () => {
             <div className="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
               <div className="relative space-y-4">
                 <div className="flex items-end justify-center lg:justify-start space-x-4">
-                  <img className="rounded-lg shadow-lg w-32 md:w-56" src={process.env.PUBLIC_URL + "/images/piano1.jpg"} alt="Piano" />
-                  <img className="rounded-lg shadow-lg w-40 md:w-64" src={process.env.PUBLIC_URL + "/images/jazzsax1.jpg"} alt="Unknown jazz saxophonist" />
+                  <img className="rounded-lg  w-32 md:w-56" src={process.env.PUBLIC_URL + "/images/piano1.jpg"} alt="Piano" />
+                  <img className="rounded-lg  w-40 md:w-64" src={process.env.PUBLIC_URL + "/images/jazzsax1.jpg"} alt="Unknown jazz saxophonist" />
                 </div>
                 <div className="flex items-start justify-center lg:justify-start space-x-4 ml-12">
-                  <img className="rounded-lg shadow-lg w-24 md:w-40" src={process.env.PUBLIC_URL + "/images/drummer1.jpg"} alt="Unknown Drummer" />
-                  <img className="rounded-lg shadow-lg w-32 md:w-56" src={process.env.PUBLIC_URL + "/images/vocalist1.jpg"} alt="Vocal silhouette" />
-
+                  <img className="rounded-lg  w-24 md:w-40" src={process.env.PUBLIC_URL + "/images/drummer1.jpg"} alt="Unknown Drummer" />
+                  <img className="rounded-lg  w-32 md:w-56" src={process.env.PUBLIC_URL + "/images/vocalist1.jpg"} alt="Vocal silhouette" />
                 </div>
               </div>
             </div>
@@ -106,9 +104,9 @@ const Home = () => {
 
           <div className="max-w-lg md:mx-12 md:order-2">
             <h2 className="text-center text-5xl font-bold">Day in the Life Game</h2>
-            <p className="text-xl mt-12">Explore what it is like to be a 1930's jazz pianist.</p>
-            <p className="text-xl mb-12">Tour the U.S. and perform in all the top jazz clubs.</p>
-            <div className="mt-6">
+            <p className="text-xl text-center mt-12">Explore what it is like to be a 1930's jazz pianist.</p>
+            <p className="text-xl text-center mt-4 mb-12">Tour the U.S. and perform in all the top jazz clubs.</p>
+            <div className="my-6 text-center">
               <a className={linkStyles} href="/dayinlife">Day in The Life Page</a>
             </div>
           </div>
