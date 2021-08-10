@@ -168,133 +168,133 @@ const jazzComposersData = [
         name: 'Ellis, Alfred "Pee Wee" (b.1941)',
         tag: 'Saxophonist, composer, arranger',
         bio: 'https://en.wikipedia.org/wiki/Alfred_%22Pee_Wee%22_Ellis',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Pee_Wee_Ellis.jpg/220px-Pee_Wee_Ellis.jpg',
+        image: '/images/Pee_Wee_Ellis.jpg',
         alt: 'Pee Wee Ellis'
     },
     {
         name: 'Europe, James Reese (1881 – 1919)',
         tag: 'Bandleader, composer and arranger',
         bio: 'https://en.wikipedia.org/wiki/James_Reese_Europe',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/James_Reese_Europe.jpg/220px-James_Reese_Europe.jpg',
+        image: '/images/James_Reese_Europe.jpg',
         alt: 'James Europe'
     },
     {
         name: 'Fisher, Frank R. (b.1926)',
         tag: 'Trumpeter, composer, arranger',
         bio: 'https://en.wikipedia.org/wiki/Frank_R._Fisher',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGSqqSXPjO46UVqeDKy7uTEBIr2ZuWE_xWLduGRcdnnmgQZFDklNTscpffJOU_ygqZd0I&usqp=CAU',
+        image: '/images/frank-fisher.jpg',
         alt: 'Frank Fisher'
     },
     {
         name: 'Gillespie, "Dizzy" (1917 – 1993)',
         tag: 'Trumpeter, composer, bandleader',
         bio: 'https://en.wikipedia.org/wiki/Dizzy_Gillespie',
-        image: 'https://willismusic.com/wp-content/uploads/2018/02/dizzy_gillespie.jpg',
+        image: '/images/dizzy_gillespie.jpg',
         alt: 'Dizzy Gillespie'
     },
     {
         name: 'Hall Jr., Ellis (b.1951)',
         tag: 'Singer, songwriter, composer',
         bio: 'https://en.wikipedia.org/wiki/Ellis_Hall_(musician)',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ellis_Hall_singing_during_symphony_performance.jpg/220px-Ellis_Hall_singing_during_symphony_performance.jpg',
+        image: '/images/ellis-hall.jpg',
         alt: 'Ellis Hall Jr.'
     },
     {
         name: 'Hancock, Herbert Jeffrey (b.1940)',
         tag: 'Pianist, composer, bandleader',
         bio: 'https://en.wikipedia.org/wiki/Herbie_Hancock',
-        image: 'https://uploads.concordia.net/2020/09/10162529/HH.jpg',
+        image: '/images/herbie-hancock.jpg',
         alt: 'Herbie Hancock'
     },
     {
         name: 'Hawkins, Erskine Ramsay (1914 – 1993)',
         tag: 'Trumpeter, bandleader, composer',
         bio: 'https://en.wikipedia.org/wiki/Erskine_Hawkins',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Erskine_Hawkins.jpg/220px-Erskine_Hawkins.jpg',
+        image: '/images/Erskine_Hawkins.jpg',
         alt: 'Erskine Hawkins'
     },
     {
         name: 'Henderson, Fletcher (1897 – 1952)',
         tag: 'Pianist, bandleader, composer, arranger',
         bio: 'https://en.wikipedia.org/wiki/Fletcher_Henderson',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fletcher_Henderson_%281943_publicity_photo%29.jpg/220px-Fletcher_Henderson_%281943_publicity_photo%29.jpg',
+        image: '/images/Fletcher_Henderson.jpg',
         alt: 'Fletcher Henderson'
     },
     {
         name: 'Henderson, Luther (1919 – 2003)',
         tag: 'Arranger, composer, orchestrator, and pianist',
         bio: 'https://en.wikipedia.org/wiki/Luther_Henderson',
-        image: 'https://upload.wikimedia.org/wikipedia/en/c/cd/Luther-Lincoln-Henderson-Jr-1.jpg',
+        image: '/images/Luther-Lincoln-Henderson-Jr.jpg',
         alt: 'Luther Henderson'
     },
     {
         name: 'Hicks Jr., John Josephus (1941 – 2006) ',
         tag: 'Composer, arranger and pianist',
         bio: 'https://en.wikipedia.org/wiki/John_Hicks_(pianist)',
-        image: 'https://cdn2.jazztimes.com/2009/12/200703_043a-619x610.jpg',
+        image: '/images/john-hicks.jpg',
         alt: 'John Hicks'
     },
     {
         name: 'Irvine Jr., Weldon Jonathan (1943 – 2002)',
         tag: 'Composer, poet and pianist',
         bio: 'https://en.wikipedia.org/wiki/Weldon_Irvine',
-        image: 'https://img.discogs.com/ANmn16U_0jAbn6oT5uzQqtSnG2c=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-20585-1599669155-3582.jpeg.jpg',
+        image: '/images/weldon-irvine.jpg',
         alt: 'Weldon Irvine Jr.'
     },
     {
         name: 'Jackson, Ron (b. 1964)',
         tag: 'Guitarist, composer, arranger',
         bio: 'https://en.wikipedia.org/wiki/Ron_Jackson_(jazz_musician)',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ron_Jackson_headshot_with_guitar.jpg/220px-Ron_Jackson_headshot_with_guitar.jpg',
+        image: '/images/Ron_Jackson.jpg',
         alt: 'Ron Jackson'
     },
     {
         name: 'Jefferson, Tyrone (b.1953)',
         tag: 'Trombonist, composer, arranger',
         bio: 'https://en.wikipedia.org/wiki/Tyrone_Jefferson',
-        image: 'https://asignofthetimes.org/wp-content/uploads/Tyrones_Promo_8MBJuly-20131-227x300.jpg',
+        image: '/images/Tyrones_Promo.jpg',
         alt: 'Tyrone Jefferson'
     },
     {
         name: 'Jenkins, Leroy (1932 – 2007)',
         tag: 'Composer and violinist',
         bio: 'https://en.wikipedia.org/wiki/Leroy_Jenkins_(musician)',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN6Q7sHe4_GsvaL4T0lNhe5XpCuQ8K03q1BXkI25x8_e5ItMmpAzC170B3HUSmXnpXYB8&usqp=CAU',
+        image: '/images/leroy-jenkins.jpg',
         alt: 'Leroy Jenkins'
     },
     {
         name: 'Johnson, Cee Pee (1910 – 1954)',
         tag: 'Composer and bandleader',
         bio: 'https://en.wikipedia.org/wiki/Cee_Pee_Johnson',
-        image: 'https://lastfm.freetls.fastly.net/i/u/770x0/a8a75c936f7e4793b2586219f7afcd71.jpg',
+        image: '/images/cp-johnson.jpg',
         alt: 'Cee Pee Johnson'
     },
     {
         name: 'Johnson, James Price (1894 – 1955)',
         tag: 'Pianist and composer',
         bio: 'https://en.wikipedia.org/wiki/James_P._Johnson',
-        image: 'https://www.songhall.org/asset/exhibit/256_img_anchor_home.jpg',
+        image: '/images/james-johnson.jpg',
         alt: 'James Price Johnson'
     },
     {
         name: 'Jones Jr. Quincy Delight (b.1933) ',
         tag: 'Producer, musician, songwriter, composer',
         bio: 'https://en.wikipedia.org/wiki/Quincy_Jones',
-        image: 'https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTc5ODgwOTMyNTc1MjkwNzEy/gettyimages-1062700508.jpg',
+        image: '/images/quincy-jones.jpg',
         alt: 'Quincy Jones'
     },
     {
         name: 'Jordan, Joe (1882 – 1971)',
         tag: 'Composer, pianist and music publisher',
         bio: 'https://en.wikipedia.org/wiki/Joe_Jordan_(musician)',
-        image: 'https://tacomamusichistory.files.wordpress.com/2018/11/jordan_pass_1915.jpg',
+        image: '/images/jordan_pass.jpg',
         alt: 'Joe Jordan'
     },
     {
         name: 'Kemp, Emme',
         tag: 'Pianist, vocalist and composer',
         bio: 'https://emmekempallmusic.com/',
-        image: 'https://nebula.wsimg.com/f9013753721936cacd643c370fe748ea?AccessKeyId=77418CBF9AA370C6958F&disposition=0&alloworigin=1',
+        image: '/images/emme-kemp.jpg',
         alt: 'Emme Kemp',
         isFemale: true
     },
@@ -302,7 +302,7 @@ const jazzComposersData = [
         name: 'Kitchings, Irene (c. 1908-1975)',
         tag: 'Pianist, bandleader, songwriter',
         bio: 'https://en.wikipedia.org/wiki/Irene_Kitchings',
-        image: 'https://image.jimcdn.com/app/cms/image/transf/none/path/sfbdc343bcdca3e9f/image/if7afaf9d794881c7/version/1586528071/irene-kitchings-mujeres-en-el-jazz-standards-de-jazz.jpg',
+        image: '/images/irene-kitchings.jpg',
         alt: 'Irene Kitchings',
         isFemale: true
     },
@@ -310,21 +310,21 @@ const jazzComposersData = [
         name: 'Lee III, William James Edwards (b.1928)',
         tag: 'Musician and composer',
         bio: 'https://en.wikipedia.org/wiki/Bill_Lee_(musician)',
-        image: 'https://m.media-amazon.com/images/M/MV5BMTg0OTgyNTQ3M15BMl5BanBnXkFtZTcwOTU4Mjg2Mg@@._V1_.jpg',
+        image: '/images/william-lee.jpg',
         alt: 'Bill Lee'
     },
     {
         name: 'Lewis, Anderson Meade (1905 – 1964)',
         tag: 'Pianist and composer',
         bio: 'https://en.wikipedia.org/wiki/Meade_Lux_Lewis',
-        image: 'https://cdn.britannica.com/94/2094-004-10D1CFBD/Meade-Lewis.jpg',
+        image: '/images/Meade-Lewis.jpg',
         alt: 'Meade Lewis'
     },
     {
         name: 'Lewis, John Aaron (1920 –2001)',
         tag: 'Pianist, composer, and arranger',
         bio: 'https://en.wikipedia.org/wiki/John_Lewis_(pianist)',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/John_Lewis_1977.jpg/220px-John_Lewis_1977.jpg',
+        image: '/images/john-lewis.jpg',
         alt: 'John Lewis'
     },
 
@@ -332,42 +332,42 @@ const jazzComposersData = [
         name: 'Marsalis, Wynton Learson (b.1961)',
         tag: 'Trumpeter, composer, educator',
         bio: 'https://en.wikipedia.org/wiki/Wynton_Marsalis',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Wynton_Marsalis_2009_09_13.jpg/220px-Wynton_Marsalis_2009_09_13.jpg',
+        image: '/images/Wynton_Marsalis.jpg',
         alt: 'Winton Marsalis'
     },
     {
         name: 'Matthews, Jr., Onzy Durrett (1930 – 1997)',
         tag: 'Pianist, singer, arranger and composer',
         bio: 'https://en.wikipedia.org/wiki/Onzy_Matthews',
-        image: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Onzy_Matthews_photo_1976.jpg/220px-Onzy_Matthews_photo_1976.jpg',
+        image: '/images/Onzy_Matthews.jpg',
         alt: 'Onzy Durett Matthews'
     },
     {
         name: 'McMurray, Dave ',
         tag: 'Musician and composer',
         bio: 'https://en.wikipedia.org/wiki/Dave_McMurray',
-        image: 'https://www.bluenote.com/files/2019/03/DaveMcMurray-PaulMoore-002.jpg',
+        image: '/images/DaveMcMurray.jpg',
         alt: 'Dave McMurray'
     },
     {
         name: 'Monk, Thelonious Sphere (1917 – 1982)',
         tag: 'Pianist and composer',
         bio: 'https://en.wikipedia.org/wiki/Thelonious_Monk',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg/220px-Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg',
+        image: '/images/thelonious-monk.jpg',
         alt: 'Thelonious Monk'
     },
     {
         name: 'Morton, Jelly Roll (1890 – 1941)',
         tag: 'Pianist, bandleader and composer',
         bio: 'https://en.wikipedia.org/wiki/Jelly_Roll_Morton',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Jelly_Roll_Morton_%28c._1927%29.jpg/220px-Jelly_Roll_Morton_%28c._1927%29.jpg',
+        image: '/images/Jelly_Roll_Morton.jpg',
         alt: 'Jelly Roll Morton'
     },
     {
         name: 'Murray, Diedre',
         tag: 'Cellist and composer',
         bio: 'https://en.wikipedia.org/wiki/Diedre_Murray',
-        image: 'https://i1.sndcdn.com/artworks-vOgU7kgPb8ZCFwVI-cdmIog-t500x500.jpg',
+        image: '/images/diedre-murray.jpg',
         alt: 'Diedre Murray',
         isFemale: true
     },
@@ -375,70 +375,70 @@ const jazzComposersData = [
         name: 'Nelson, John Lewis (1916 – 2001)',
         tag: 'Musician and songwriter',
         bio: 'https://en.wikipedia.org/wiki/John_L._Nelson',
-        image: 'http://photos.geni.com/p13/1a/48/e4/a8/5344483f4cc23955/photo_large.jpg',
+        image: '/images/john-lewis-nelson.jpg',
         alt: 'John Lewis Nelson'
     },
     {
         name: 'Nelson, Oliver (1932 – 1975)',
         tag: 'Composer, saxophonist, and clarinetist',
         bio: 'https://en.wikipedia.org/wiki/Oliver_Nelson',
-        image: 'https://images.squarespace-cdn.com/content/v1/5466585be4b000e37a0a4b33/1443721687088-JO8TOERMFW7GWRWCB3HG/ke17ZwdGBToddI8pDm48kPGF1HdRkgy2S57ck6grZgdZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxvnMU5mO1urEVmM3KV1lj6wRxpY-xA4IFnHLFeuP9xRmCch6LBT98i8ZiZ4LgUer8/oliver-nelson-by-jan-persson',
+        image: '/images/oliver-nelson.jpg',
         alt: 'Oliver Nelson'
     },
     {
         name: 'Oluo, Ahamefule J.',
         tag: 'Trumpeter and composer',
         bio: 'https://en.wikipedia.org/wiki/Ahamefule_J._Oluo',
-        image: 'https://images.squarespace-cdn.com/content/v1/5b6c980db40b9da8dad96984/1534107232149-RLVJZ0KJWEH8RNOE7HPN/ke17ZwdGBToddI8pDm48kFnHoUvECzro5T28eAuuIf1Zw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVFLWhEcmRZL-tI2W2JuXLWM7UzH3Uek3M4-WjcG4My3yYdQveV6-N0rgxtc83Uz27w/aham-4x3.jpg',
+        image: '/images/Ahamefule-oluo.jpg',
         alt: 'Ahamefule Oluo'
     },
     {
         name: 'Parker Jr., Charles (1920 – 1955)',
         tag: 'Saxophonist, bandleader and composer',
         bio: 'https://en.wikipedia.org/wiki/Charlie_Parker',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Portrait_of_Charlie_Parker_in_1947.jpg/250px-Portrait_of_Charlie_Parker_in_1947.jpg',
+        image: '/images/Charlie_Parker.jpg',
         alt: 'Charlie Parker'
     },
     {
         name: 'Patrick, Pat(1929 – 1991)',
         tag: 'Saxophonist and composer',
         bio: 'https://en.wikipedia.org/wiki/Pat_Patrick_(musician)',
-        image: 'https://media.npr.org/assets/music/news/2010/03/patpatrick-995ef92b2321b4e926ed41cc19830b170e9a48e6-s800-c85.jpg',
+        image: '/images/patpatrick.jpg',
         alt: 'Pat Patrick'
     },
     {
         name: 'Purse, Bruce',
         tag: 'Trumpeter, bandleader and composer',
         bio: 'https://en.wikipedia.org/wiki/Bruce_Purse',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Bruce_Pocketbook_Purse.jpg/220px-Bruce_Pocketbook_Purse.jpg',
+        image: '/images/Bruce_Pocketbook_Purse.jpg',
         alt: 'Bruce Purse'
     },
     {
         name: 'Redd, Freddie (1928 – 2021)',
         tag: 'Pianist and composer',
         bio: 'https://en.wikipedia.org/wiki/Freddie_Redd',
-        image: 'https://jazzleadsheets.com/media/composer/image/r/e/reddfreddie_straightahead_lp_300.jpg',
+        image: '/images/reddfreddie.jpg',
         alt: 'Freddie Redd'
     },
     {
         name: 'Redman, Donald Matthew (1900 – 1964) ',
         tag: 'Musician, arranger, composer and bandleader',
         bio: 'https://en.wikipedia.org/wiki/Don_Redman',
-        image: 'https://bloximages.newyork1.vip.townnews.com/spiritofjefferson.com/content/tncms/assets/v3/editorial/0/3c/03cf9362-56c5-11e7-9945-ebe7efa94b2c/594adfc32395a.image.png?resize=400%2C495',
+        image: '/images/donald-redman.jpg',
         alt: 'Don Redman'
     },
     {
         name: 'Roberts, Charles Luckey (1887 – 1968)',
         tag: 'Composer and pianist',
         bio: 'https://en.wikipedia.org/wiki/Luckey_Roberts',
-        image: 'https://famousbirthdays.io/wp-content/uploads/2021/02/luckey-roberts.jpg',
+        image: '/images/luckey-roberts.jpg',
         alt: 'Luckey Roberts'
     },
     {
         name: 'Roberts, Matana (b.1975)',
         tag: 'Visual artist, composer and saxophonist',
         bio: 'https://en.wikipedia.org/wiki/Matana_Roberts',
-        image: 'https://www.thewire.co.uk/img/scale/940/736/2016/06/23/ROBERTS_Mantana_5-Mark_Peckmezian.jpg',
+        image: '/images/ROBERTS_Mantana.jpg',
         alt: 'Matana Roberts',
         isFemale: true
     },
@@ -446,28 +446,28 @@ const jazzComposersData = [
         name: 'Rollins, Sunny (b.1930)',
         tag: 'Composer and saxophonist',
         bio: 'https://en.wikipedia.org/wiki/Sonny_Rollins',
-        image: 'https://pbs.twimg.com/profile_images/464899590315970560/YdvEEWqi.jpeg',
+        image: '/images/sunny-rollins.jpg',
         alt: 'Sunny Rollins'
     },
     {
         name: 'Ruffins, Kermit (b. 1964)',
         tag: 'Trumpeter and composer',
         bio: 'https://en.wikipedia.org/wiki/Kermit_Ruffins',
-        image: 'https://images.sk-static.com/images/media/profile_images/artists/115899/huge_avatar',
+        image: '/images/kermit-ruffins.jpg',
         alt: 'Kermit Ruffins'
     },
     {
         name: 'Shelby, Marcus(b. 1966)',
         tag: 'Bassist, composer and educator',
         bio: 'https://en.wikipedia.org/wiki/Marcus_Shelby',
-        image: 'https://m.media-amazon.com/images/M/MV5BNzMyNzZlOTEtODc2My00ZWQ3LTlhMWUtOWRjNDI2MGFiZmQ2XkEyXkFqcGdeQXVyNTkwMzAwMTM@._V1_.jpg',
+        image: '/images/marcus-shelby.jpg',
         alt: 'Marcus Shelby'
     },
     {
         name: 'Simone, Nina(1933-2003)',
         tag: 'Singer, songwriter, musician, arranger',
         bio: 'https://en.wikipedia.org/wiki/Nina_Simone',
-        image: 'https://static01.nyt.com/images/2015/06/21/arts/21SIMONE/21SIMONE-superJumbo.jpg',
+        image: '/images/NinaSimone.jpg',
         alt: 'Nina Simone',
         isFemale: true
     },
@@ -475,35 +475,35 @@ const jazzComposersData = [
         name: 'Sissle, Noble Lee (1889 – 1975)',
         tag: 'Musician, composer and bandleader',
         bio: 'https://en.wikipedia.org/wiki/Noble_Sissle',
-        image: 'https://secondhandsongs.com/picture/347093',
+        image: '/images/nobble-sissle.jpg',
         alt: 'Noble Sissle'
     },
     {
         name: 'Smith, Lonnie Liston(b.1940)',
         tag: 'Musician and composer',
         bio: 'https://en.wikipedia.org/wiki/Lonnie_Liston_Smith',
-        image: 'https://f4.bcbits.com/img/a1972955677_10.jpg',
+        image: '/images/lonnie-smith.jpg',
         alt: 'Lonnie Smith'
     },
     {
         name: 'Smith, Nathaniel Clark  (1877 – 1935)',
         tag: 'Musician, composer and educator',
         bio: 'https://en.wikipedia.org/wiki/Nathaniel_Clark_Smith',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBZYxE4-2lFUSGJkTMSFkGFLkIX5wpZBElchyfvZRoE-5T9Uv_rbDP7AAE2Q4IrZhJJQ4&usqp=CAU',
+        image: '/images/nathaniel-smith.jpg',
         alt: 'Nathaniel Clark Smith '
     },
     {
         name: 'Smith, William (1893 – 1973)',
         tag: 'Pianist and composer',
         bio: 'https://en.wikipedia.org/wiki/Willie_%22The_Lion%22_Smith',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Willie_Smith_%28Gottlieb_07921%29.jpg/220px-Willie_Smith_%28Gottlieb_07921%29.jpg',
+        image: '/images/Willie_Smith.jpg',
         alt: 'William Smith'
     },
     {
         name: 'Spalding, Esperanza (b. 1984)',
         tag: 'Bassist, singer and composer',
         bio: 'https://en.wikipedia.org/wiki/Esperanza_Spalding',
-        image: 'https://jazz.fm/app/uploads/avatar.jpg',
+        image: '/images/Esperanza-spalding.jpg',
         alt: 'Esperanza Spalding',
         isFemale: true
     },
@@ -511,21 +511,21 @@ const jazzComposersData = [
         name: 'Sweatman, Wilbur Coleman (1882 – 1961)',
         tag: 'Composer, bandleader, clarinetist',
         bio: 'https://en.wikipedia.org/wiki/Wilbur_Sweatman',
-        image: 'https://p3.storage.canalblog.com/32/42/946332/125934766.jpg',
+        image: '/images/wilbur-Sweatman.jpg',
         alt: 'Wilbur Sweatman'
     },
     {
         name: 'Strayhorn, Billy (1915 – 1967)',
         tag: 'Composer and pianist',
         bio: 'https://en.wikipedia.org/wiki/Billy_Strayhorn',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Billy_Strayhorn%2C_New_York%2C_N.Y.%2C_between_1946_and_1948_%28William_P._Gottlieb_08211%29.jpg/220px-Billy_Strayhorn%2C_New_York%2C_N.Y.%2C_between_1946_and_1948_%28William_P._Gottlieb_08211%29.jpg',
+        image: '/images/billy-strayhorn.jpg',
         alt: 'Billy Strayhorn'
     },
     {
         name: 'Taylor, Mark Thomas',
         tag: 'Composer and performer',
         bio: 'https://www.markthomastaylor.net/',
-        image: 'https://pbs.twimg.com/profile_images/525875041389395969/8ZLb9lS8.jpeg',
+        image: '/images/mark-taylor.jpg',
         alt: 'Mark Taylor'
 
     },
@@ -533,56 +533,56 @@ const jazzComposersData = [
         name: 'Tillis, Frederick Charles (1930 – 2020)',
         tag: 'Composer, saxophonist, poet',
         bio: 'https://en.wikipedia.org/wiki/Frederick_C._Tillis',
-        image: 'https://static01.nyt.com/images/2020/06/18/obituaries/17Tillis/17Tillis-mediumSquareAt3X-v2.jpg',
+        image: '/images/fred-tillis.jpg',
         alt: 'Frederick Tillis'
     },
     {
         name: 'Wadud, Abdul (b.1947)',
         tag: 'Cellist and composer',
         bio: 'https://en.wikipedia.org/wiki/Abdul_Wadud_(musician)',
-        image: 'https://img.discogs.com/Mj_-BNxRm6XJIQq3wgLazAj0bPA=/200x291/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-487566-1270351672.jpeg.jpg',
+        image: '/images/abdul-Wadud.jpg',
         alt: 'Abdul Wadud'
     },
     {
         name: 'Waller, "Fats" (1904 – 1943)',
         tag: 'Pianist and composer',
         bio: 'https://en.wikipedia.org/wiki/Fats_Waller',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Fats_Waller_edit.jpg/220px-Fats_Waller_edit.jpg',
+        image: '/images/Fats_Waller.jpg',
         alt: 'Fats Waller'
     },
     {
         name: 'Washington Jr., Grover (1943 – 1999)',
         tag: 'Saxophonist and composer',
         bio: 'https://en.wikipedia.org/wiki/Grover_Washington_Jr.',
-        image: 'https://aaregistry.org/wp-content/uploads/2009/09/grover-washington-jr.-297x300.jpg',
+        image: '/images/grover-washington-jr..jpg',
         alt: 'Grover Washington'
     },
     {
         name: 'Weeks, Silas Seth (1868 – 1953)',
         tag: 'Composer and violinist',
         bio: 'https://en.wikipedia.org/wiki/Seth_Weeks',
-        image: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Seth_Weeks.jpg/220px-Seth_Weeks.jpg',
+        image: '/images/Seth_Weeks.jpg',
         alt: 'Silas Weeks'
     },
     {
         name: 'White, Michael(b. 1954)',
         tag: 'Clarinetist, composer and bandleader',
         bio: 'https://en.wikipedia.org/wiki/Michael_White_(clarinetist)',
-        image: 'https://www.wwoz.org/sites/default/files/styles/default_lead_1x/public/all/images/articles/lead/content_Dr._Michael_White.jpg?itok=1tV_I8Rf',
+        image: '/images/Michael_White.jpg',
         alt: 'Michael White'
     },
     {
         name: 'Williams, Clarence (1898 – 1965)',
         tag: 'Pianist and composer',
         bio: 'https://en.wikipedia.org/wiki/Clarence_Williams_(musician)',
-        image: 'https://upload.wikimedia.org/wikipedia/en/e/e2/Clarence_Williams_%28musician%29.jpg',
+        image: '/images/Clarence_Williams.jpg',
         alt: 'Clarence Williams'
     },
     {
         name: 'Wilson, Jack (1936 – 2007)',
         tag: 'Pianist and composer',
         bio: 'https://en.wikipedia.org/wiki/Jack_Wilson_(jazz_pianist)',
-        image: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/JackWilson.jpg/220px-JackWilson.jpg',
+        image: '/images/JackWilson.jpg',
         alt: 'Jack Wilson'
     }
 ]
