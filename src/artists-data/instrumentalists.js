@@ -3,7 +3,7 @@ const instrumentalists = [
         name: 'Abbitt, Taylor',
         tag: 'Double Bassist',
         bio: 'http://www.instrumentalcasting.com/viewmusiciang.php?serial=881',
-        image: 'https://maotw-live.s3.amazonaws.com/uploads/2020/04/13093325/Taylor-Abbitt-double-bass-web_1024x1024_acf_cropped-320x320.jpg',
+        image: '/images/Taylor-Abbitt.jpg',
         alt: 'Taylor Abbitt',
         category: 'strings'
     },
@@ -11,7 +11,7 @@ const instrumentalists = [
         name: 'Abraham, Dr.Immanuel Tzemach(b.1990)',
         tag: 'Composer, clinician, teacher, and violinist',
         bio: 'https://www.theviolindoctor.org/',
-        image: 'https://museonline.org/wp-content/uploads/2020/11/Headshot-1-400x400.jpg',
+        image: '/images/immanuel-Abraham.jpg',
         alt: 'Dr.Immanuel Tzemach Abraham',
         category: 'strings'
     },
@@ -19,7 +19,7 @@ const instrumentalists = [
         name: 'Abrams, Muhal Richard (1930 – 2017)',
         tag: 'Educator, composer, arranger and pianist',
         bio: 'https://en.wikipedia.org/wiki/Muhal_Richard_Abrams',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Muhal_Richard_Abrams.jpg/220px-Muhal_Richard_Abrams.jpg',
+        image: '/images/Muhal_Richard_Abrams.jpg',
         alt: 'Muhal Richard Abrams',
         category: 'piano'
     },
@@ -27,7 +27,7 @@ const instrumentalists = [
         name: 'Adam, Miriam',
         tag: 'Clarinetist',
         bio: 'https://centerstage.conn-selmer.com/artists/mariam-adam',
-        image: 'https://centerstage.conn-selmer.com/application/files/8114/7144/9443/mariamweb.jpg',
+        image: '/images/mariam-adams.jpg',
         alt: 'Miriam Adam',
         category: 'woodwinds'
     },
