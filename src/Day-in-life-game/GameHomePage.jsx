@@ -139,17 +139,17 @@ const GameHomePage = () => {
     if (showHomePage) {
       return <GameOptions gameInfo={gameOptionCards} />
     } else if (showTourPage) {
-      return <TourTemplate arr={locationsArr} img="https://i.imgur.com/1wOv2p8.jpg" alt="Los Angeles Palm Trees" />
+      return <TourTemplate arr={locationsArr} img={process.env.PUBLIC_URL + '/images/hollywood-sign-game.jpg'} alt="Los Angeles Hollywood Sign" />
     } else if (showWestCoastPage) {
-      return <TourTemplate arr={westCoastArr} img='https://i.imgur.com/PrW9mC8.jpg' alt='Los Angeles Ariel View' />
+      return <TourTemplate arr={westCoastArr} img={process.env.PUBLIC_URL + '/images/LA-ariel-view.jpg'} alt='Los Angeles Ariel View' />
     } else if (showMidWestPage) {
-      return <TourTemplate arr={midwestArr} img='https://i.imgur.com/hAjbrI3.jpg' alt='Chicago' />
+      return <TourTemplate arr={midwestArr} img={process.env.PUBLIC_URL + '/images/chicago-pic.jpg'} alt='Chicago' />
     } else if (showSouthPage) {
-      return <TourTemplate arr={southArr} img='https://i.imgur.com/FcbtMke.jpg' alt='Georgia Lake' />
+      return <TourTemplate arr={southArr} img={process.env.PUBLIC_URL + '/images/georgia-swamp.jpg'} alt='Georgia swamp' />
     } else if (showEastCoastPage) {
-      return <TourTemplate arr={eastCoastArr} img='https://i.imgur.com/jjr3dlz.jpg' alt='Maine Lighthouse' />
+      return <TourTemplate arr={eastCoastArr} img={process.env.PUBLIC_URL + '/images/maine-lighthouse.jpg'} alt='Maine Lighthouse' />
     } else if (showLocalPage) {
-      return <TourTemplate arr={localGigArr} img={`${process.env.PUBLIC_URL}/images/NYC-bridge.jpg`} alt='New York City bridge' />
+      return <TourTemplate arr={localGigArr} img={process.env.PUBLIC_URL + "/images/NYC-bridge-game.jpg"} alt='New York City bridge' />
     }
   }
 
