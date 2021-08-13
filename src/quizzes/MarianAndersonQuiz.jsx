@@ -2,10 +2,10 @@ import quiz from './marian-anderson-quiz-questions';
 import QuizTemplate from './QuizTemplate';
 
 const MarianAndersonQuiz = () => {
-    const image = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Marian_Anderson.jpg/220px-Marian_Anderson.jpg';
+    const image = '/images/marian-anderson-quiz.jpg';
     const artist = 'Marian Anderson';
     return (
-        <QuizTemplate title={artist} image={image} quiz={quiz} />
+        <QuizTemplate title={artist} image={process.env.PUBLIC_URL + image} quiz={quiz} />
     )
 }
 export default MarianAndersonQuiz;

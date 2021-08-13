@@ -3,9 +3,9 @@ import QuizTemplate from './QuizTemplate';
 
 const RayCharlesQuiz = () => {
     const artist = 'Ray Charles';
-    const image = "https://images.pulsewebcontent.com/photos/2018/06_Jun/800/RayCharles_6_15.jpg"
+    const image = "/images/RayCharles-quiz.jpg"
     return (
-        <QuizTemplate image={image} quiz={quiz} title={artist} />
+        <QuizTemplate image={process.env.PUBLIC_URL + image} quiz={quiz} title={artist} />
     )
 }
 export default RayCharlesQuiz;

@@ -3,9 +3,9 @@ import quiz from './armstrong-quiz-questions';
 
 const ArmstrongQuiz = () => {
     const artist = "Louis Armstrong";
-    const image = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Louis_Armstrong_restored.jpg/220px-Louis_Armstrong_restored.jpg"
+    const image = "/images/Louis-armstrong-quiz-page.jpg"
     return (
-        <QuizTemplate image={image} title={artist} quiz={quiz} />
+        <QuizTemplate image={process.env.PUBLIC_URL + image} title={artist} quiz={quiz} />
     )
 }
 export default ArmstrongQuiz;
