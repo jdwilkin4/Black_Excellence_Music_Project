@@ -161,7 +161,7 @@ const GameHomePage = () => {
       {changeGameComponents()}
       {hideHomeBtn ? null :
         <div className="flex items-center	justify-center">
-          <button className="px-3	 py-3 text-white bg-green-700  rounded-lg font-bold " onClick={handleHomeClick}>Return Home</button>
+          <button className="px-3 mb-10	 py-3 text-white bg-green-700  rounded-lg font-bold " onClick={handleHomeClick}>Return Home</button>
         </div>
       }
     </>

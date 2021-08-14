@@ -84,8 +84,8 @@ const StartQuizBtn = (props) => {
 
 const QuizQuestions = (props) => {
     return (
-        <div>
-            <h2 className="text-4xl text-center ">  {props.quizQuestion.question}  </h2>
+        <div className="mb-16">
+            <h2 className="text-4xl my-8 text-center ">  {props.quizQuestion.question}  </h2>
 
             <div className="relative bg-white dark:bg-gray-800 p-4">
                 <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
@@ -114,16 +114,16 @@ const QuizQuestions = (props) => {
 
 const ResultsPage = (props) => {
     return (
-        <div style={{ margin: 'auto' }} className="flex justify-center content-center item-center max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
+        <div style={{ margin: 'auto' }} className="flex  justify-center content-center item-center max-w-md bg-white border border-purple-700  rounded-lg overflow-hidden">
 
-            <div className="w-2/3 p-4">
-                <h2 className="text-black-900 font-bold text-2xl">  Results  </h2>
-                <p className="mt-2 text-black-600 text-xl">{props.totalCorrect}  out of {props.quiz.length} correct </p>
+            <div className="w-2/3 my-4 p-4">
+                <h2 className="text-black-900 mb-12 text-center font-bold text-2xl">  Results  </h2>
+                <p className="mt-2 text-center text-black-600 text-xl">{props.totalCorrect}  out of {props.quiz.length} correct </p>
 
-                <div className="flex-col item-center justify-between my-3">
+                <div className="flex-col text-center item-center justify-between my-4">
                     <p> {props.userPoints} points out of {props.totalPoints} points </p>
                     <button
-                        className='py-2 px-2  bg-purple-700  text-white w-full rounded-lg '
+                        className='py-2 px-2 my-10  bg-purple-700  text-white w-full rounded-lg '
                         onClick={props.resetQuiz}
                         style={btnStyles}
                     >
