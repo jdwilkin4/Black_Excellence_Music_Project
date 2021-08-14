@@ -1,12 +1,13 @@
 import quizCards from "../quizzes/quiz-cards";
 import { lazy, Suspense } from "react";
-const renderLoader = () => <p>Loading...</p>;
-const D3PieChart = lazy(() => import("./D3PieChart"))
+import Loading from "./Loading";
+const renderLoader = () => <Loading />;
+const D3PieChart = lazy(() => import("./D3PieChart"));
 
 const Home = () => {
   const quizCardArr = quizCards.slice(4, 7);
   const roundedImage = "inline-block h-60 w-60 rounded-full object-cover ring-2 ring-white";
-  const d3H3Text = "w-full my-2 text-3xl text-center";
+  const d3H3Text = "w-full mb-2 mt-14 text-3xl text-center";
   const linkStyles = "w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg ";
 
   return (

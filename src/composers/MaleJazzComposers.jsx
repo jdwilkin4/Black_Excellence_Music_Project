@@ -1,7 +1,8 @@
 import React, { lazy, Suspense } from 'react';
 import jazzComposersData from '../artists-data/jazz-composers';
+import Loading from '../misc-components/Loading';
 const ArtistTemplate = lazy(() => import('../misc-components/ArtistTemplate'))
-const renderLoader = () => <p>Loading...</p>
+const renderLoader = () => <Loading />
 const MaleJazzComposers = () => {
 
     const maleComposerArr = jazzComposersData.filter(composer => !composer.isFemale)
@@ -13,7 +14,6 @@ const MaleJazzComposers = () => {
                     arr={maleComposerArr}
                     borderColor="border-green-700"
                     bgColor="bg-green-700"
-
                 />
             </Suspense>
         </>

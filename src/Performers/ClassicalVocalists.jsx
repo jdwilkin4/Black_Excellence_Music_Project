@@ -1,15 +1,22 @@
+import { lazy, Suspense } from 'react';
 import vocalists from '../artists-data/vocalists';
-import ArtistTemplate from '../misc-components/ArtistTemplate';
+import Loading from '../misc-components/Loading';
+const renderLoader = () => <Loading />
+const ArtistTemplate = lazy(() => import('../misc-components/ArtistTemplate'))
 
 const ClassicalVocalists = () => {
   const classicalVocalArr = vocalists.filter(musician => musician.category === 'classical');
 
   return (
-    <ArtistTemplate
-      arr={classicalVocalArr}
-      borderColor="border-green-700"
-      bgColor="bg-green-700"
-    />
+    <>
+      <Suspense fallback={renderLoader()}>
+        <ArtistTemplate
+          arr={classicalVocalArr}
+          borderColor="border-green-700"
+          bgColor="bg-green-700"
+        />
+      </Suspense>
+    </>
   )
 }
 export default ClassicalVocalists;

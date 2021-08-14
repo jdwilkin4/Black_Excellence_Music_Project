@@ -1,7 +1,8 @@
 import React, { lazy, Suspense } from 'react';
 import jazzComposersData from '../artists-data/jazz-composers';
+import Loading from '../misc-components/Loading';
 const ArtistTemplate = lazy(() => import('../misc-components/ArtistTemplate'));
-const renderLoader = () => <p>Loading...</p>;
+const renderLoader = () => <Loading />;
 
 const AllJazzComposers = () => {
   return (

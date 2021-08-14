@@ -1,15 +1,22 @@
+import { lazy, Suspense } from 'react';
 import instrumentalists from '../artists-data/instrumentalists';
-import ArtistTemplate from '../misc-components/ArtistTemplate';
+import Loading from '../misc-components/Loading';
+const renderLoader = () => <Loading />;
+const ArtistTemplate = lazy(() => import('../misc-components/ArtistTemplate'))
 
 const AllWoodwinds = () => {
   const woodwindsArr = instrumentalists.filter(musician => musician.category === 'woodwinds')
 
   return (
-    <ArtistTemplate
-      arr={woodwindsArr}
-      borderColor="border-green-700"
-      bgColor="bg-green-700"
-    />
+    <>
+      <Suspense fallback={renderLoader()}>
+        <ArtistTemplate
+          arr={woodwindsArr}
+          borderColor="border-green-700"
+          bgColor="bg-green-700"
+        />
+      </Suspense>
+    </>
   )
 }
 export default AllWoodwinds;

@@ -1,7 +1,8 @@
 import React, { lazy, Suspense } from 'react';
+import Loading from '../misc-components/Loading';
 import contemporaryClassicalComposers from '../artists-data/contemporary-classical-composers';
-const ArtistTemplate = lazy(() => import('../misc-components/ArtistTemplate'))
-const renderLoader = () => <p>Loading...</p>;
+const ArtistTemplate = lazy(() => import('../misc-components/ArtistTemplate'));
+const renderLoader = () => <Loading />;
 
 const AllClassicalContemporaryComposers = () => {
   return (
