@@ -733,7 +733,7 @@ const instrumentalists = [
         name: 'Taylor, Malik ',
         tag: 'French horn',
         bio: 'https://www.laco.org/people/malik-taylor/',
-        image: '/images/maliktaylor.jpg',
+        image: '/images/malik-taylor.jpg',
         alt: 'Malik Taylor',
         category: 'brass'
     },
