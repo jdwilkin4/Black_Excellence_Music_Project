@@ -21,14 +21,3 @@ const TourTemplate = (props) => {
 }
 export default TourTemplate;
 
-/*       <div>
-                <img className="h-80 w-full hidden lg:block lg:w-1/2  rounded-l-lg" src={props.img} alt={props.alt} />
-
-                {
-                    props.arr.map((city, index) => (
-                        <button onClick={city.locationFunction} key={index} className='py-2 flex justify-center content-center px-2 my-2 text-2xl bg-purple-700 text-white w-9/12  text-center rounded-lg' type="button">
-                            {city.location}
-                        </button>
-                    ))
-                }
-            </div> */
