@@ -12,7 +12,7 @@ const GameOptions = (props) => {
                             <img alt={options.alt} src={process.env.PUBLIC_URL + options.src} className="mx-auto object-cover rounded-lg h-40 w-40 " />
 
                             <p className="text-md text-center  w-60  mx-auto py-4">{options.description} </p>
-                            <div className="flex justify-center	 items-center	">
+                            <div className="flex justify-center	 items-center">
                                 <button onClick={options.handleClick} className="w-9/12  py-3 text-white bg-green-700  rounded-lg font-bold ">{options.btn}</button>
                             </div>
                         </div>
