@@ -85,30 +85,27 @@ const StartQuizBtn = (props) => {
 const QuizQuestions = (props) => {
     return (
         <div className="mb-16">
-            <h2 className="text-4xl my-8 text-center ">  {props.quizQuestion.question}  </h2>
+            <h2 className="text-4xl mt-6 mb-2 text-center">{props.quizQuestion.question}</h2>
 
-            <div className="relative bg-white dark:bg-gray-800 p-4">
-                <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
-                    <div className="lg:col-start-2 md:pl-20">
+            <div className="container text-center mx-auto p-4">
+                <div className="flex flex-col justify-center rounded-lg  my-2" role="group">
 
-                        {props.quizQuestion.answers.map((answer, index) => (
-                            <div key={index}>
-                                <button className='py-2 px-2 my-2 text-2xl bg-purple-700 text-white w-9/12  text-center rounded-lg'
-                                    onClick={() => props.nextQuestion(answer.isCorrect)}
-                                    style={btnStyles}
-                                >
-                                    {answer.options}
-                                </button>
-                            </div>
-                        ))}
-                    </div>
-                    <div className="mt-10 -mx-4 md:-mx-12 relative lg:mt-0 lg:col-start-1">
-                        <img src={props.image} alt={props.title} className="relative mx-auto shadow-lg rounded w-6/12 " />
-                    </div>
+                    {props.quizQuestion.answers.map((answer, index) => (
+                        <div key={index}>
+                            <button className="bg-purple-700 my-2 text-2xl text-white hover:bg-green-700 rounded px-4 outline-none focus:shadow-outline"
+                                onClick={() => props.nextQuestion(answer.isCorrect)}
+                                style={btnStyles}
+                            >
+                                {answer.options}
+                            </button>
+                        </div>
+                    ))}
                 </div>
-            </div>
 
+                <img src={props.image} alt={props.title} className="h-80 mx-auto w-full hidden lg:block lg:w-1/2 rounded" />
+            </div>
         </div>
+
     )
 };
 

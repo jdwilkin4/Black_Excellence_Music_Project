@@ -3,10 +3,10 @@ const quiz = [
         id: '1)',
         question: 'When was Samuel Coleridge-Taylor born?',
         answers: [
-            { options: 'January 15, 1907', isCorrect: false },
-            { options: 'August 15, 1875', isCorrect: true },
-            { options: 'May 12, 1899', isCorrect: false },
-            { options: 'February 2, 1817', isCorrect: false }
+            { options: '1907', isCorrect: false },
+            { options: '1875', isCorrect: true },
+            { options: '1899', isCorrect: false },
+            { options: '1817', isCorrect: false }
         ]
     },
     {

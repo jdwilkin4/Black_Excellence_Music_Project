@@ -3,20 +3,20 @@ const quiz = [
     id: '1)',
     question: 'When was Louis Armstrong born?',
     answers: [
-      { options: 'July 15, 1907', isCorrect: false },
-      { options: 'August 4, 1901', isCorrect: true },
-      { options: 'May 22, 1900', isCorrect: false },
-      { options: 'September 1, 1902', isCorrect: false }
+      { options: '1907', isCorrect: false },
+      { options: '1901', isCorrect: true },
+      { options: '1900', isCorrect: false },
+      { options: '1902', isCorrect: false }
     ]
   },
   {
     id: '2)',
     question: 'Where was Louis Armstrong born?',
     answers: [
-      { options: 'Los Angeles,California', isCorrect: false },
-      { options: 'New York City, New York', isCorrect: false },
-      { options: 'Chicago, Illinois', isCorrect: false },
-      { options: 'New Orleans, Louisiana', isCorrect: true }
+      { options: 'Los Angeles', isCorrect: false },
+      { options: 'New York City', isCorrect: false },
+      { options: 'Chicago', isCorrect: false },
+      { options: 'New Orleans', isCorrect: true }
     ]
   },
   {
