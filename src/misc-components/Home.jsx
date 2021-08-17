@@ -1,13 +1,13 @@
 import quizCards from "../quizzes/quiz-cards";
-import { lazy, Suspense } from "react";
+/* import { lazy, Suspense } from "react";
 import Loading from "./Loading";
-const renderLoader = () => <Loading />;
-const D3PieChart = lazy(() => import("./D3PieChart"));
+ const renderLoader = () => <Loading />;
+const D3PieChart = lazy(() => import("./D3PieChart"));  */
 
 const Home = () => {
   const quizCardArr = quizCards.slice(4, 7);
   const roundedImage = "inline-block h-60 w-60 rounded-full object-cover ring-2 ring-white";
-  const d3H3Text = "w-full mb-2 mt-14 text-3xl text-center";
+  // const d3H3Text = "w-full mb-2 mt-14 text-3xl text-center";
   const linkStyles = "w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg ";
 
   return (
@@ -28,7 +28,7 @@ const Home = () => {
           <img className={roundedImage} src={process.env.PUBLIC_URL + "/images/nathaniel-dett.jpg"} alt="Robert Nathaniel Dett" />
         </div>
       </div>
-      <div className="w-full text-center">
+      {/*  <div className="w-full text-center">
         <h3 className={d3H3Text}>Black Musicians in American Orchestras only make up <span className="font-bold">1.8%</span></h3>
 
         <cite>Data provided by League of American Orchestras</cite>
@@ -37,7 +37,7 @@ const Home = () => {
             <D3PieChart innerRadius={0} outerRadius={150} />
           </Suspense>
         </div>
-      </div>
+      </div> */}
 
       <h2 className="mt-14 text-5xl font-bold text-center ">
         Explore black artists
