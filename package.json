@@ -2,7 +2,6 @@
   "name": "version2-black-excellence",
   "version": "0.1.0",
   "private": true,
-  "homepage": "blackexcellencemusicproject.com",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@testing-library/jest-dom": "^5.11.4",
