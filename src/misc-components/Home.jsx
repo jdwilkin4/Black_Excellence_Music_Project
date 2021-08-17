@@ -115,7 +115,7 @@ const ArtistSection = (props) => {
     <>
       <div className="mt-6 lg:mt-0">
         <div className="text-center flex justify-center mt-12">
-          <a className="w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg " href={props.href}>{props.anchorText}</a>
+          <Link className="w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg " to={props.href}>{props.anchorText}</Link>
         </div>
       </div>
     </>
