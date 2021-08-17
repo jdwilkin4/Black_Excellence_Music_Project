@@ -1,13 +1,9 @@
 import quizCards from "../quizzes/quiz-cards";
-/* import { lazy, Suspense } from "react";
-import Loading from "./Loading";
- const renderLoader = () => <Loading />;
-const D3PieChart = lazy(() => import("./D3PieChart"));  */
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const quizCardArr = quizCards.slice(4, 7);
   const roundedImage = "inline-block h-60 w-60 rounded-full object-cover ring-2 ring-white";
-  // const d3H3Text = "w-full mb-2 mt-14 text-3xl text-center";
   const linkStyles = "w-1/2 px-4 py-6 text-white bg-green-700 rounded-lg ";
 
   return (
@@ -28,16 +24,7 @@ const Home = () => {
           <img className={roundedImage} src={process.env.PUBLIC_URL + "/images/nathaniel-dett.jpg"} alt="Robert Nathaniel Dett" />
         </div>
       </div>
-      {/*  <div className="w-full text-center">
-        <h3 className={d3H3Text}>Black Musicians in American Orchestras only make up <span className="font-bold">1.8%</span></h3>
 
-        <cite>Data provided by League of American Orchestras</cite>
-        <div className="flex -my-6  justify-center">
-          <Suspense fallback={renderLoader()}>
-            <D3PieChart innerRadius={0} outerRadius={150} />
-          </Suspense>
-        </div>
-      </div> */}
 
       <h2 className="mt-14 text-5xl font-bold text-center ">
         Explore black artists
@@ -92,7 +79,7 @@ const Home = () => {
                 <a rel="noreferrer" target="_blank" href={artist.bio} className="w-1/2 px-4 py-3 text-white bg-purple-700  rounded-lg font-bold text-sm">{artist.name} Bio</a>
               </div>
               <div className="text-center">
-                <a href={artist.quiz} className="w-1/2 px-4 py-3 text-white bg-green-700  rounded-lg font-bold text-sm">Take quiz</a>
+                <Link to={artist.quiz} className="w-1/2 px-4 py-3 text-white bg-green-700  rounded-lg font-bold text-sm">Take quiz</Link>
               </div>
             </div>
 
@@ -108,7 +95,7 @@ const Home = () => {
             <p className="text-xl text-center mt-12">Explore what it is like to be a 1930's jazz pianist.</p>
             <p className="text-xl text-center mt-4 mb-12">Tour the U.S. and perform in all the top jazz clubs.</p>
             <div className="my-6 text-center">
-              <a className={linkStyles} href="/dayinlife">Day in The Life Page</a>
+              <Link className={linkStyles} to="/dayinlife">Day in The Life Page</Link>
             </div>
           </div>
         </div>
