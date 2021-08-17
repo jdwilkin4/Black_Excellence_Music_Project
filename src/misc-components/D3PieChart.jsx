@@ -1,4 +1,4 @@
-import * as d3 from "d3";
+/* import * as d3 from "d3";
 import { useEffect } from 'react';
 
 const D3PieChart = (props) => {
@@ -62,3 +62,4 @@ const D3PieChart = (props) => {
     return <div id="pie-container" />;
 }
 export default D3PieChart;
+ */
