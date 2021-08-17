@@ -8,7 +8,6 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "d3": "^7.0.0",
-    "gh-pages": "^3.2.3",
     "mime": "^1.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -18,8 +17,6 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
