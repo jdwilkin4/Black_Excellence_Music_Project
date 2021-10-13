@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { HashRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import Loading from './misc-components/Loading';
 const Footer = lazy(() => import('./misc-components/Footer'))
 const ScrollToTop = lazy(() => import('./misc-components/ScrollToTop'))
@@ -13,8 +13,9 @@ const Home = lazy(() => import('./misc-components/Home'))
 
 const App = () => {
   return (
-    <HashRouter>
-      <Suspense fallback={renderLoader()}>
+
+    <Suspense fallback={renderLoader()}>
+      <BrowserRouter>
         <ScrollToTop />
         <Navbar />
         <Route path="/" exact component={Home} />
@@ -23,9 +24,10 @@ const App = () => {
         <QuizRoutes />
         <PerformersComposersRoutes />
         <Footer />
-      </Suspense>
+      </BrowserRouter>
+    </Suspense>
 
-    </HashRouter>
+
   );
 }
 
