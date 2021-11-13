@@ -1,12 +1,13 @@
 
 <div align="center">
   
-# Version 2
+# Black Excellence Music Project Version 2
+  ## Celebrating the lives of black musicians from the Classical and Jazz fields. 
 </div>
 
 <img width="1262" alt="Screen Shot 2021-07-19 at 9 10 02 PM" src="https://user-images.githubusercontent.com/67210629/126260582-312aa6d6-0055-4879-a2e5-50f1cf38ab86.png">
 
-<img width="910" alt="Screen Shot 2021-07-22 at 4 17 03 AM" src="https://user-images.githubusercontent.com/67210629/126630987-87c03dff-d69c-43cc-b43a-f8bc5835184a.png">
+
 
 <div align="center">
 
@@ -80,15 +81,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 
 
