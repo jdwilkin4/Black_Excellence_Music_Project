@@ -9,6 +9,7 @@ import AllPianists from './Pianists';
 const InstrumentalistPage = () => {
     const [option, setOption] = useState('all');
     const handleChange = (e) => setOption(e.target.value);
+    const valuesArr = ["all", "woodwinds", "brass", "strings", "percussion", "piano"];
 
     const ChangeCategory = (props) => {
         if (props.category === 'all') {
@@ -32,12 +33,9 @@ const InstrumentalistPage = () => {
                 <div className="border border-purple-900 p-6 grid grid-cols-1 gap-6 bg-white shadow-lg rounded-lg">
                     <h2 className="text-2xl text-center my-2">Filter by category</h2>
                     <select onChange={handleChange} value={option} className="border border-purple-300 p-2 rounded">
-                        <option value="all">All</option>
-                        <option value="woodwinds">Woodwinds</option>
-                        <option value="brass">Brass</option>
-                        <option value="strings">Strings</option>
-                        <option value="percussion">Percussion</option>
-                        <option value="piano">Piano</option>
+                        {valuesArr.map((instrument, index) => (
+                            <option value={instrument} key={index}>{instrument.toUpperCase()}</option>
+                        ))}
                     </select>
                 </div>
             </div>
