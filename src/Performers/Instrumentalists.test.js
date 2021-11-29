@@ -4,26 +4,26 @@ import Instrumentalists from './Instrumentalists';
 
 test('renders All', () => {
     render(<Instrumentalists />)
-    expect(screen.getByText(/All/)).toBeInTheDocument()
+    expect(screen.getByText(/ALL/)).toBeInTheDocument()
 });
 
 test('renders Woodwinds', () => {
     render(<Instrumentalists />)
-    expect(screen.getByText(/Woodwinds/)).toBeInTheDocument()
+    expect(screen.getByText(/WOODWINDS/)).toBeInTheDocument()
 });
 
 test('renders Brass', () => {
     render(<Instrumentalists />)
-    expect(screen.getByText(/Brass/)).toBeInTheDocument()
+    expect(screen.getByText(/BRASS/)).toBeInTheDocument()
 });
 
 test('renders Strings', () => {
     render(<Instrumentalists />)
-    expect(screen.getByText(/Strings/)).toBeInTheDocument()
+    expect(screen.getByText(/STRINGS/)).toBeInTheDocument()
 });
 
 
 test('renders Piano', () => {
     render(<Instrumentalists />)
-    expect(screen.getByText(/Piano/)).toBeInTheDocument()
+    expect(screen.getByText(/PIANO/)).toBeInTheDocument()
 });
