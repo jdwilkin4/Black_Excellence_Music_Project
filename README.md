@@ -71,6 +71,9 @@ Launches the test runner in the interactive watch mode.
 A completely redesigned Day in the Life Game built with the RenPy Visual Storytelling game engine. 
 
 
+![Screen Shot 2021-12-03 at 8 50 00 PM](https://user-images.githubusercontent.com/67210629/144697647-fdb21a95-5a4c-490d-bbf0-4985a87d7e44.png)
+
+
 
 
 
