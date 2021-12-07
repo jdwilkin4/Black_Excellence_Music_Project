@@ -3,9 +3,8 @@ import { useState } from 'react';
 const btnStyles = { cursor: "pointer" };
 
 const QuizTemplate = ({ quiz, image, title }) => {
-  let quizArr, artistImage, quizTitle;
 
-  [quizArr, artistImage, quizTitle] = [quiz, image, title]
+  let [quizArr, artistImage, quizTitle] = [quiz, image, title]
 
   const [currQuestion, setCurrQuestion] = useState(0);
   const [showQuizPage, setShowQuizPage] = useState(true);
