@@ -2,9 +2,9 @@ import { useState } from 'react';
 
 const btnStyles = { cursor: "pointer" };
 
-const QuizTemplate = ({ quiz, image, title }) => {
+const QuizTemplate = ({ quiz, title }) => {
 
-  let [quizArr, artistImage, quizTitle] = [quiz, image, title]
+  let [quizArr, quizTitle] = [quiz, title]
 
   const [currQuestion, setCurrQuestion] = useState(0);
   const [showQuizPage, setShowQuizPage] = useState(true);
@@ -44,8 +44,6 @@ const QuizTemplate = ({ quiz, image, title }) => {
           {
             showQuizPage ?
               <QuizQuestions
-                title={quizTitle}
-                image={artistImage}
                 nextQuestion={nextQuestion}
                 quizQuestion={currentQuizQuestion}
               />
@@ -83,7 +81,7 @@ const StartQuizBtn = ({ showQuiz, title }) => {
   )
 };
 
-const QuizQuestions = ({ quizQuestion, nextQuestion, image, title }) => {
+const QuizQuestions = ({ quizQuestion, nextQuestion }) => {
   return (
     <div className="mb-16">
       <h2 className="text-4xl mt-6 mb-2 text-center">{quizQuestion.question}</h2>
@@ -102,8 +100,6 @@ const QuizQuestions = ({ quizQuestion, nextQuestion, image, title }) => {
             </div>
           ))}
         </div>
-
-        <img src={image} alt={title} className="h-80 mx-auto w-full hidden lg:block lg:w-1/2 rounded" />
       </div>
     </div>
 

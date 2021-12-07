@@ -1,28 +1,21 @@
 import { Route } from 'react-router-dom';
 import { lazy } from 'react';
-const BillieHolidayQuiz = lazy(() => import('./BillieHolidayQuiz'))
-const DizzyGillespieQuiz = lazy(() => import('./DizzyGillespieQuiz'))
-const MarianAndersonQuiz = lazy(() => import('./MarianAndersonQuiz'))
-const RayCharlesQuiz = lazy(() => import('./RayCharlesQuiz'))
-const SimoneQuiz = lazy(() => import('./SimoneQuiz'))
-const ColerdigeTaylorQuiz = lazy(() => import('./ColeridgeTaylorQuiz'))
-const FitzgeraldQuiz = lazy(() => import('./FitzgeraldQuiz'))
-const ArmstrongQuiz = lazy(() => import('./ArmstrongQuiz'))
+import quizCards from './quiz-cards';
 const QuizzesPage = lazy(() => import('./QuizzesPage'));
+const QuizTemplate = lazy(() => import('./QuizTemplate'));
 
 const QuizRoutes = () => {
   return (
-    <div>
+    <>
       <Route path="/quizzes" exact component={QuizzesPage} />
-      <Route path="/armstrongquiz" exact component={ArmstrongQuiz} />
-      <Route path="/fitzgeraldquiz" exact component={FitzgeraldQuiz} />
-      <Route path="/coleridgequiz" exact component={ColerdigeTaylorQuiz} />
-      <Route path='/simonequiz' exact component={SimoneQuiz} />
-      <Route path='/charlesquiz' exact component={RayCharlesQuiz} />
-      <Route path="/andersonquiz" exact component={MarianAndersonQuiz} />
-      <Route path="/gillespiequiz" exact component={DizzyGillespieQuiz} />
-      <Route path="/holidayquiz" exact component={BillieHolidayQuiz} />
-    </div>
+      {quizCards.map((artist, index) => (
+        <>
+          <Route key={index} path={artist.quiz} exact>
+            <QuizTemplate quiz={artist.questions} title={artist.name} />
+          </Route>
+        </>
+      ))}
+    </>
   )
 }
 export default QuizRoutes;
