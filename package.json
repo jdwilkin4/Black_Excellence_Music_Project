@@ -18,7 +18,7 @@
   },
   "engines": {
     "node": "14.17.3"
-},
+  },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
@@ -53,7 +53,7 @@
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.2"
   },
   "lint-staged": {
-    "*.{js,html,jsx,css,md}": "prettier --write"
+    "*.{js,html,jsx,css,md,json}": "prettier --write"
   },
   "husky": {
     "hooks": {
