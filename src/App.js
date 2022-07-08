@@ -21,13 +21,10 @@ const App = () => {
       <BrowserRouter>
         <ScrollToTop />
         <Navbar />
-
         <Route path="/" exact component={Home} />
-
         <Route path="/dayinlife" exact component={DayInTheLifeGame} />
         <Route exact path="/games" component={Games} />
         <QuizRoutes />
-
         <PerformersComposersRoutes />
         <Footer />
       </BrowserRouter>
