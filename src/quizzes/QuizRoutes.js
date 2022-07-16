@@ -1,8 +1,8 @@
-import { Route } from 'react-router-dom';
-import { lazy } from 'react';
-import quizCards from './quiz-cards';
-const QuizzesPage = lazy(() => import('./QuizzesPage'));
-const QuizTemplate = lazy(() => import('./QuizTemplate'));
+import { Route } from "react-router-dom";
+import { lazy } from "react";
+import quizCards from "./quiz-cards";
+const QuizzesPage = lazy(() => import("./QuizzesPage"));
+const QuizTemplate = lazy(() => import("./QuizTemplate"));
 
 const QuizRoutes = () => {
   return (
@@ -16,6 +16,6 @@ const QuizRoutes = () => {
         </>
       ))}
     </>
-  )
-}
+  );
+};
 export default QuizRoutes;
