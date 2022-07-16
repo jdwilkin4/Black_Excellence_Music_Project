@@ -5,13 +5,13 @@ import gigResponses from "./gigResponsesArray";
 
 const GameHomePage = () => {
   const [earnings, setEarnings] = useState(0);
-  const [greeting, setGreeting] = useState('What would you like to do today?');
+  const [greeting, setGreeting] = useState("What would you like to do today?");
   const [showHomePage, setShowHomePage] = useState(true);
   const [showTourPage, setShowTourPage] = useState(false);
   const [showLocalPage, setShowLocalPage] = useState(false);
   const [hideHomeBtn, setHideHomeBtn] = useState(true);
 
-  //Tour options 
+  //Tour options
   const [showWestCoastPage, setShowWestCoastPage] = useState(false);
   const [showMidWestPage, setShowMidWestPage] = useState(false);
   const [showSouthPage, setShowSouthPage] = useState(false);
@@ -33,88 +33,86 @@ const GameHomePage = () => {
     const randomNum = Math.floor(Math.random() * array.length);
 
     return setGreeting(array[randomNum]);
-  }
+  };
 
   const venues = () => {
-    shuffle(gigResponses)
-    setEarnings(earnings + 5)
-  }
+    shuffle(gigResponses);
+    setEarnings(earnings + 5);
+  };
 
   const westCoastArr = [
-    { location: 'Downbeat', locationFunction: venues },
-    { location: 'Purcell\'s', locationFunction: venues },
-    { location: 'Flamingo', locationFunction: venues },
-    { location: 'Dunbar', locationFunction: venues }
+    { location: "Downbeat", locationFunction: venues },
+    { location: "Purcell's", locationFunction: venues },
+    { location: "Flamingo", locationFunction: venues },
+    { location: "Dunbar", locationFunction: venues },
   ];
 
   const eastCoastArr = [
-    { location: 'Pearl', locationFunction: venues },
-    { location: 'Alhambra', locationFunction: venues },
-    { location: 'Southland', locationFunction: venues },
-    { location: 'Bohemian', locationFunction: venues }
+    { location: "Pearl", locationFunction: venues },
+    { location: "Alhambra", locationFunction: venues },
+    { location: "Southland", locationFunction: venues },
+    { location: "Bohemian", locationFunction: venues },
   ];
   const southArr = [
-    { location: 'Saenger', locationFunction: venues },
-    { location: 'Tabernacle', locationFunction: venues },
-    { location: 'Douglass', locationFunction: venues },
-    { location: 'Carver', locationFunction: venues }
+    { location: "Saenger", locationFunction: venues },
+    { location: "Tabernacle", locationFunction: venues },
+    { location: "Douglass", locationFunction: venues },
+    { location: "Carver", locationFunction: venues },
   ];
   const midwestArr = [
-    { location: 'Baker\'s Lounge', locationFunction: venues },
-    { location: 'Club DeLisa', locationFunction: venues },
-    { location: 'Kelly\'s Stables', locationFunction: venues },
-    { location: 'Friar\'s Inn', locationFunction: venues }
+    { location: "Baker's Lounge", locationFunction: venues },
+    { location: "Club DeLisa", locationFunction: venues },
+    { location: "Kelly's Stables", locationFunction: venues },
+    { location: "Friar's Inn", locationFunction: venues },
   ];
 
   const localGigArr = [
-    { location: 'Jimmy Ryan\'s', locationFunction: venues },
-    { location: 'Onyx Club', locationFunction: venues },
-    { location: 'Famous Door', locationFunction: venues },
-    { location: 'Village Vanguard', locationFunction: venues },
-  ]
+    { location: "Jimmy Ryan's", locationFunction: venues },
+    { location: "Onyx Club", locationFunction: venues },
+    { location: "Famous Door", locationFunction: venues },
+    { location: "Village Vanguard", locationFunction: venues },
+  ];
 
   const goToWestCoast = () => {
-    setGreeting('Welcome to the West Coast. Pick a venue');
+    setGreeting("Welcome to the West Coast. Pick a venue");
     setShowWestCoastPage(true);
     setShowTourPage(false);
-
-  }
+  };
   const goToMidWest = () => {
-    setGreeting('Welcome to the Midwest. Pick a venue');
+    setGreeting("Welcome to the Midwest. Pick a venue");
     setShowTourPage(false);
     setShowMidWestPage(true);
-  }
+  };
   const gotToSouth = () => {
     setShowSouthPage(true);
-    setGreeting('Welcome to the South. Pick a venue');
+    setGreeting("Welcome to the South. Pick a venue");
     setShowTourPage(false);
-  }
+  };
   const goToEastCoast = () => {
-    setGreeting('Welcome to the East Coast. Pick a venue');
+    setGreeting("Welcome to the East Coast. Pick a venue");
     setShowTourPage(false);
     setShowEastCoastPage(true);
-  }
+  };
   const locationsArr = [
-    { location: 'West Coast', locationFunction: goToWestCoast },
-    { location: 'Midwest', locationFunction: goToMidWest },
-    { location: 'South', locationFunction: gotToSouth },
-    { location: 'East Coast', locationFunction: goToEastCoast }
-
+    { location: "West Coast", locationFunction: goToWestCoast },
+    { location: "Midwest", locationFunction: goToMidWest },
+    { location: "South", locationFunction: gotToSouth },
+    { location: "East Coast", locationFunction: goToEastCoast },
   ];
 
   const handleTourClick = () => {
-    setGreeting('Where would you like to go?');
+    setGreeting("Where would you like to go?");
     setHideHomeBtn(false);
     setShowTourPage(true);
     setShowHomePage(false);
-  }
+  };
 
   const handleLocalClick = () => {
-    setGreeting('What venue would like to perform at?');
+    setGreeting("What venue would like to perform at?");
     setHideHomeBtn(false);
     setShowHomePage(false);
     setShowLocalPage(true);
-  }
+  };
 
   const handleHomeClick = () => {
     setShowHomePage(true);
@@ -125,48 +123,99 @@ const GameHomePage = () => {
     setShowMidWestPage(false);
     setShowEastCoastPage(false);
     setShowSouthPage(false);
-    setGreeting('What would you like to do today?');
-  }
-
+    setGreeting("What would you like to do today?");
+  };
 
   const gameOptionCards = [
-    { title: 'Tour the U.S.', description: 'Take the act on the road', btn: 'Start Tour', src: "/images/LApalmtrees.jpg", alt: 'palm trees', handleClick: handleTourClick },
-    { title: 'Gig around town', description: 'Hit up the hot jazz spots in N.Y.C.', btn: 'Local gigs', src: "/images/Statue-liberty.jpg", alt: 'lady liberty', handleClick: handleLocalClick },
+    {
+      title: "Tour the U.S.",
+      description: "Take the act on the road",
+      btn: "Start Tour",
+      src: "/images/LApalmtrees.jpg",
+      alt: "palm trees",
+      handleClick: handleTourClick,
+    },
+    {
+      title: "Gig around town",
+      description: "Hit up the hot jazz spots in N.Y.C.",
+      btn: "Local gigs",
+      src: "/images/Statue-liberty.jpg",
+      alt: "lady liberty",
+      handleClick: handleLocalClick,
+    },
   ];
-
 
   const changeGameComponents = () => {
     if (showHomePage) {
-      return <GameOptions gameInfo={gameOptionCards} />
+      return <GameOptions gameInfo={gameOptionCards} />;
     } else if (showTourPage) {
-      return <TourTemplate arr={locationsArr} img={process.env.PUBLIC_URL + '/images/hollywood-sign-game.jpg'} alt="Los Angeles Hollywood Sign" />
+      return (
+        <TourTemplate
+          arr={locationsArr}
+          img={process.env.PUBLIC_URL + "/images/hollywood-sign-game.jpg"}
+          alt="Los Angeles Hollywood Sign"
+        />
+      );
     } else if (showWestCoastPage) {
-      return <TourTemplate arr={westCoastArr} img={process.env.PUBLIC_URL + '/images/LA-ariel-view.jpg'} alt='Los Angeles Ariel View' />
+      return (
+        <TourTemplate
+          arr={westCoastArr}
+          img={process.env.PUBLIC_URL + "/images/LA-ariel-view.jpg"}
+          alt="Los Angeles Ariel View"
+        />
+      );
     } else if (showMidWestPage) {
-      return <TourTemplate arr={midwestArr} img={process.env.PUBLIC_URL + '/images/chicago-pic.jpg'} alt='Chicago' />
+      return (
+        <TourTemplate
+          arr={midwestArr}
+          img={process.env.PUBLIC_URL + "/images/chicago-pic.jpg"}
+          alt="Chicago"
+        />
+      );
     } else if (showSouthPage) {
-      return <TourTemplate arr={southArr} img={process.env.PUBLIC_URL + '/images/georgia-swamp.jpg'} alt='Georgia swamp' />
+      return (
+        <TourTemplate
+          arr={southArr}
+          img={process.env.PUBLIC_URL + "/images/georgia-swamp.jpg"}
+          alt="Georgia swamp"
+        />
+      );
     } else if (showEastCoastPage) {
-      return <TourTemplate arr={eastCoastArr} img={process.env.PUBLIC_URL + '/images/maine-lighthouse.jpg'} alt='Maine Lighthouse' />
+      return (
+        <TourTemplate
+          arr={eastCoastArr}
+          img={process.env.PUBLIC_URL + "/images/maine-lighthouse.jpg"}
+          alt="Maine Lighthouse"
+        />
+      );
     } else if (showLocalPage) {
-      return <TourTemplate arr={localGigArr} img={process.env.PUBLIC_URL + "/images/NYC-bridge-game.jpg"} alt='New York City bridge' />
+      return (
+        <TourTemplate
+          arr={localGigArr}
+          img={process.env.PUBLIC_URL + "/images/NYC-bridge-game.jpg"}
+          alt="New York City bridge"
+        />
+      );
     }
-  }
-
+  };
 
   return (
     <>
       <h2 className="my-6 text-4xl text-center">{greeting} </h2>
       <p className="my-2 text-xl text-center">Earnings: ${earnings}</p>
       {changeGameComponents()}
-      {hideHomeBtn ? null :
+      {hideHomeBtn ? null : (
         <div className="flex items-center	justify-center">
-          <button className="px-3 mb-10	 py-3 text-white bg-green-700  rounded-lg font-bold " onClick={handleHomeClick}>Return Home</button>
+          <button
+            className="px-3 mb-10	 py-3 text-white bg-green-700  rounded-lg font-bold "
+            onClick={handleHomeClick}
+          >
+            Return Home
+          </button>
         </div>
-      }
+      )}
     </>
-  )
-}
-
+  );
+};
 
 export default GameHomePage;
