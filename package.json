@@ -58,6 +58,9 @@
   },
   "husky": {
     "hooks": {
+
+
+
       "pre-commit": "prettier --write"
     }
   }
