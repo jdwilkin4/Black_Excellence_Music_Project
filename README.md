@@ -54,15 +54,15 @@ https://docs.github.com/en/get-started/quickstart/fork-a-repo
 
 ## How to run locally
 1. Open up your terminal, run `git clone https://github.com/YOUR-GITHUB-USERNAME/Black_Excellence_Music_Project.git`
-2. Install `node_modules` by running `npm install`. Make sure you are in the project folder when running this command. 
+2. Install `node_modules` by running `yarn install`. Make sure you are in the project folder when running this command. 
 
-### `yarn start` or `npm start`
+### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-### `yarn test` or `npm test`
+### `yarn test` 
 Launches the test runner in the interactive watch mode.
 
 ## Future updates
