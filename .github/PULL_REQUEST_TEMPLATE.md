@@ -4,7 +4,7 @@
 
 Fixes # (issue)
 
-<!-- Please check off the type of change for this PR -->
+<!-- Please place an x in the [ ] to check off the type of change for this PR -->
 
 ## Type of change
 
@@ -14,7 +14,7 @@ Fixes # (issue)
 - [ ] Chore items (this includes basic clean up of files, or updates to packages)
 - [ ] Updates to documentation
 
-<!-- Please make sure to go through the entire checklist before requesting a review -->
+<!-- Please make sure to go through the entire checklist before requesting a review. Place an x in the [ ] to check off all of the items completed -->
 
 ## Checklist
 
