@@ -1,8 +1,10 @@
 # Description
 
-<!-- Please include a summary of the change and which issue is fixed. -->
+<!-- Please include a detailed summary of the changes made. Also please link the issue that this PR is fixing. -->
 
 Fixes # (issue)
+
+<!-- Please place an x in the [ ] to check off the type of change for this PR -->
 
 ## Type of change
 
@@ -12,9 +14,11 @@ Fixes # (issue)
 - [ ] Chore items (this includes basic clean up of files, or updates to packages)
 - [ ] Updates to documentation
 
+<!-- Please make sure to go through the entire checklist before requesting a review. Place an x in the [ ] to check off all of the items completed -->
+
 ## Checklist
 
 - [ ] I have a descriptive title for my PR
 - [ ] I have linked the issue to this [PR](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
-- [ ] I have performed a self-review of my own code
+- [ ] I have run the project locally and reviewed the code changes
 - [ ] My changes generate no new warnings
