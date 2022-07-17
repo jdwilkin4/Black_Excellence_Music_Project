@@ -1,0 +1,13 @@
+name: General Feedback report
+description: Other feedback for project
+title: "[Feedback] - "
+assignees: jdwilkin4
+body:
+  - type: markdown
+    attributes:
+      value: "# General Feedback"
+  - type: textarea
+    id: feature
+    attributes:
+      label: What general feedback would you like to share about this project?
+      description: Please be as detailed as possible.
