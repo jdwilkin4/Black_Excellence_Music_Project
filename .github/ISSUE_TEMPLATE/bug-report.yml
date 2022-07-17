@@ -2,8 +2,7 @@ name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage"]
-assignees:
-  - jdwilkin4
+assignees: jdwilkin4
 body:
   - type: markdown
     attributes:
@@ -28,9 +27,11 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-  - type: textarea
-    id: logs
+ - type: textarea
+    id: screenshots
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: Screenshots
+      description: Attach any relevant screenshots here.
+    validations:
+      required: false
+        - type: textarea
