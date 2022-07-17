@@ -34,4 +34,3 @@ body:
       description: Attach any relevant screenshots here.
     validations:
       required: false
-        - type: textarea
